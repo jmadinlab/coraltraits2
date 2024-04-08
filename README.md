@@ -7,7 +7,7 @@
 https://github.com/learnenough/rails_tutorial_sample_app_7th_ed
 ```
 
-### Heroku
+### Heroku (test)
 
 ```
 git push heroku main:main
