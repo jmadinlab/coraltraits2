@@ -43,7 +43,8 @@ class UsersController < ApplicationController
     @resources = Resource.where(:id => @observations.map(&:resource_id))
     @locations = Location.where(:id => @observations.map(&:location_id))
     @species = Specie.where(:id => @observations.map(&:specie_id))
-    @traits = Trait.where("id IN (?)", Measurement.where(:observation_id => @observations.map(&:id)).map(&:trait_id))
+    @traits = Trait.where(:id =>  Measurement.where(:observation_id => @observations.map(&:id)).map(&:trait_id).uniq)
+    # @traits = Measurement.where(:observation_id => @observations.map(&:id)).map(&:trait_id).uniq
 
 
     respond_to do |format|

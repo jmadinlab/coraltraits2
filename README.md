@@ -12,7 +12,6 @@ https://github.com/learnenough/rails_tutorial_sample_app_7th_ed
 ```
 git push heroku
 
-
 heroku restart
 heroku pg:reset DATABASE
 heroku run rake db:migrate
@@ -21,7 +20,6 @@ https://devcenter.heroku.com/articles/heroku-postgres-import-export
 
 ```
 pg_dump -Fc --no-acl --no-owner -h localhost -U deployer -d coraltraits_development -f coraltraits_development.dump
-
 
 # Need to get link for dump from Dropbox.
 heroku pg:backups:restore --app peaceful-spire-47510 --confirm peaceful-spire-47510 "https://www.dropbox.com/scl/fi/y3w2y8x6kkq49eoqeg2js/coraltraits_development.dump?rlkey=tyjx9x726w5vvsu1px0mpjrls&dl=0"
