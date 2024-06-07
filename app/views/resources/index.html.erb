@@ -26,11 +26,11 @@
               <% if not resource.approved %>
                 <span class="glyphicon glyphicon-bell" title="Pending Approval"></span>
               <% end %>
-		        	<%= link_to resource.author, resource %>
+		        	<%= link_to resource.author, resource_path(resource, subclass: params[:subclass]) %>
 		        	<% if resource.year %>
 			        	(<%= resource.year %>)
 	    				<% end %>
-		        	<%= resource.title %>.
+              <%= link_to resource.title, resource_path(resource, subclass: params[:subclass]) %>
               <% if resource.journal %>
                 <em><%= resource.journal %></em>
               <% end %>

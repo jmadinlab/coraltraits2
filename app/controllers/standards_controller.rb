@@ -4,28 +4,31 @@ class StandardsController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @search = Standard.search do
-      fulltext params[:search]
-      order_by :standard_class_sortable, :asc
-      order_by :standard_name_sortable, :asc
+    # @search = Standard.search do
+    #   fulltext params[:search]
+    #   order_by :standard_class_sortable, :asc
+    #   order_by :standard_name_sortable, :asc
 
-      if params[:all]
-        paginate page: params[:page], per_page: 9999
-      else
-        paginate page: params[:page]
-      end
-    end
-    @standards = @search.results
+    #   if params[:all]
+    #     paginate page: params[:page], per_page: 9999
+    #   else
+    #     paginate page: params[:page]
+    #   end
+    # end
+    # @standards = @search.results
+
+    @standards = Standard.where(nil)
+    @standards = @standards.filter_by_subclass(params[:subclass]) if params[:subclass].present?
 
     if params[:all]
-      @standards = Standard.all.paginate(page: params[:page], per_page: 9999)
+      @standards = @standards.all.paginate(page: params[:page], per_page: 9999)
     else
-      @standards = Standard.all.paginate(page: params[:page])
+      @standards = @standards.all.paginate(page: params[:page])
     end
 
     respond_to do |format|
       format.html
-      format.csv { send_data Standard.all.to_csv }
+      format.csv { send_data @standards.all.to_csv }
     end
 
   end
@@ -43,6 +46,8 @@ class StandardsController < ApplicationController
 
   def export
     @observations = Observation.joins(:measurements).where(:measurements => {:standard_id => params[:checked]})
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?
       send_zip(@observations)

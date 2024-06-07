@@ -10,18 +10,18 @@
         </button>
       </div>
 			<ul class="nav navbar-nav navbar-left">
-				<li><%= link_to "Coral Trait Database", root_path %></li>
+				<li><%= link_to "Coral Trait Database", root_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
 				<li class="dropdown">
 					<a href="#" id="data" class="dropdown-toggle">
 						Data <b class="caret"></b>
 					</a>
 					<ul id="dropdown-data" class="dropdown-menu">
-						<li><%= link_to "Species", species_path %></li>
-						<li><%= link_to "Traits", traits_path %></li>
-						<li><%= link_to "Resources", resources_path %></li>
-						<li><%= link_to "Locations", locations_path %></li>
-						<li><%= link_to "Standards", standards_path %></li>
-						<li><%= link_to "Methodologies", methodologies_path %></li>
+						<li><%= link_to "Species", species_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+						<li><%= link_to "Traits", traits_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+						<li><%= link_to "Resources", resources_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+						<li><%= link_to "Locations", locations_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+						<li><%= link_to "Standards", standards_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+						<li><%= link_to "Methodologies", methodologies_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
             <% if logged_in? && current_user.admin? %>
 							<li class="divider"></li>
               <li><%= link_to "Observations", observations_path %></li>
@@ -40,6 +40,23 @@
 			</ul>
 
 			<ul class="nav navbar-nav navbar-right">
+				
+
+				<li><%= link_to "All", {all: params[:all]}, class: "btn btn-secondary" %></li>
+
+				<% if params[:subclass] == 'Hexacorallia' %>
+					<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-primary" %></li>
+				<% else %>
+					<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
+ 				<% end %>
+
+				<% if params[:subclass] == 'Octocorallia' %>
+					<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-primary" %></li>
+				<% else %>
+					<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
+ 				<% end %>
+
+
 				<% if logged_in? %>
 				<li class="dropdown">
 					<a href="#" id="account" class="dropdown-toggle">

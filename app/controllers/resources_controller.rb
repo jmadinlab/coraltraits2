@@ -6,27 +6,30 @@ class ResourcesController < ApplicationController
   require 'uri'
 
   def index
-    @search = Resource.search do
-      fulltext params[:search]
-      if params[:count]
-        order_by :count_sortable, :desc
-      else
-        order_by :author_sortable, :asc
-      end
+    # @search = Resource.search do
+    #   fulltext params[:search]
+    #   if params[:count]
+    #     order_by :count_sortable, :desc
+    #   else
+    #     order_by :author_sortable, :asc
+    #   end
 
-      if params[:all]
-        paginate page: params[:page], per_page: 9999
-      else
-        paginate page: params[:page]
-      end
-    end
-    @resources = @search.results
-
-    # if params[:all]
-    #   @resources = Resource.all.paginate(page: params[:page], per_page: 9999)
-    # else
-    #   @resources = Resource.all.paginate(page: params[:page])
+    #   if params[:all]
+    #     paginate page: params[:page], per_page: 9999
+    #   else
+    #     paginate page: params[:page]
+    #   end
     # end
+    # @resources = @search.results
+
+    @resources = Resource.where(nil)
+    @resources = @resources.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+
+    if params[:all]
+      @resources = @resources.all.paginate(page: params[:page], per_page: 9999)
+    else
+      @resources = @resources.all.paginate(page: params[:page])
+    end
 
     respond_to do |format|
       format.html

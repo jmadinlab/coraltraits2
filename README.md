@@ -10,7 +10,8 @@ https://github.com/learnenough/rails_tutorial_sample_app_7th_ed
 ### Heroku (test)
 
 ```
-git push heroku main:main
+git push heroku
+
 
 heroku restart
 heroku pg:reset DATABASE
@@ -47,66 +48,66 @@ rake sunspot:solr:reindex
 
 # SPECIES
 ```
-psql -d coraltraits_development -c "\copy species FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/species.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy species FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/species.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy species FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/species.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy species FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/species.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 # LOCATIONS
 ```
-psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/locations.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/locations.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/locations.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/locations.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 # STANDARDS
 ```
-psql -d coraltraits_development -c "\copy standards FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/standards.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy standards FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/standards.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy standards FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/standards.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy standards FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/standards.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 
 # METHODS
 ```
-psql -d coraltraits_development -c "\copy methodologies FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/methodologies.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy methodologies FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/methodologies.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy methodologies FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/methodologies.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy methodologies FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/methodologies.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 # RESOURCES
 ```
-psql -d coraltraits_development -c "\copy resources FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/resources.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy resources FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/resources.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy resources FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/resources.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy resources FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/resources.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 # TRAITS
 ```
-psql -d coraltraits_development -c "\copy traits FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/traits.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy traits FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/traits.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy traits FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/traits.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy traits FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/traits.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 # OBSERVATIONS
 ```
-psql -d coraltraits_development -c "\copy observations FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/observations.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy observations FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/observations.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy observations FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/observations.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy observations FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/observations.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```
 # MEASUREMENTS
 ```
-psql -d coraltraits_development -c "\copy measurements FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/hexacorals/measurements.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy measurements FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/measurements.csv' delimiter ',' csv header"
 
-psql -d coraltraits_development -c "\copy measurements FROM '/Users/jmadin/Dropbox/projects/rails_tutorial_sample_app_7th_ed/db/octocorals/measurements.csv' delimiter ',' csv header"
+psql -d coraltraits_development -c "\copy measurements FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/measurements.csv' delimiter ',' csv header"
 
 rake sunspot:solr:reindex
 ```

@@ -4,7 +4,7 @@
   <%= render "shared/index_header" %>
 </div>
 
-<%= form_tag export_standards_path, data: { turbo: false } do %>
+<%= form_tag export_standards_path( ({subclass: params[:subclass] } if params[:subclass]) ), data: { turbo: false } do %>
 
   <div class="col-md-3">
     <%= render "shared/download_options" %>
@@ -37,7 +37,7 @@
             <% if not standard.approved %>
               <span class="glyphicon glyphicon-bell" title="Pending Approval"></span>
             <% end %>
-			    	<%= link_to standard.standard_name, standard, 'data-no-turbolink' => true %>
+			    	<%= link_to standard.standard_name, standard_path(standard, subclass: params[:subclass]), 'data-no-turbolink' => true %>
 						(<%= standard.standard_unit %>)
 					</div>
 

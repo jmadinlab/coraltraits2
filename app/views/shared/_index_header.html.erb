@@ -3,9 +3,9 @@
 
 <div class="btn-group pull-left">
   <% if params[:all] %>
-  	<%= link_to "Paginate", "#{model}", class: "btn btn-default" %>
+  	<%= link_to "Paginate", {subclass: params[:subclass]}, class: "btn btn-default" %>
   <% else %>
-  	<%= link_to "Show All", "#{model}?all=true", class: "btn btn-default" %>
+  	<%= link_to "Show All", {all: true, subclass: params[:subclass]}, class: "btn btn-default" %>
   <% end %>
 </div>
 

@@ -46,6 +46,7 @@ solr/pids
 
 db/hexacorals_original/
 db/octocorals_original/
+db/octocorals_original2/
 db/hexacorals/
 db/octocorals/
 db/tables/

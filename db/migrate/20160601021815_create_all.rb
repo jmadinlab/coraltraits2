@@ -72,6 +72,7 @@ class CreateAll < ActiveRecord::Migration[6.1]
     create_table "observations", force: :cascade do |t|
       t.integer  "user_id"
       t.integer  "specie_id"
+      t.string   "specie_original"
       t.integer  "location_id"
       t.integer  "resource_id"
       t.integer  "resource_secondary_id"

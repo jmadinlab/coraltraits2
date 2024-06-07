@@ -32,7 +32,7 @@ class ApplicationController < ActionController::Base
 
   def correct_user
     @user = User.find(params[:id])
-    redirect_to(root_url, flash: {danger: "You can't access other user pages." }) unless (current_user?(@user) || current_user.admin?)
+    redirect_to(root_url, flash: {danger: "You can't access other user pages." }) unless (current_user?(@user) && current_user.admin?)
   end
 
   def admin_user
@@ -113,7 +113,7 @@ class ApplicationController < ActionController::Base
     observations = Observation.find_by_sql("SELECT
       obs.id AS observation_id,
       obs.access AS access,
-      obs.user_id, obs.specie_id, spe.specie_name, obs.location_id, loc.location_name,
+      obs.user_id, obs.specie_id, spe.specie_name, spe.subclass, obs.location_id, loc.location_name,
       CASE WHEN loc.latitude=0 THEN NULL ELSE loc.latitude END AS latitude,
       CASE WHEN loc.longitude=0 THEN NULL ELSE loc.longitude END AS longitude,
       obs.resource_id, obs.resource_secondary_id,
@@ -150,7 +150,7 @@ class ApplicationController < ActionController::Base
       WHERE obs.id IN (#{ids})
       ORDER BY obs.id;")
 
-    header = ["observation_id", "access", "user_id", "specie_id", "specie_name", "location_id", "location_name", "latitude", "longitude", "resource_id", "resource_secondary_id", "measurement_id", "trait_id", "trait_name", "trait_class_name", "standard_id", "standard_unit", "methodology_id", "methodology_name", "value", "value_type_name", "precision", "precision_type_name", "precision_upper", "replicates", "notes"]
+    header = ["observation_id", "access", "user_id", "specie_id", "specie_name", "subclass", "location_id", "location_name", "latitude", "longitude", "resource_id", "resource_secondary_id", "measurement_id", "trait_id", "trait_name", "trait_class_name", "standard_id", "standard_unit", "methodology_id", "methodology_name", "value", "value_type_name", "precision", "precision_type_name", "precision_upper", "replicates", "notes"]
 
     csv_string = CSV.generate do |csv|
       csv << header

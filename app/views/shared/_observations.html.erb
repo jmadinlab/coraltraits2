@@ -167,7 +167,7 @@
 
 			<div class="col-sm-2">
     		<div class="btn-group pull-right">
-					<%= link_to 'Show', observation_path(obs), class: "btn btn-xs btn-default" %>
+					<%= link_to 'Show', observation_path(obs, subclass: params[:subclass]), class: "btn btn-xs btn-default" %>
   				<% if logged_in? && (obs.user_id == current_user.id || current_user.editor?) %>
   					<% if @pending %>
 		        	<%= link_to 'Approve', observation_imports_approve_path(:item_id => obs.id), method: :post, class: "btn btn-xs btn-success" %>

@@ -8,23 +8,26 @@ class LocationsController < ApplicationController
 
   def index
 
-    @search = Location.search do
-      fulltext params[:search]
-      order_by :location_name_sortable, :asc
+    # @search = Location.search do
+    #   fulltext params[:search]
+    #   order_by :location_name_sortable, :asc
 
-      if params[:all]
-        paginate page: params[:page], per_page: 9999
-      else
-        paginate page: params[:page]
-      end
-    end
-    @locations = @search.results
-
-    # if params[:all]
-    #   @locations = Location.all.paginate(page: params[:page], per_page: 9999)
-    # else
-    #   @locations = Location.all.paginate(page: params[:page])
+    #   if params[:all]
+    #     paginate page: params[:page], per_page: 9999
+    #   else
+    #     paginate page: params[:page]
+    #   end
     # end
+    # @locations = @search.results
+
+    @locations = Location.where(nil)
+    @locations = @locations.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+
+    if params[:all]
+      @locations = @locations.all.paginate(page: params[:page], per_page: 9999)
+    else
+      @locations = @locations.all.paginate(page: params[:page])
+    end
 
     respond_to do |format|
       format.html
@@ -35,6 +38,8 @@ class LocationsController < ApplicationController
 
   def export
     @observations = Observation.where(:location_id => params[:checked])
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?
       send_zip(@observations)

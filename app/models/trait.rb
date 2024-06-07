@@ -14,7 +14,10 @@ class Trait < ActiveRecord::Base
   # accepts_nested_attributes_for :methodologies, :reject_if => :all_blank, :allow_destroy => true
   accepts_nested_attributes_for :traitvalues, :reject_if => :all_blank, :allow_destroy => true
 
+  default_scope -> { includes(:traitclass).order('traitclasses.class_name ASC, trait_name ASC') }
+
   scope :editor, lambda {|ed| where("user_id = ?", ed)}
+  scope :filter_by_subclass, -> (subclass) { joins(measurements: [observation: :specie]).where(specie: {subclass: subclass}).distinct }
 
 
   searchable do
@@ -27,3 +30,6 @@ class Trait < ActiveRecord::Base
 
 
 end
+
+
+    # <% @traits.sort_by{ |h| [Traitclass.all.where(:id => h.traitclass_id).map(&:class_name) || "z", h.trait_name] }.each do |trait| %>

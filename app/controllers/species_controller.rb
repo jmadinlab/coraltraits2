@@ -9,23 +9,27 @@ class SpeciesController < ApplicationController
   # GET /species
   # GET /species.json
   def index
-    @search = Specie.search do
-      fulltext params[:search]
-      order_by :specie_name_sortable, :asc
 
-      if params[:all]
-        paginate page: params[:page], per_page: 9999
-      else
-        paginate page: params[:page]
-      end
-    end
-    @species = @search.results
+    # @search = Specie.search do
+    #   fulltext params[:search]
+    #   order_by :specie_name_sortable, :asc
 
-    # if params[:all]
-    #   @species = Specie.all.paginate(page: params[:page], per_page: 9999)
-    # else
-    #   @species = Specie.all.paginate(page: params[:page])
+    #   if params[:all]
+    #     paginate page: params[:page], per_page: 9999
+    #   else
+    #     paginate page: params[:page]
+    #   end
     # end
+    # @species = @search.results
+
+    @species = Specie.where(nil)
+    @species = @species.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+
+    if params[:all]
+      @species = @species.all.paginate(page: params[:page], per_page: 9999)
+    else
+      @species = @species.all.paginate(page: params[:page])
+    end
 
     respond_to do |format|
       format.html
@@ -186,7 +190,9 @@ class SpeciesController < ApplicationController
     def get_specie_csv
       csv_string = CSV.generate do |csv|
           csv << ["species_id", "specie_name", "family_molecules", "family_morphology", "class", "synonym_species", "specie_description"]
-          Specie.all.each do |specie|
+          @species = Specie.where(nil)
+          @species = @species.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+          @species.all.each do |specie|
             syn_vec = []
             specie.synonyms.each do |syn|
               syn_vec << syn.synonym_name

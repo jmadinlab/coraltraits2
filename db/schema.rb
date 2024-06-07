@@ -81,6 +81,7 @@ ActiveRecord::Schema[7.0].define(version: 2016_06_01_021815) do
   create_table "observations", force: :cascade do |t|
     t.integer "user_id"
     t.integer "specie_id"
+    t.string "specie_original"
     t.integer "location_id"
     t.integer "resource_id"
     t.integer "resource_secondary_id"

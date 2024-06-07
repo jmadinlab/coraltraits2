@@ -24,6 +24,11 @@
 	  <em><%= link_to @observation.specie.specie_name, specie_path(@observation.specie) %></em>
 	</p>
 
+  <p>
+		<strong>Species (original coding):</strong>
+	  <em><%= @observation.specie_original %></em>
+	</p>
+
 	<p>
 	  <strong>Location:</strong>
 		<% if @observation.location.present? %>

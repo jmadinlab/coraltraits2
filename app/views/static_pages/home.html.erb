@@ -7,7 +7,7 @@
 
     <%= markdown File.open(Rails.root + "public/information/home.md", 'r').read %>
 
-  	<p>As of today, there are <%= Observation.all.size %> observations with <%= Measurement.all.size %> trait entries of <%= Trait.all.size %> traits for <%= Specie.all.size %> species in the database.</p>
+  	<p>As of today, there are <%= @observations.size %> observations with <%= @measurements.size %> trait entries for <%= @species.size %> species in the database.</p>
 
   	<% if not logged_in? %>
   		<p><%= link_to "Sign up?", signup_path, class: "btn btn-primary" %></p>

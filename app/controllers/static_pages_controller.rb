@@ -3,11 +3,25 @@ class StaticPagesController < ApplicationController
   before_action :editor, only: [:release, :meta, :show, :duplicate, :uploads]
 
   def home
-    @mea = Measurement.all.size
-    @obs = Observation.all.size
 
-    @species = Location.all
+    # @observations = Observation.joins(:specie).where(specie: { subclass: "Octocorallia" })
+    # @measurements = Measurement.all
+
+
+    @observations = Observation.where(nil)
+    @observations = @observations.joins(:specie).where(specie: {subclass: params[:subclass]}) if params[:subclass].present?
+
+    @species = Specie.where(nil)
+    @species = @species.where(subclass: params[:subclass]) if params[:subclass].present?
+
+    @measurements = @observations.joins(:measurements)
+    # @traits = @measurements.joins(:trait).distinct
+    # @locations = Location.where(@observations)
+
+
+
     @locations = Location.all
+
   end
 
   def test

@@ -11,12 +11,15 @@ class Specie < ActiveRecord::Base
   has_many :synonyms, :dependent => :destroy
   accepts_nested_attributes_for :synonyms, :reject_if => :all_blank, :allow_destroy => true
 
+  scope :filter_by_subclass, -> (subclass) { where subclass: subclass }
   default_scope -> { order('specie_name ASC') }
 
   searchable do
     text :specie_name
     text :family_molecules
     text :family_morphology
+    text :subclass
+    
     string :specie_name_sortable do
       specie_name
     end

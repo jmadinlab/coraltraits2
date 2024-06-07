@@ -5,7 +5,8 @@ CoralTraits::Application.routes.draw do
   resources :valuetypes
   resources :traitclasses
   resources :traitclasses
-  get '/observations/count/:model1/:itemid1', to: 'observations#count'
+
+  get '/observations/count/:model1/:itemid1/:subclass1', to: 'observations#count'
   get '/observations/count/:model1/:itemid1/:model2/:itemid2', to: 'observations#count'
 
   get '/resources/:id/doi', to: 'resources#doi'
@@ -50,8 +51,8 @@ CoralTraits::Application.routes.draw do
   get '/history', to:'versions#index'
   get '/history/:version_id', to: 'versions#show'
   post '/revert/:version_id', to: 'versions#revert_back'
-  get '/species/:id/resources', to: 'species#show'
-  get '/traits/:id/resources', to: 'traits#show'
+  # get '/species/:id/resources', to: 'species#show'
+  # get '/traits/:id/resources', to: 'traits#show'
   get '/locations/:id/resources', to: 'locations#show'
   get '/resources/:id/resources', to: 'resources#show'
   get '/releases/:id/resources', to: 'releases#show'
@@ -73,6 +74,9 @@ CoralTraits::Application.routes.draw do
 
   resources :account_activations, only: [:edit]
   resources :password_resets,     only: [:new, :create, :edit, :update]
+
+
+  # resources :species, path: "species/(:flag)", constraints: {flag: 'octo'}
 
   resources :species do
     post :export, :on => :collection

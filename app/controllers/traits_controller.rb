@@ -6,20 +6,30 @@ class TraitsController < ApplicationController
   skip_before_action :verify_authenticity_token, :only => [:update]
 
   def index
-    @search = Trait.search do
-      fulltext params[:search]
+    # @search = Trait.search do
+    #   fulltext params[:search]
 
-      if params[:all]
-        paginate page: params[:page], per_page: 9999
-      else
-        paginate page: params[:page]
-      end
+    #   if params[:all]
+    #     paginate page: params[:page], per_page: 9999
+    #   else
+    #     paginate page: params[:page]
+    #   end
+    # end
+    # @traits = @search.results
+
+    @traits = Trait.where(nil)
+    @traits = @traits.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+
+    if params[:all]
+      @traits = @traits.all.paginate(page: params[:page], per_page: 9999)
+    else
+      @traits = @traits.all.paginate(page: params[:page])
     end
-    @traits = @search.results
+
 
     respond_to do |format|
       format.html
-      format.csv { send_data Trait.all.to_csv }
+      format.csv { send_data @traits.all.to_csv }
     end
   end
 
@@ -42,7 +52,10 @@ class TraitsController < ApplicationController
   end
 
   def export
+
     @observations = Observation.joins(:measurements).where(:measurements => {:trait_id => params[:checked]})
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?
       send_zip(@observations)
@@ -76,6 +89,8 @@ class TraitsController < ApplicationController
       @mea_traitvalues = Measurement.where('trait_id = ?', @trait.id).map(&:value).uniq
       @rec_traitvalues = @trait.traitvalues.map(&:value_name).uniq
     end
+
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
 
     @observations = observation_filter(@observations)
 

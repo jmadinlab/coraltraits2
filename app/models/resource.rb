@@ -11,6 +11,8 @@ class Resource < ActiveRecord::Base
   VALID_DOI_REGEX = /\b(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?!["&\'<>])\S)+)\b/
   validates :doi_isbn, format: { with: VALID_DOI_REGEX }, :allow_blank => true
 
+  default_scope -> { order(author: :asc) }
+  scope :filter_by_subclass, -> (subclass) { joins(observations: :specie).where(specie: {subclass: subclass}).distinct }
 
   searchable do
     text :author

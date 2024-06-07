@@ -18,27 +18,30 @@ class MethodologiesController < ApplicationController
   end
 
   def index
-    @search = Methodology.search do
-      fulltext params[:search]
-      order_by :methodology_name_sortable, :asc
+    # @search = Methodology.search do
+    #   fulltext params[:search]
+    #   order_by :methodology_name_sortable, :asc
 
-      if params[:all]
-        paginate page: params[:page], per_page: 9999
-      else
-        paginate page: params[:page]
-      end
-    end
-    @methodologies = @search.results
-
-    # if params[:all]
-    #   @methodologies = Methodology.all.paginate(page: params[:page], per_page: 9999)
-    # else
-    #   @methodologies = Methodology.all.paginate(page: params[:page])
+    #   if params[:all]
+    #     paginate page: params[:page], per_page: 9999
+    #   else
+    #     paginate page: params[:page]
+    #   end
     # end
+    # @methodologies = @search.results
+
+    @methodologies = Methodology.where(nil)
+    @methodologies = @methodologies.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+
+    if params[:all]
+      @methodologies = @methodologies.all.paginate(page: params[:page], per_page: 9999)
+    else
+      @methodologies = @methodologies.all.paginate(page: params[:page])
+    end
 
   	respond_to do |format|
       format.html
-      format.csv { send_data Methodology.all.to_csv }
+      format.csv { send_data @methodologies.all.to_csv }
     end
   end
 
@@ -76,6 +79,7 @@ class MethodologiesController < ApplicationController
 
   def export
     @observations = Observation.where(:id => Measurement.where("methodology_id IN (?)", params[:checked]).map(&:observation_id))
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?
       send_zip(@observations)

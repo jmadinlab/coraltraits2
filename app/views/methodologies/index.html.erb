@@ -4,7 +4,7 @@
   <%= render "shared/index_header" %>
 </div>
 
-<%= form_tag export_methodologies_path, data: { turbo: false } do %>
+<%= form_tag export_methodologies_path( ({subclass: params[:subclass] } if params[:subclass]) ), data: { turbo: false } do %>
 
   <div class="col-md-3">
 		<%= render "shared/download_options" %>
@@ -25,7 +25,7 @@
               <% if not methodology.approved %>
                 <span class="glyphicon glyphicon-bell" title="Pending Approval"></span>
               <% end %>
-        			<%= link_to methodology.methodology_name, methodology %>
+        			<%= link_to methodology.methodology_name, methodology_path(methodology, subclass: params[:subclass]) %>
 		        </div>
 
 		        <div class="col-sm-3">

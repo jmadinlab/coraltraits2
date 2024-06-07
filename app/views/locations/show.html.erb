@@ -53,7 +53,7 @@
 
   <p>
     <div class="btn-group">
-      <%= link_to 'Back', locations_path, class: "btn btn-xs btn-default" %>
+      <%= link_to 'Back', locations_path(subclass: params[:subclass]), class: "btn btn-xs btn-default" %>
       <% if logged_in? && current_user.contributor? %>
         <%= link_to 'Edit', edit_location_path(@location), class: "btn btn-xs btn-default" %>
       <% end %>
