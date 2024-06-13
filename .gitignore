@@ -36,7 +36,7 @@
 
 # Ignore db test files.
 db/test.*
-
+db/seeds.rb
 
 solr/data
 solr/test/data

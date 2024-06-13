@@ -16,7 +16,7 @@ class ObservationsController < ApplicationController
     else
       if @model1 == "trait" or @model1 == "standard" or @model1 == "methodology"
         @observations = Observation.where(:id => Measurement.where("#{@model1}_id = ?", params[:itemid1]).map(&:observation_id))
-        @observations = @observations.joins(:specie).where(specie: {subclass: params[:subclass1]}) if params[:subclass1].present?
+        # @observations = @observations.joins(:specie).where(specie: {subclass: params[:subclass1]}) if params[:subclass1].present?
         puts "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
         puts params[:subclass1]
       elsif @model1 == "user"

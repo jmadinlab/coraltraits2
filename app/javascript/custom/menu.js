@@ -48,13 +48,23 @@ document.addEventListener("turbo:load", function() {
           pricount.innerHTML = data.pri;   // change the content of the span to the count
       });
     } else {
-      fetch( "/observations/count/"+model1+"/"+itemid1+"/"+subclass1 )
-        .then(response => response.json())
-        .then(function(data) {
-          console.log(data);
-          pubcount.innerHTML = data.pub;   // change the content of the span to the count
-          pricount.innerHTML = data.pri;   // change the content of the span to the count
-      });
+      if (subclass1) {
+        fetch( "/observations/count/"+model1+"/"+itemid1+"/"+subclass1 )
+          .then(response => response.json())
+          .then(function(data) {
+            console.log(data);
+            pubcount.innerHTML = data.pub;   // change the content of the span to the count
+            pricount.innerHTML = data.pri;   // change the content of the span to the count
+        });
+      } else {
+        fetch( "/observations/count/"+model1+"/"+itemid1 )
+          .then(response => response.json())
+          .then(function(data) {
+            console.log(data);
+            pubcount.innerHTML = data.pub;   // change the content of the span to the count
+            pricount.innerHTML = data.pri;   // change the content of the span to the count
+        });
+      }
     }
   });
 });
