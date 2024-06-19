@@ -1,19 +1,13 @@
 <% provide(:title, 'Home') %>
 
 <div class="col-md-12">
-  <div class="jumbotron">
-  	<h1><%= ENV["SITE_NAME"]%></h1>
+  <div class="jumbotron" style="background: rgba(238, 238, 238, 0.8)!important;">
+  	<h1>Coral Trait Database</h1>
     <br>
 
-    <%= markdown File.open(Rails.root + "public/information/home.md", 'r').read %>
+    <p>The Coral Trait Database is a growing compilation of hexacoral and octocoral life history trait, phylogenetic and biogeographic data.</p>
 
   	<p>As of today, there are <%= @observations.size %> observations with <%= @measurements.size %> trait entries for <%= @species.size %> species in the database.</p>
-
-  	<% if not logged_in? %>
-  		<p><%= link_to "Sign up?", signup_path, class: "btn btn-primary" %></p>
-
-  		<p>Sign up to become a member and receive periodic news about the database. Sign up is not required to access public data.  Please email <a href="mailto:<%= ENV["SITE_EMAIL"] %>?subject=<%= ENV["SITE_NAME"] %> enquiry"><%= ENV["SITE_EMAIL"] %></a> with any comments, to become a contributor, or for more information.</p>
-  	<% end %>
 
     <p><div id="map"></div></p>
 

@@ -37,12 +37,9 @@
  							<%= text_field_tag :search, params[:search], { class: "form-control", placeholder: "Search..." }   %>
  					<% end %>
 				</li>
-			</ul>
 
-			<ul class="nav navbar-nav navbar-right">
-				
 
-				<li><%= link_to "All", {all: params[:all]}, class: "btn btn-secondary" %></li>
+				<li><%= link_to "All", {all: params[:all]}, class: "btn" %></li>
 
 				<% if params[:subclass] == 'Hexacorallia' %>
 					<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-primary" %></li>
@@ -56,7 +53,11 @@
 					<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
  				<% end %>
 
+			</ul>
 
+
+
+			<ul class="nav navbar-nav navbar-right">
 				<% if logged_in? %>
 				<li class="dropdown">
 					<a href="#" id="account" class="dropdown-toggle">
@@ -76,6 +77,18 @@
 				<% else %>
 					<li><%= link_to "Log in", login_path %></li>
 				<% end %>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				
+	    	<li class="dropdown">
+	       	<a href="#" id="about" class="dropdown-toggle">
+	         About<b class="caret"></b>
+	       	</a>
+	       	<ul id="dropdown-about" class="dropdown-menu">
+					 	<li><%= link_to "Procedures", procedures_path %></li>
+					 	<li><%= link_to "Editors", editors_path %></li>
+	       	</ul>
+	     	</li>
 			</ul>
 
     </nav>

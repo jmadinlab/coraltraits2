@@ -16,12 +16,21 @@ document.addEventListener("turbo:load", function() {
     menu.classList.toggle("active");
   });
 
+  let about = document.querySelector("#about");
+  about.addEventListener("click", function(event) {
+    event.preventDefault();
+    let menu = document.querySelector("#dropdown-about")
+    menu.classList.toggle("active");
+  });
+
   let account = document.querySelector("#account");
   account.addEventListener("click", function(event) {
     event.preventDefault();
     let menu = document.querySelector("#dropdown-account")
     menu.classList.toggle("active");
   });
+
+
 
 });
 

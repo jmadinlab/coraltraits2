@@ -5,6 +5,24 @@
 
 $gray-medium-light: #eaeaea;
 
+.home { 
+  background: url(/images/outer_reef_1a.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
@@ -54,7 +72,7 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 section {
