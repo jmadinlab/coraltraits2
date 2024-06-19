@@ -1,5 +1,5 @@
 <header class="navbar navbar-fixed-top navbar-default">
-  <div class="container">
+  <div class="container-fluid">
     <nav>
       <div class="navbar-header">
         <button id="hamburger" type="button" class="navbar-toggle collapsed">
@@ -9,88 +9,89 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-			<ul class="nav navbar-nav navbar-left">
-				<li><%= link_to "Coral Trait Database", root_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-				<li class="dropdown">
-					<a href="#" id="data" class="dropdown-toggle">
-						Data <b class="caret"></b>
-					</a>
-					<ul id="dropdown-data" class="dropdown-menu">
-						<li><%= link_to "Species", species_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-						<li><%= link_to "Traits", traits_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-						<li><%= link_to "Resources", resources_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-						<li><%= link_to "Locations", locations_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-						<li><%= link_to "Standards", standards_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-						<li><%= link_to "Methodologies", methodologies_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
-            <% if logged_in? && current_user.admin? %>
-							<li class="divider"></li>
-              <li><%= link_to "Observations", observations_path %></li>
-              <li class="divider"></li>
-							<li><%= link_to "Trait Classes", traitclasses_path %></li>
-							<li><%= link_to "Value Types", valuetypes_path %></li>
-							<li><%= link_to "Precision Types", precisiontypes_path %></li>
-						<% end %>
-					</ul>
-				</li>
-				<li>
-					 <%= form_tag search_index_path, class: "navbar-form", :method => :get do %>
- 							<%= text_field_tag :search, params[:search], { class: "form-control", placeholder: "Search..." }   %>
- 					<% end %>
-				</li>
+	    <div class="collapse navbar-collapse" id="navbar-menu">
+
+				<ul class="nav navbar-nav navbar-left">
+					<li><%= link_to "Coral Trait Database", root_path( ({subclass: params[:subclass] } if params[:subclass]) ), class: "nav navbar-nav" %></li>
+					<li class="dropdown">
+						<a href="#" id="data" class="dropdown-toggle">
+							Data <b class="caret"></b>
+						</a>
+						<ul id="dropdown-data" class="dropdown-menu">
+							<li><%= link_to "Species", species_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+							<li><%= link_to "Traits", traits_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+							<li><%= link_to "Resources", resources_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+							<li><%= link_to "Locations", locations_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+							<li><%= link_to "Standards", standards_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+							<li><%= link_to "Methodologies", methodologies_path( ({subclass: params[:subclass] } if params[:subclass]) ) %></li>
+	            <% if logged_in? && current_user.admin? %>
+								<li class="divider"></li>
+	              <li><%= link_to "Observations", observations_path %></li>
+	              <li class="divider"></li>
+								<li><%= link_to "Trait Classes", traitclasses_path %></li>
+								<li><%= link_to "Value Types", valuetypes_path %></li>
+								<li><%= link_to "Precision Types", precisiontypes_path %></li>
+							<% end %>
+						</ul>
+					</li>
+					<li>
+						 <%= form_tag search_index_path, class: "navbar-form", :method => :get do %>
+	 							<%= text_field_tag :search, params[:search], { class: "form-control", placeholder: "Search..." }   %>
+	 					<% end %>
+					</li>
 
 
-				<li><%= link_to "All", {all: params[:all]}, class: "btn" %></li>
+					<li><%= link_to "All", {all: params[:all]}, class: "btn" %></li>
 
-				<% if params[:subclass] == 'Hexacorallia' %>
-					<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-primary" %></li>
-				<% else %>
-					<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
- 				<% end %>
+					<% if params[:subclass] == 'Hexacorallia' %>
+						<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-primary" %></li>
+					<% else %>
+						<li><%= link_to "Hexacorallia", {subclass: 'Hexacorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
+	 				<% end %>
 
-				<% if params[:subclass] == 'Octocorallia' %>
-					<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-primary" %></li>
-				<% else %>
-					<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
- 				<% end %>
+					<% if params[:subclass] == 'Octocorallia' %>
+						<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-primary" %></li>
+					<% else %>
+						<li><%= link_to "Octocorallia", {subclass: 'Octocorallia', all: params[:all]}, class: "btn btn-secondary" %></li>
+	 				<% end %>
 
-			</ul>
+				</ul>
 
 
+				<ul class="nav navbar-nav navbar-right">
+					<% if logged_in? %>
+					<li class="dropdown">
+						<a href="#" id="account" class="dropdown-toggle">
+							<%= current_user.first_name %> <%= current_user.last_name %><b class="caret"></b>
+						</a>
+						<ul id="dropdown-account" class="dropdown-menu">
+							<li><%= link_to "Profile", current_user %></li>
+							<li><%= link_to "Settings", edit_user_path(current_user) %></li>
 
-			<ul class="nav navbar-nav navbar-right">
-				<% if logged_in? %>
-				<li class="dropdown">
-					<a href="#" id="account" class="dropdown-toggle">
-						<%= current_user.first_name %> <%= current_user.last_name %><b class="caret"></b>
-					</a>
-					<ul id="dropdown-account" class="dropdown-menu">
-						<li><%= link_to "Profile", current_user %></li>
-						<li><%= link_to "Settings", edit_user_path(current_user) %></li>
-
-						<% if logged_in? && current_user.admin? %>
-							<li><%= link_to "Users", users_path %></li>
-							<li class="divider"></li>
-						<% end %>
-						<li><%= link_to "Log out", logout_path, data: { "turbo-method": :delete } %></li>
-					</ul>
-				</li>
-				<% else %>
-					<li><%= link_to "Log in", login_path %></li>
-				<% end %>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				
-	    	<li class="dropdown">
-	       	<a href="#" id="about" class="dropdown-toggle">
-	         About<b class="caret"></b>
-	       	</a>
-	       	<ul id="dropdown-about" class="dropdown-menu">
-					 	<li><%= link_to "Procedures", procedures_path %></li>
-					 	<li><%= link_to "Editors", editors_path %></li>
-	       	</ul>
-	     	</li>
-			</ul>
-
+							<% if logged_in? && current_user.admin? %>
+								<li><%= link_to "Users", users_path %></li>
+								<li class="divider"></li>
+							<% end %>
+							<li><%= link_to "Log out", logout_path, data: { "turbo-method": :delete } %></li>
+						</ul>
+					</li>
+					<% else %>
+						<li><%= link_to "Log in", login_path %></li>
+					<% end %>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					
+		    	<li class="dropdown">
+		       	<a href="#" id="about" class="dropdown-toggle">
+		         About<b class="caret"></b>
+		       	</a>
+		       	<ul id="dropdown-about" class="dropdown-menu">
+						 	<li><%= link_to "Procedures", procedures_path %></li>
+						 	<li><%= link_to "Editors", editors_path %></li>
+		       	</ul>
+		     	</li>
+				</ul>
+			</div>
     </nav>
   </div>
 </header>
