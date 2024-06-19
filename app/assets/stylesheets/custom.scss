@@ -6,11 +6,15 @@
 $gray-medium-light: #eaeaea;
 
 .home { 
-  background: image-url('outer_reef_1a.JPG') no-repeat center center fixed; 
+  background-image: asset-url('images/outer_reef_1a.JPG'); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
 }
 
 hr {
