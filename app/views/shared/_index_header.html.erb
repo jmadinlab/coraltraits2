@@ -11,9 +11,9 @@
 
 <% if model == "traits" && Trait.all.present? %>  
   <div class="col-xs-3">
-    <%= form_tag traits_path, :method => 'get' do %>
+    <%= form_tag traits_path(subclass: params[:subclass]), :method => 'get' do %>
       <div class="form-group">
-        <%#= select_tag :traitclass, options_for_select(Trait.all.map(&:traitclass).uniq.reject! { |c| c.blank? }, params[:traitclass]), :onchange => "this.form.submit();", :prompt => "Subset by class...", class: "form-control" %>
+        <%= select_tag :class_name, options_for_select(Trait.all.map(&:traitclass).uniq.reject! { |c| c.blank? }.pluck(:class_name), class_name: params[:class_name]), :onchange => "this.form.submit();", :prompt => "Subset by class...", class: "form-control" %>
       </div>
     <% end %>
   </div>

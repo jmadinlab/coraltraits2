@@ -6,6 +6,11 @@ class TraitsController < ApplicationController
   skip_before_action :verify_authenticity_token, :only => [:update]
 
   def index
+
+    if params[:class_name] and params[:class_name].blank?
+      params[:class_name].delete
+    end
+
     # @search = Trait.search do
     #   fulltext params[:search]
 
@@ -19,6 +24,7 @@ class TraitsController < ApplicationController
 
     @traits = Trait.where(nil)
     @traits = @traits.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+    @traits = @traits.all.where(traitclass_id: Traitclass.where(class_name: params[:class_name])) if params[:class_name].present?
 
     if params[:all]
       @traits = @traits.all.paginate(page: params[:page], per_page: 9999)
