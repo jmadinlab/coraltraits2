@@ -37,7 +37,7 @@
   <p>
     <strong>Aphia ID:</strong>
     <% if @specie.aphia_id %>
-      <%= @specie.aphia_id %>
+			<%= link_to @specie.aphia_id, "https://marinespecies.org/aphia.php?p=taxdetails&id=" + @specie.aphia_id, target: "_blank" %> (WoRMS)
     <% else %>
       <span class="label label-danger">No matches for this species name</span>
     <% end %>

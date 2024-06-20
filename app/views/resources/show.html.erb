@@ -109,13 +109,15 @@
 
 </div>
 
+
+
 <script type="text/javascript">
   function initMap() {
     var locations = <%= raw @locations.map {|i| [i.location_name.to_s, i.latitude.to_s, i.longitude.to_s, i.id.to_s] } %>;
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 1,
-      center: new google.maps.LatLng(<%= ENV["MAP_LATITUDE"] %>, <%= ENV["MAP_LONGITUDE"] %>),
+      center: new google.maps.LatLng(0, 155),
       mapTypeId: google.maps.MapTypeId.SATELLITE,
       streetViewControl: false
     });
@@ -132,7 +134,7 @@
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent('<a data-no-turbolink="true" href="locations/'+locations[i][3]+'">'+locations[i][0]+'</a>');
+          infowindow.setContent('<a data-no-turbolink="true" href="/locations/'+locations[i][3]+'">'+locations[i][0]+'</a>');
           infowindow.open(map, marker);
         }
       })(marker, i));
@@ -140,4 +142,4 @@
   }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV["GOOGLE_API"] %>&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJG1Hc3Z4RxhlbmvsHvzXakd_pCZjD_5I&callback=initMap&loading=async"></script>

@@ -19,16 +19,8 @@
   <%#= render "shared/description", :description => @methodology.methodology_description %>
   <p>
     <strong>Description:</strong>
-    <% if @methodology.methodology_description %>
-      <button class="btn btn-default btn-xs" type="button" onclick="myFunction()">Show</button>
-
-      <div class="collapse" id="myDIV">
-        <ul class="list-group">
-          <li class="list-group-item">
-            <%= markdown @methodology.methodology_description %>
-          </li>
-        </ul>
-      </div>
+    <% if not @methodology.methodology_description.blank? %>
+      <%= markdown @methodology.methodology_description %>
     <% else %>
       <font style="color:lightgrey;">Not entered</font>
     <% end %>

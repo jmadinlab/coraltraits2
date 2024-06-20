@@ -34,6 +34,14 @@ document.addEventListener("turbo:load", function() {
 
 });
 
+document.addEventListener("turbo:load", function() {
+  let method = document.querySelector("#method");
+  method.addEventListener("click", function(event) {
+    event.preventDefault();
+    let menu = document.querySelector("#myDIV");
+    menu.classList.toggle("collapse");
+  });
+});
 
 
 document.addEventListener("turbo:load", function() {
