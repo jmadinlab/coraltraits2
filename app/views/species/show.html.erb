@@ -82,10 +82,10 @@
     <% end %>
 	</p>
 
-  <% if File.exist?("app/assets/images/#{@specie.specie_name.tr(" ", "_")}.png") %>
+  <% if File.exist?("app/assets/images/maps/#{@specie.specie_name.tr(" ", "_")}.png") %>
     <ul class="list-group">
       <li class="list-group-item">
-        <%= image_tag "#{@specie.specie_name.tr(" ", "_")}.png", :style => "border:0px;", class: "img-responsive" %>
+        <%= image_tag "maps/#{@specie.specie_name.tr(" ", "_")}.png", :style => "border:0px;", class: "img-responsive" %>
       </li>
     </ul>
 	<% else %>

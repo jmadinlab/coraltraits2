@@ -1,6 +1,6 @@
 <ul class="list-group">
 	<li class="list-group-item">							
-		<p><strong>External resources for this species name:</strong></p>
+		<p><strong>External searches for this species name:</strong></p>
 		<ul>
 			<li type="disc">
 				<%= link_to "World Register of Marine Species", "http://www.marinespecies.org/aphia.php?p=taxlist&tName=" + @specie.specie_name.to_s, target: "_blank" %>
@@ -9,6 +9,15 @@
 			<li type="disc">
 				<%= link_to "OBIS observation records", "https://mapper.obis.org/?taxonid=" + @specie.specie_name.to_s, target: "_blank" %>
 			</li>
+
+			<li type="disc">
+				<%= link_to "Google", "https://www.google.com/search?q=" + @specie.specie_name.to_s, target: "_blank" %>
+			</li>
+
+			<li type="disc">
+				<%= link_to "Corals of the World", "http://www.coralsoftheworld.org/species_factsheets/species_factsheet_summary/" + @specie.specie_name.to_s.downcase.gsub(/\s+/, '-') + "/", target: "_blank" %>
+			</li>
+
 		</ul>
 	</li>
 </ul>	
