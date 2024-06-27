@@ -4,7 +4,7 @@
   <%= render "shared/index_header" %>
 </div>
 
-<%= form_tag export_traits_path( ({subclass: params[:subclass] } if params[:subclass]) ), data: { turbo: false } do %>
+<%= form_tag export_traits_path( ({class: params[:class] } if params[:class]) ), data: { turbo: false } do %>
 
   <div class="col-md-3">
     <%= render "shared/download_options" %>
@@ -46,7 +46,7 @@
               <% if not trait.approved %>
                 <span class="glyphicon glyphicon-bell" data-toggle="tooltip" data-placement="top" title="Pending approval"></span>
               <% end %>
-              <%= link_to trait.trait_name, trait_path(trait, subclass: params[:subclass]), 'data-no-turbolink' => true %>
+              <%= link_to trait.trait_name, trait_path(trait, class: params[:class]), 'data-no-turbolink' => true %>
               <% if trait.hide %>
                 <span class="label label-danger" data-toggle="tooltip" data-placement="right" title="Trait only visible to Editors">hidden</span>
               <% end %>

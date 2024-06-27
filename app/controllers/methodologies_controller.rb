@@ -31,7 +31,7 @@ class MethodologiesController < ApplicationController
     # @methodologies = @search.results
 
     @methodologies = Methodology.where(nil)
-    @methodologies = @methodologies.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+    @methodologies = @methodologies.filter_by_taxa(params[:taxa]) if params[:taxa].present?
 
     if params[:all]
       @methodologies = @methodologies.all.paginate(page: params[:page], per_page: 9999)
@@ -79,7 +79,7 @@ class MethodologiesController < ApplicationController
 
   def export
     @observations = Observation.where(:id => Measurement.where("methodology_id IN (?)", params[:checked]).map(&:observation_id))
-    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:class]) if params[:class].present?
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?
       send_zip(@observations)

@@ -132,7 +132,7 @@
 
 	<p>
 		<div class="btn-group">
-    	<%= link_to 'Back', traits_path(subclass: params[:subclass]), class: "btn btn-xs btn-default" %>
+    	<%= link_to 'Back', traits_path(class: params[:class]), class: "btn btn-xs btn-default" %>
 	  </div>
 		<div class="btn-group">
 			<% if logged_in? && current_user.contributor? %>

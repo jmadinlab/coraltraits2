@@ -23,7 +23,7 @@ class ResourcesController < ApplicationController
     # @resources = @search.results
 
     @resources = Resource.where(nil)
-    @resources = @resources.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+    @resources = @resources.filter_by_taxa(params[:taxa]) if params[:taxa].present?
 
     if params[:all]
       @resources = @resources.all.paginate(page: params[:page], per_page: 9999)

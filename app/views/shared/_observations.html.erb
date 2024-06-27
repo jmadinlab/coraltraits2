@@ -67,10 +67,13 @@
 				<div class="col-sm-2">
   				<% if !obs.location_id.blank? && obs.location_id != 0 %>
             <%= link_to location_path(obs.location_id) do %>
-    				  <% if obs.location.location_name == "Global Estimate" %>
+    				  <% if obs.location_id == 1 %>
                 <span class="glyphicon glyphicon-globe" data-toggle="tooltip" data-placement="top" title="<%= obs.location.location_name %>"></span>
+								<%#= Location.where(:id => obs.location_id).first.location_name %>
   	  				<% else %>
                 <span class="glyphicon glyphicon-map-marker" data-toggle="tooltip" data-placement="top" title="<%= obs.location.location_name %>"></span>
+
+                <%#= Location.where(:id => obs.location_id).first.location_name %>
     				  <% end %>
             <% end %>
   				<% end %>
@@ -167,7 +170,7 @@
 
 			<div class="col-sm-2">
     		<div class="btn-group pull-right">
-					<%= link_to 'Show', observation_path(obs, subclass: params[:subclass]), class: "btn btn-xs btn-default" %>
+					<%= link_to 'Show', observation_path(obs, class: params[:class]), class: "btn btn-xs btn-default" %>
   				<% if logged_in? && (obs.user_id == current_user.id || current_user.editor?) %>
   					<% if @pending %>
 		        	<%= link_to 'Approve', observation_imports_approve_path(:item_id => obs.id), method: :post, class: "btn btn-xs btn-success" %>

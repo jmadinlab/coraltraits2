@@ -21,7 +21,7 @@ class LocationsController < ApplicationController
     # @locations = @search.results
 
     @locations = Location.where(nil)
-    @locations = @locations.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+    @locations = @locations.filter_by_taxa(params[:taxa]) if params[:taxa].present?
 
     if params[:all]
       @locations = @locations.all.paginate(page: params[:page], per_page: 9999)
@@ -38,7 +38,7 @@ class LocationsController < ApplicationController
 
   def export
     @observations = Observation.where(:location_id => params[:checked])
-    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:class]) if params[:class].present?
 
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?

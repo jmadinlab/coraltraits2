@@ -23,7 +23,7 @@ class TraitsController < ApplicationController
     # @traits = @search.results
 
     @traits = Trait.where(nil)
-    @traits = @traits.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+    @traits = @traits.filter_by_taxa(params[:taxa]) if params[:taxa].present?
     @traits = @traits.all.where(traitclass_id: Traitclass.where(class_name: params[:class_name])) if params[:class_name].present?
 
     if params[:all]
@@ -60,7 +60,7 @@ class TraitsController < ApplicationController
   def export
 
     @observations = Observation.joins(:measurements).where(:measurements => {:trait_id => params[:checked]})
-    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:class]) if params[:class].present?
 
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?
@@ -96,7 +96,7 @@ class TraitsController < ApplicationController
       @rec_traitvalues = @trait.traitvalues.map(&:value_name).uniq
     end
 
-    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:class]) if params[:class].present?
 
     @observations = observation_filter(@observations)
 

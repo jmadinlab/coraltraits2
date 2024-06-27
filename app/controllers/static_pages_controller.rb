@@ -4,15 +4,12 @@ class StaticPagesController < ApplicationController
 
   def home
 
-    # @observations = Observation.joins(:specie).where(specie: { subclass: "Octocorallia" })
-    # @measurements = Measurement.all
-
 
     @observations = Observation.where(nil)
-    @observations = @observations.joins(:specie).where(specie: {subclass: params[:subclass]}) if params[:subclass].present?
+    @observations = @observations.joins(:specie).where(specie: {subclass: params[:taxa]}) if params[:taxa].present?
 
     @species = Specie.where(nil)
-    @species = @species.where(subclass: params[:subclass]) if params[:subclass].present?
+    @species = @species.where(subclass: params[:taxa]) if params[:taxa].present?
 
     @measurements = @observations.joins(:measurements)
     # @traits = @measurements.joins(:trait).distinct
@@ -20,7 +17,7 @@ class StaticPagesController < ApplicationController
 
 
 
-    @locations = Location.all
+    @locations = Location.where("id IN (?)", @observations.map(&:location_id))
 
   end
 

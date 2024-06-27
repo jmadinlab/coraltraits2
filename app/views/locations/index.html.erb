@@ -32,7 +32,7 @@
               <% if not location.approved %>
                 <span class="glyphicon glyphicon-bell" title="Pending Approval"></span>
               <% end %>
-  	        	<%= link_to location.location_name, location_path(location, subclass: params[:subclass]), 'data-no-turbolink' => true %>
+  	        	<%= link_to location.location_name, location_path(location, class: params[:class]), 'data-no-turbolink' => true %>
               <% if location.latitude %>
                 <small>(<%= location.latitude.round(3) %>,
                 <%= location.longitude.round(3) %>)</small>

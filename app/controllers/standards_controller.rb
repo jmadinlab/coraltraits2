@@ -18,7 +18,7 @@ class StandardsController < ApplicationController
     # @standards = @search.results
 
     @standards = Standard.where(nil)
-    @standards = @standards.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+    @standards = @standards.filter_by_taxa(params[:taxa]) if params[:taxa].present?
 
     if params[:all]
       @standards = @standards.all.paginate(page: params[:page], per_page: 9999)
@@ -46,7 +46,7 @@ class StandardsController < ApplicationController
 
   def export
     @observations = Observation.joins(:measurements).where(:measurements => {:standard_id => params[:checked]})
-    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:subclass]) if params[:subclass].present?
+    @observations = @observations.joins(:specie).where('species.subclass = ?', params[:class]) if params[:class].present?
 
     @observations = observation_filter(@observations)
     if params[:checked] and @observations.present?

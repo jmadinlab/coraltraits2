@@ -18,7 +18,7 @@ class Observation < ActiveRecord::Base
     where.not(id: joins(measurements: :trait).where('traits.hide is true'))
   }
 
-  # scope :filter_by_subclass, -> (subclass) { joins(specie:).where(specie: {subclass: subclass}) }
+  # scope :filter_by_taxa, -> (taxa) { joins(specie:).where(specie: {subclass: taxa}) }
 
   validates :user, presence: true
   validates :location, :presence => true

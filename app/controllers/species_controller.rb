@@ -23,7 +23,13 @@ class SpeciesController < ApplicationController
     # @species = @search.results
 
     @species = Specie.where(nil)
-    @species = @species.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+
+    # puts @species.class
+    # puts "================================"
+    # @species = @species.search { fulltext params[:search] }
+    # puts @species.results.class
+    # puts "================================"
+    @species = @species.filter_by_taxa(params[:taxa]) if params[:taxa].present?
 
     if params[:all]
       @species = @species.all.paginate(page: params[:page], per_page: 9999)
@@ -191,7 +197,7 @@ class SpeciesController < ApplicationController
       csv_string = CSV.generate do |csv|
           csv << ["species_id", "specie_name", "family_molecules", "family_morphology", "class", "synonym_species", "specie_description"]
           @species = Specie.where(nil)
-          @species = @species.filter_by_subclass(params[:subclass]) if params[:subclass].present?
+          @species = @species.filter_by_class(params[:class]) if params[:class].present?
           @species.all.each do |specie|
             syn_vec = []
             specie.synonyms.each do |syn|

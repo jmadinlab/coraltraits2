@@ -57,6 +57,8 @@ psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/
 
 psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/locations.csv' delimiter ',' csv header"
 
+psql -d coraltraits_development -c "\copy locations FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/octocorals/locations_301.csv' delimiter ',' csv header"
+
 # STANDARDS
 psql -d coraltraits_development -c "\copy standards FROM '/Users/jmadin/Dropbox/projects/coraltraits/db/hexacorals/standards.csv' delimiter ',' csv header"
 

@@ -24,10 +24,12 @@
 	  <em><%= link_to @observation.specie.specie_name, specie_path(@observation.specie) %></em>
 	</p>
 
-  <p>
-		<strong>Species (original coding):</strong>
-	  <em><%= @observation.specie_original %></em>
-	</p>
+  <% if @observation.specie_original %>
+	  <p>
+			<strong>Original species entered:</strong>
+				<%= link_to @observation.specie_original, "https://marinespecies.org/aphia.php?p=taxdetails&id=" + @observation.specie_original, target: "_blank" %> (WoRMS)
+		</p>
+  <% end %>
 
 	<p>
 	  <strong>Location:</strong>

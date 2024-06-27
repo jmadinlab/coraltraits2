@@ -12,7 +12,7 @@ class Resource < ActiveRecord::Base
   validates :doi_isbn, format: { with: VALID_DOI_REGEX }, :allow_blank => true
 
   default_scope -> { order(author: :asc) }
-  scope :filter_by_subclass, -> (subclass) { joins(observations: :specie).where(specie: {subclass: subclass}).distinct }
+  scope :filter_by_taxa, -> (taxa) { joins(observations: :specie).where(specie: {subclass: taxa}).distinct }
 
   searchable do
     text :author

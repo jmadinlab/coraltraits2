@@ -17,7 +17,7 @@ class Trait < ActiveRecord::Base
   default_scope -> { includes(:traitclass).order('traitclasses.class_name ASC, trait_name ASC') }
 
   scope :editor, lambda {|ed| where("user_id = ?", ed)}
-  scope :filter_by_subclass, -> (subclass) { joins(measurements: [observation: :specie]).where(specie: {subclass: subclass}).distinct }
+  scope :filter_by_taxa, -> (taxa) { joins(measurements: [observation: :specie]).where(specie: {subclass: taxa}).distinct }
   # scope :filter_by_traitclass, -> (class_name) { all.where(traitclass: {class_name: class_name}) }
 
 

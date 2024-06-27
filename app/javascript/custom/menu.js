@@ -54,7 +54,7 @@ document.addEventListener("turbo:load", function() {
     var model2 = pubcount.dataset.model2;   // get the user id data param
     var itemid2 = pubcount.dataset.itemid2;   // get the user id data param
 
-    var subclass1 = pubcount.dataset.subclass1;   // get the user id data param
+    var class1 = pubcount.dataset.class1;   // get the user id data param
 
     if (model2) {
       fetch( "/observations/count/"+model1+"/"+itemid1+"/"+model2+"/"+itemid2 )
@@ -65,8 +65,8 @@ document.addEventListener("turbo:load", function() {
           pricount.innerHTML = data.pri;   // change the content of the span to the count
       });
     } else {
-      if (subclass1) {
-        fetch( "/observations/count/"+model1+"/"+itemid1+"/"+subclass1 )
+      if (class1) {
+        fetch( "/observations/count/"+model1+"/"+itemid1+"/"+class1 )
           .then(response => response.json())
           .then(function(data) {
             console.log(data);

@@ -8,7 +8,7 @@ class Location < ActiveRecord::Base
   validates :longitude, :presence => true
 
   default_scope -> { order('location_name ASC') }
-  scope :filter_by_subclass, -> (subclass) { joins(observations: :specie).where(specie: {subclass: subclass}).distinct }
+  scope :filter_by_taxa, -> (taxa) { joins(observations: :specie).where(specie: {subclass: taxa}).distinct }
 
   searchable do
     text :location_name

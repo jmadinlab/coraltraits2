@@ -8,7 +8,7 @@ class Standard < ActiveRecord::Base
   validates :standard_class, :presence => true
 
   default_scope -> { order(standard_class: :asc, standard_name: :asc) }
-  scope :filter_by_subclass, -> (subclass) { joins(measurements: [observation: :specie]).where(specie: {subclass: subclass}).distinct }
+  scope :filter_by_taxa, -> (taxa) { joins(measurements: [observation: :specie]).where(specie: {subclass: taxa}).distinct }
 
   searchable do
     text :standard_name
