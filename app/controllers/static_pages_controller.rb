@@ -5,19 +5,20 @@ class StaticPagesController < ApplicationController
   def home
 
 
-    @observations = Observation.where(nil)
-    @observations = @observations.joins(:specie).where(specie: {subclass: params[:taxa]}) if params[:taxa].present?
+    # @observations = Observation.where(nil)
+    # @observations = @observations.joins(:specie).where(specie: {subclass: params[:taxa]}) if params[:taxa].present?
 
-    @species = Specie.where(nil)
-    @species = @species.where(subclass: params[:taxa]) if params[:taxa].present?
+    # @species = Specie.where(nil)
+    # @species = @species.where(subclass: params[:taxa]) if params[:taxa].present?
 
-    @measurements = @observations.joins(:measurements)
+    # @measurements = @observations.joins(:measurements)
     # @traits = @measurements.joins(:trait).distinct
     # @locations = Location.where(@observations)
 
 
 
-    @locations = Location.where("id IN (?)", @observations.map(&:location_id))
+    # @locations = Location.where("id IN (?)", @observations.map(&:location_id))
+    @locations = Location.all
 
   end
 
