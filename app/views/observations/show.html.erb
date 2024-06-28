@@ -206,7 +206,12 @@
 					      <%= measurement.precision %>
 								<% if measurement.precision_upper && measurement.precision_upper != "" %>
 					      	- <%= measurement.precision_upper %>
-					      <% end %> (<%= measurement.precisiontype.precision_type_name %>)
+					      <% end %>
+								<% if measurement.precisiontype_id %>
+						      (<%= Precisiontype.where(id: measurement.precisiontype_id).pick(:precision_type_name) %>)
+					      <% else %>
+						      (No precision given)
+					      <% end %>
 							</div>
 
 							<% if measurement.replicates && measurement.replicates != "" %>

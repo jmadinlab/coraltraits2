@@ -23,7 +23,7 @@ https://devcenter.heroku.com/articles/heroku-postgres-import-export
 pg_dump -Fc --no-acl --no-owner -h localhost -U deployer -d coraltraits_development -f coraltraits_development.dump
 
 # Need to get link for dump from Dropbox.
-heroku pg:backups:restore --app coraltraits --confirm coraltraits "https://www.dropbox.com/scl/fi/y3w2y8x6kkq49eoqeg2js/coraltraits_development.dump?rlkey=tyjx9x726w5vvsu1px0mpjrls&dl=0"
+heroku pg:backups:restore --app coraltraits --confirm coraltraits "https://www.dropbox.com/scl/fi/yn8u3ol3sbbbtg3368hki/coraltraits_development.dump?rlkey=2tltjlzaqzzjsxc02qnn351pi&dl=0"
 
 
 
