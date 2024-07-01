@@ -1,0 +1,124 @@
+﻿method_id,method_name,method_description,user_id
+3,Archimedes principle,Weighing coral skeleton first in air and then suspended briefly from an analytic balance into freshwater (Graus & MacIntyre 1982,1
+4,Callipers,,1
+6,Depth gauge,Diving depth gauge measurement.,1
+7,Transect tape,,1
+8,X-Ray diffraction,,1
+15,Image analysis,"Typically revolves around opening an image in ImageJ or Photoshop, setting a scale, and using geometrical tools to measure linear dimensions, outlines, counts or areas.",1
+16,Microscopy,Obersvations or measurement made with a microscope,1
+19,observation_field,Direct observation in the field,1
+21,inferred,,1
+22,Derived from textual description,Typically a group opinion that has been derived from text about a coral colony or species.,1
+23,Extracted from data table,Usually used when the original data cannot be traced to an original resource or for expert or group opinions that are themselves published as original data.,1
+32,Product of linear extension and bulk density,,1
+48,Ash free dry weight (AFDW),"Formalin/acid, Dried at 60 degrees C (?)",1
+51,DGGE,,1
+54,Ruler measurement,,1
+78,Growth rate estimated from length-age growth functions,"The age of each sample was estimated using the von Bertalanffy length‚Äìage growth functions, previously obtained for each population based on growth bands analysis by means of computerized tomography (von Bertalanffy 1938",1
+mt10,Estimated from known values of size and growth rate,,1
+mt11,Measures of colony size on substrata of known age,,1
+mt12,Drawing,This methodology typically involves drawing a colony to collect it the following year and measure the growth,1
+mt13,14-C bomb-pulse dating,"Typically, growth rates were estimated by counting annual growth rings in association with 14-C bomb-pulse dating",1
+mt14,210Pb dating ,"Typically, growth rates were estimated by counting annual growth rings in association with Pb210 dating",1
+mt15,14-C dating,"Typically, growth rates were estimated by counting annual growth rings in association with radiocarbon dating",1
+mt19,Extracted from regional/global databases of environmental data,,1
+mt21,CTD measurements,Measurements obtained using a CTD,1
+mt23,Growth rings count using Organic-Matrix-Staining method (OMS) ,,1
+mt24,Estimated from known values of age and size,"Growth rates derived from diameter age relationship. Typically, age has been previously calculated using growth rings",1
+mt25,Micrometer,Micrometer gauge,1
+mt26,Estimated from diameter measurements in colonies of known age,,1
+mt29,Estimated from colony height and known values of growth rates in area,Model A relates age and height of colonies based on growth rates obtained from measuring of the increase in the Branch Fan Surface  Area of tagged colonies during yars of study,1
+mt30,Estimated from colony height and known values of growth rates in height,Model B relates age and hieght of colonies based on growth rates estimated from measuring the increase in height of colonies over time,1
+mt32,Estimated from Branch Fan Surface Ara using a Power growth function,,1
+mt33,Estimated from the difference between trunk diameter and axial skeleton diameter,,1
+mt34,3D photogrammetric reconstructions,Repeated measurements of total length in 3D mesh models,1
+mt35,Repeated calliper measurements,Linear extension (cm yr−1) was estimated from the least squares regression line slope of height (cm) vs. time (yr),1
+mt36,Measuring distances from the growing edge of the colony to a permanent reference line.,Horizontal growth of the H. coerulea colony was measured by taking the distance from the growing edge to a permanent reference line marked by two concrete nails hammered onto the reef floor near the colony.,1
+mt38,Derived from logistic model of growth increments (assumed to be annual) and colony height,,1
+mt39,Derived from Gompertz model of growth increments (assumed to be annual) and colony height,,1
+mt40,Derived from Richards model of growth increments (assumed to be annual) and colony height,,1
+mt41,Derived from Gompertz model of diameter growth increments after repeated measurements,,1
+mt42,Repeated length measurements in the field,"Reapetd measure of height (typically using a tape, ruler..) ",1
+mt43,Image analysis on consecutive years,Images were digitized to measure growth between every consecutive year that the corals were imaged,1
+mt44,Image analysis on non consecutive years,Growth was measured directly between 2012 and 2017 using only the images collected in those two years,1
+mt45,Mistri and Ceccherelli (1993) age equation,,1
+mt46,Gelman planimeter,,1
+mt47,Polygon of superposed rectangles,"The area of the polygon which resulted from considering three superposed rectangles, obtained by means of three width measurements taken at equal distances perpendicular to fan height",1
+mt48,Inferred from growth rates and minimum size at reproduction,Inferred from average growth rates and minimum axial polyp size associated with production of pigmented gonads >250 μm in diameter.,1
+mt49,Derived from Watford plot,Walford plots factor out differences in growth that are age dependent by plotting growth (ring thickness) at age N + 1 on the ordinate versus growth at age N on the abscissa,1
+mt50,Fan area was estimated from colony height by assuming the colony to be circular in shape in its plane of growth,,1
+mt51,Measuring growth from scar of known age,,1
+mt52,Video analysis,Analysis of video,1
+mt53,Inferred from volume displacement,,1
+mt54,Observation in aquaria,,1
+mt55,Estimating colony weight increments in situ,"The technicue as proposed by Bak, R.P.M. (1973)",1
+mt56,DNA sequencing,Sequenciation of DNA,1
+mt57,Analysis of microsatellites,,1
+mt58,FlowCAM Imaging Particle Analyzer,,1
+mt59,PCR-denaturing gradient gel electrophoresis fingerprinting analysis,,1
+mt60,Length variation in domain V of the chloroplast large subunit of rDNA (cp23S-rDNA) ,,1
+mt61,ITS-rDNA,Sequences of the internal transcribed spacer region of ribosomal DNA ,1
+mt62,Incubations,,1
+mt63,Chloroplast Large Subunit (cp23S)–rDNA Genotyping Technique,,1
+mt65,Derived from photographs of specimens,,1
+mt66,Observation in laboratory,,1
+mt68,Identification key,Trait value coded using an identification guide that gives information on a specific species,1
+mt69,Species-specific value inherited from genus level,"Trait value coded for a given species using information at the genus level. Typically, traits coded using this method are traits that do not vary within genus, and therefore, species-specific values can be assumed from information at the genus level",1
+mt70,Species-specific value inherited from family level,"Trait value coded for a given species using information at the family level. Typically, traits coded using this method are traits that do not vary within family, and therefore, species-specific values can be assumed from information at the family level",1
+mt71,Extracted from tabular key,Trait value coded based on the information contained in a tabular key for the identification of species,1
+mt73,Dissecting microscope,Also called stereomicroscope,1
+mt75,Repeated measurements of length on transplanted colonies (with clamps),,1
+mt76,Repeated measurements of length on transplanted colonies (with PVC racks),,1
+mt77,Repeated measurements of length on juvenile colonies transplanted in transplanted stones,,1
+mt78,Bottom otter trawl nets,,1
+mt80,Raman spectroscopy,,1
+mt81,Bouyant weight,,1
+mt82,Stable isotope analysis,,1
+mt83,Polyp content examination,Polyps dissected to analyse the gastrovascular contents under a binocular and a light microscope ,1
+mt84,Lyophilization of whole-body tissues,,1
+mt85,Radiocarbon labelling,,1
+mt86,Haemocytometer chamber,,1
+mt87,"Dark/light bottle method (Sorokin, 1984)",,1
+mt88,Histological analysis of coral tissue,,1
+mt89,Observing rate of removal of labelled algae,,1
+mt90,Box-counting method,"involves laying a square mesh grid of various sizes (r), over the gorgonian image (fractal) to count how many boxes (N) are required to cover it completely",1
+mt91,size-based matrix models,,1
+mt92,SfM processing GoPro,,1
+mt93,SfM processing  Sony NEX7,,1
+mt95,Calliper used 3 cm below the branch tip,,1
+mt98,Observing in situ rates of phytoplankton depletion,,1
+mt99,Electron probe microanalizer,,1
+mt100,Inferred from height values using an equation,,1
+mt102,Incubations to measure Ca45 radioactivity uptake,,1
+mt103,Atomic absorption spectroscopy,,1
+mt104,Alkalinity anomaly technique,,1
+mt105,Inductively Coupled Plasma Optical Emission spectroscopy (ICP-OES),,1
+mt107,Trait value coded using a compilation of data from previous works,,1
+mt109,Wet weight estimation,,1
+mt111,bending beams method with cathetometer,,1
+mt112,bending beams in dried specimens,,1
+mt113,Energy dispersive spectroscopy,,1
+mt114,Expert opinion,,1
+mt115,Examination of collected specimens,,1
+mt116,Estimated from colony height in previously dated colonies using growth ring method,,1
+mt117,Estimated from colony height in previously dated colonies using bomb 14C method,,1
+mt118,Estimated from colony height in previously dated colonies using 14C method,,1
+mt120,Textual description in identification guide,,1
+mt121,Trait value derived from Fabricius and Alderslade (2001),"Trait value derived from Fabricius and Alderslade (2001) textual descriptions, mostly made at the genus level",1
+mt122,"Trait value derived from DORIS online identification guide, based on expert opinions",,1
+mt124,"Trait value derived from Picton, B.E. & Morrow, C.C. (2016) online identification guide",,1
+mt125,Derived from photographs of live colonies,,1
+mt126,IUCN red list assesment,,1
+mt127,Extracted from OBIS_Accessed in November_2023,,1
+mt128,Species-specific trait value inherited from Class Octocorallia,"Trait value coded for a given species using information at the Class level. Traits coded using this method are traits that do not vary within Class, and therefore, species-specific values can be assumed from information at the Class level",1
+mt129,Trait value coded based on the location where specimens were collected,,1
+mt130,Examination of fragmented specimens,,1
+mt131,Inferred from genus-level acquisition of morphological trait in the philogenetic tree,,1
+mt132,IUCN red list regional assesment for the Mediterranean Sea,,1
+mt133,Polyp size estimated based on the size of the anthosthele,,1
+mt134,Polyp size estimated based on the size of the calyx,,1
+mt135,Polypsize estimated based on the size  of polyp mounds,,1
+mt136,Monitoring of individual colonies over time,,1
+mt137,Inferred from genus-level information provided in data table,,1
+mt138,Growth rings count,Relationship between number of growth rings of known deposition rate and colony diameter and/or height,1
+mt139,Derived from type of skeleton trait values,,

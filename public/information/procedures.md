@@ -1,6 +1,6 @@
 # Procedures
 
-The Coral Trait Database is an open source research initiative that aims to make all observations and measurements of Scleractinian corals accessible in order to more rapidly advance coral reef science. Anyone collecting coral trait data (e.g., collected in field and laboratory studies, extracted from the literature, or by other means) can join and contribute to the growing data compilation. Contributors have control over the privacy of their data and greatly benefit from being able to download complementary public data from the database in a standard format for use in their analyses. We hope that private data will become public once the contributor has published them, which will subsequently be cited when their data are used in analyses by other people. The citation system has been carefully designed to ensure full transparency about the origin of each individual data point as well as larger data compilations of other peoples' data (such as data extracted from literature for meta-analyses).
+The Coral Trait Database is an open source research initiative that aims to make all observations and measurements of corals accessible in order to more rapidly advance coral reef science. Anyone collecting coral trait data (e.g., collected in field and laboratory studies, extracted from the literature, or by other means) can join and contribute to the growing data compilation. Contributors have control over the privacy of their data and greatly benefit from being able to download complementary public data from the database in a standard format for use in their analyses. We hope that private data will become public once the contributor has published them, which will subsequently be cited when their data are used in analyses by other people. The citation system has been carefully designed to ensure full transparency about the origin of each individual data point as well as larger data compilations of other peoples' data (such as data extracted from literature for meta-analyses).
 
 ***
 
@@ -20,38 +20,20 @@ The Coral Trait Database is an open source research initiative that aims to make
 
 ## 2 Governance
 
-#### Administrator
+#### Administrators
 
-Contact the Administrator for any information about the database.
-
-- [coraltraits@gmail.com](mailto:coraltraits@gmail.com)
-
-#### Managerial Board
-
-> For decisions requiring a vote, at least three of the Managerial Board should agree.
-
-- Andrew Baird
-- Emily Darling
-- Daniel Falster
-- Joshua Madin
+- Hexacorals, [Joshus Madin](mailto:jmadin@hawaii.edu)
+- Octocorals, [Daniel Gomez Gras](mailto:danielgomezgras@gmail.com)
 
 #### Editorial Board
 
-> Editors listed *[here](/editors)* are responsible for quality control of trait data. Contact a member of the Editorial Board if you would like to add a new trait to the database.
+- Editors listed *[here](/editors)* are responsible for quality control of trait data. Contact a member of the Editorial Board if you would like to add a new trait to the database.
 
 #### Taxonomy Advisory Board
 
-Contact a member of the Taxonomy Advisory Board if you would like to add or edit a species.
-
-- Danwei Huang
-- Andrew Baird
-
-#### Technical Advisory Board
-
-> The database relies on external people with breadth of experience and technical know-how.
-
-- Matthew Kosnik
-- Mark Schilhauer
+- Danwei Huang (Corals)
+- Andrew Baird (Hexacorals)
+- Catherine McFadden (Octocorals)
 
 #### Database programmers
 
@@ -141,19 +123,13 @@ Unpublished data can also be imported into the database if it is kept private. P
 - Being more likely to contribute the data at end of project and improve its longevity
 - Identify duplicate research efforts
 
-To contribute data, you need to make a database account (*[here](/signup)*) and then email the database [Administrator](#administrator) to become a contributor.
+To contribute data, please email the database [Administrator](#administrator).
 
 > Having a primary, peer-reviewed resource is essential for maintaining data quality, contributor recognition and scientific rigor.
 
-#### Adding an observation
+#### Preparing a contribution
 
-If you are entering one or a few observations, you can use the [Add Observation](/observations/new) link in the menu bar. The spreadsheet import instructions (below) will help you understand the general data entry protocol. For instance, you need to enter the locations and resources, and also ensure the traits your require exist, before you can add an observation.
-
-#### Importing a spreadsheet
-
-Even if only entering small amounts of data, the spreadsheet submission process is recommended. A spreadsheet import is the fastest way to get data into the database. The import function accepts csv-formatted spreadsheets and runs a number of tests to make sure your data fit the database correctly (note that you can export csv-formatted files from Excel using "Save as..."). Any errors will reject the entire import and the system will attempt to tell you where the errors occur, so you can fix these errors and try the import again.
-
-The spreadsheet you import must have a header with *at least* the following column names:
+A database [Administrator](#administrator) will let you know the best way to prepare your data for the database. Generally, the data needs to be in a specific format containing a header with *at least* the following column names:
 
     observation_id, access, user_id, specie_id, location_id, resource_id, trait_id, standard_id, methodology_id, value, value_type, precision, precision_type, precision_upper, replicates, notes
 
@@ -161,7 +137,7 @@ The spreadsheet you import must have a header with *at least* the following colu
 
 `resource_id` is reserved for the original data resource (i.e., the paper that reports the original collection of the measurement). You can credit papers that compiled large datasets from the literature by adding a column named `resource_secondary_id`. `resource_id` and `resource_secondary_id` may be substituted with `resource_doi` and `resource_secondary_doi`, respectively (the doi should start with "10.", not "doi:"). The resource will automatically be added using Crossref if the doi is not already in the database.
 
-`user_id` must by your own database user id (i.e., you cannot import data for other people). You can find your user id by clicking on your name in the top right corner and selecting "My Observations".
+`user_id` must by your own database user id that the administrator will assign to you (i.e., you cannot import data for other people). You can find your user id by clicking on your name in the top right corner and selecting "My Observations".
 
 Copy and paste the above header into a text file and save as `import_trait_author_year.csv`, where author and year correspond with the resource (paper). Alternatively, download a [CSV](/import_template_author_year.csv) or [Excel](/import_template_author_year.xlsx) template.
 
@@ -182,7 +158,6 @@ The first six required columns are associated with the observation.
 `resource_id` is the unique ID of the resource (paper) where the observation was published. `resource_id` can be empty for unpublished data, in which case `access` must be private (0) until the data are published and the published resource is entered. In the example the resource_id 606 is [Gleason et al. (2009)](/resources/606).
 
 <a href="/images/import_example1.png"><img src="/images/import_example1_small.png" class="img-responsive" /></a>
-
 
 #### Measurement-level data
 
@@ -401,7 +376,7 @@ Website and data download activity are tracked using Google Analytics.
 ![rails](images/rails.png)
 ![github](images/github.png)
 
-The database was developed using Ruby on Rails, is open source, and can be found at [Github](https://github.com/jmadin/traits). The foundation for this web application (e.g., session and user models) was developed using Michael Hartl's Ruby on Rails tutorial.
+The database was developed using Ruby on Rails, is open source, and can be found at [Github](https://github.com/jmadinlab/coraltraits2). The foundation for this web application (e.g., session and user models) was developed using Michael Hartl's Ruby on Rails tutorial.
  
 *[Top](#top)*
 

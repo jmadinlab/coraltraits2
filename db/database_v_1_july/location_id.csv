@@ -1,0 +1,1268 @@
+﻿location_id,location_name,latitude,longitude
+1,Global estimate,,
+l3,"Great Abaco, Bahamas ",26.3871,-77.2474
+l4,"San Salvador Island, Bahamas",24.0667,-74.5417
+l5,"La Jolla, California",32.8347,-117.296
+l6,"Salmedina reefs, Colombia",10.39,-75.7
+l7,"Media Luna Reef, Puerto Rico",17.93488,-67.04885
+l8,"San Cristobal Reef, Puerto Rico",17.93,-67.07
+l9,Grand Cayman,19.3531,-81.2367
+l10,"Parque Antonio Maceo, Cuba",23.1421,-82.3722
+l11,"Playa del Salado, Cuba",23.0406,-82.6043
+l12,"Boca de Calderas, Cuba",23.1842,-82.0553
+l13,"El Morro, Santa Marta, Colombia",11.249,-74.2301
+l14,"Gairaca, Santa Marta, Colombia",11.3251,-74.1141
+l15,"Punta Betin, Santa Marta, Colombia",11.2497,-74.2218
+l16,"Neguanje, Santa Marta, Colombia",11.3191,-74.0822
+l18,"Punta Galeta, Panama",9.4244,-79.8759
+l19,"Signy Island, Antartica",-70.7207,-45.1429
+l20,"Shiribeshi seamount, Hokkaido, Japan",43.6001,139.5504
+l21,"Dixon Entrance, Gulf of Alaska, NE Pacific",54.4122,-132.086
+l22,"NE Channel, Canada ",41.9764,-65.6388
+l23,Little Bahama banks,27.0167,-79.3667
+l24,"Davidson Seamount, California",35.75,-122.7
+l25,"Trondheimsfjorden, Norway",63.4953,10.2318
+l26,New Zealand,-44.459,172.3461
+l27,"Dixon Entrance 1, NE Pacific",54.3798,-132.861
+l1308,"Dixon Entrance 2, NE Pacific",54.444,-133.142
+l1309,"Dixon Entrance 3, NE Pacific",54.456,-133.155
+l1310,"Dixon Entrance 4, NE Pacific",54.569,-133.023
+l28,Olympic Coast National Marine Sanctuary,48.143,-125.182
+l1311,Olympic Coast National Marine Sanctuary 2,48.1487,-125.238
+l1312,Olympic Coast National Marine Sanctuary 3,48.135,-125.183
+l29,Newfoundland and Labrador Site 1,65.131,-58.452
+l30,Newfoundland and Labrador Site 2,44.8327,-54.4688
+l31,Newfoundland and Labrador Site 3,61.6,-60.383
+l32,Newfoundland and Labrador Site 4,44.133,-52.933
+l35,Newfoundland and Labrador Site 7,60.498,-61.395
+l36,Newfoundland and Labrador Site 8,60.176,-61.79
+l37,Newfoundland and Labrador Site 9,61.488,-61.819
+l38,Newfoundland and Labrador Site 10,61.202,-61.378
+l39,Newfoundland and Labrador Site 11,60.323,-62.149
+l40,Newfoundland and Labrador Site 12,62.161,-61.537
+l41,Newfoundland and Labrador Site 13,61.35,-60.683
+l42,"Banyuls sur-Mer, France",42.4777,3.1667
+l44,California coast,35.8244,-121.4689
+l45,"Cap Bear, Banyuls sur-Mer, France",42.5151,3.143
+l46,"Cap Rederis, Banyuls sur-Mer, France",42.4653,3.1635
+l47,"Coiba National Park, Panama",7.4405,-81.6717
+l48,"Cannitello, Strait of Messina, Italy",38.2433,15.6735
+l49,"Cape Elfola, Elba Island, Italy",42.8284,10.2591
+l50,"La Montagna, Reggio Calabria, Italy",38.25,15.7217
+l51,"Medes Islands, Spain ",42.0425,3.2194
+l52,"Tinetto rock, La Spezia, Italy",44.0178,9.8503
+l53,"Leghorn, Italy",43.5,10.3333
+l54,"Girona Coast, Spain",42.0315,3.2083
+l1313,"Tascons, Medes islands, Spain",42.0422,3.2263
+l56,"Portofino, Italy",44.2971,9.2128
+l57,"Riou Island, Marseille, France",43.1733,5.3917
+l58,"Bay of Calvi, Corsica, France",42.5833,8.75
+l59,"Maire island, Marseille, France",43.2104,5.3412
+l60,English channel,50.4893,-0.9647
+644,"San Blas Islands, Panama",9.5448,-91.7118
+227,"Discovery bay, Jamaica",18.4647,-77.4078
+l63,"Filicudi, Sicily, Italy",38.5544,14.5656
+l64,"Cross Harbour Ridge, Little Bahama ",25.9485,-77.3397
+l65,"Jarre, Marseille, France",43.1912,5.3575
+l66,"Castelvielle, Marseille, France",43.2017,5.4898
+l67,"Pharillons, Marseille, France",43.2045,5.3363
+l68,"Imbuttu, Scandola NR, France",42.3735,8.5508
+l69,"Palazzinu, Scandola NR, France",42.3747,8.55
+l70,"Gargallu, Scandola NR, France",42.3702,8.5342
+l71,"Mana, Kornati, Croatia",43.8002,15.2598
+l72,"Balun, Kornati, Croatia",43.8023,15.253
+l73,"Obrucan, Kornati, Croatia",43.8352,15.2187
+l74,"Paski most, Pag, Croatia",44.3178,15.2563
+l75,"Smokvica, Rogoznica, Croatia",43.5063,15.9387
+l76,"Planka, Rogoznica, Croatia",43.4893,15.9682
+l77,"Lefteris, Pelio, Greece",39.1385,23.3398
+l78,"Ag. Vasso, Pelio, Greece",39.0847,23.1247
+l79,"Ambelos, Chalkidiki, Greece",39.9555,23.9882
+l80,"Nemesis, Chalkidiki, Greece",39.941,23.985
+l81,"Spilia, Chalkidiki, Greece",39.9387,23.9552
+l82,"Kalloni, Lesvos, Greece",39.076,26.0875
+l83,"Palios, Lesvos, Greece",39.3224,26.435
+l84,"Point Hutchinson, Chatham Strait, Alaska",56.3883,-134.6359
+l85,"Middle Arm of Kelp Bay, Chatham Strait, Alaska",57.3336,-134.9622
+l86,"Tenakee Inlet, Chatham Strait, Alaska",57.8036,-134.9458
+l90,"Gulf of Alaska, NE Pacific",55.007,-134.435
+l91,"Caials, Cap de Creus, Spain ",42.2842,3.3097
+l92,Weddell Sea ,-62.7178,-55.4792
+l93,"Ross Sea, Antarctic site 1",-72.2695,170.1633
+l94,"Ross Sea, Antarctic site 2",-72.2717,170.415
+l95,"Ross Sea, Antarctic site 3",-71.7187,-171.5028
+l96,"Ross Sea, Antarctic site 4",-72.1283,172.1558
+244,Hawaii,20.846946,-157.592354
+l104,Florida straits,27,-79
+l123,"Makapuu deep sea bed, Hawaii",21.3162,-157.6495
+l129,East Florida,30.733,-79.433
+l130,"Sabah, Indonesia, site 1",6.01,116.02
+l131,"Sabah, Indonesia, site 2",4.56,118.73
+l132,"John Brewer Reef, GBR",-18.57,147.04
+86,"Heron Island, GBR",-23.44,151.91
+l134,"Maria Island, Tasmania",-42.66,147.99
+l138,Weddell Sea 2,-74.6,-29.7
+l144,"North Tyrrhenian, Mediterranean Sea",42.6,10
+l145,"Central Tyrrhenian, Mediterranean Sea",40.6433,13.6833
+l146,Tyrrhenian Sea,41.82,11
+l55,"Calafuria, Tyrrhenian Sea 2",43.5,10.3333
+l149,"Grotte Pérès, Marseille, France",43.1878,5.3825
+l150,"Ille plane, Marseille, France",43.1878,5.3825
+l151,"Grotte sud, Riou island, France",43.1767,5.3753
+l152,"Imperial du Milieu, Marseille, France",43.1713,5.3937
+l153,"Pointe Caramasaigne, Marseille, France",43.1735,5.3986
+l154,"Grand Conglue, Marseille, France",43.176,5.3999
+l155,"Petit Conglue, Marseille, France",43.1789,5.3967
+l156,"Marine Reserve Carry-le-Rouet, France",43.3266,5.161
+l157,"Cap de Creus, Spain",42.3179,3.3219
+l158,"Marseille, France",43.1767,5.3753
+l159,"Pointe de La Revellata, Corsica, France",42.5831,8.7294
+l160,"Baffin Bay, Canada",68.1349,-60.7235
+l162,"Lagos-Portimão area, Portugal",37.0376,-8.6898
+l163,"Riou Archipielago, Marseille, France",43.1778,5.3972
+l164,"Arethoussa, Kavala Bay, Greece",35.1958,26.2946
+l165,"Phidonissi, Kavala Bay, Greece",35.1958,26.2946
+l166,"Sanremo, Ligurian Sea",43.8035,7.7552
+l168,"Les Gorêts, Île Longue, Gulf of Morbihan",47.5678,-2.9092
+l169,"Leidashi, Taiwan",21.9315,120.7447
+l170,"Xiashuijui, Taiwan",22.0367,120.6912
+l171,"Cap Tabarka, Tabarka, Tunisia",37.1069,8.81
+l172,"Rocher Mérou, Tabarka, Tunisia",37.1461,8.8719
+l173,"Point Mistral, La Galite, Tunisia",37.7539,8.9072
+l174,"Les chiens, La Galite, Tunisia",37.5889,8.9931
+l175,"Gallo, La Galite, Tunisia",37.7014,9.1086
+l176,"Gallina, La Galite, Tunisia",37.6756,9.7706
+l177,"Kobet Hwé, La Marsa, Tunisia",37.4678,10.5825
+l178,"Sidi Abdelaziz, La Marsa, Tunisia",37.4794,10.605
+l179,"Capo Grosso, Zembra, Tunisia",37.2142,10.8325
+l180,"La Cathédrale, Zembra, Tunisia",37.1553,10.8708
+l181,"Ras Drak, Haouaria, Tunisia",37.2019,11.2472
+l182,"Banc Madyouna 1, Haouaria, Tunisia",37.1564,11.2719
+l183,"Banc Madyouna 2, Haouaria, Tunisia",37.15,11.2797
+l184,"Gulf of Maine, Northeast Channel Coral Conservation Area",41.9764,-65.6388
+l185,"Silaqui Island, Philippines",16.4394,119.9438
+l186,Federated States of Micronesia,7.4221,151.7193
+l187,"Lucero, Bolinao, Philippines",16.2441,119.542
+l188,"Shimoda, Japan",34.65,138.9333
+l189,"Gulf of St. Lawrence, Canada",48.7253,-63.1301
+l190,"St. Teresa, Florida",29.9252,-84.4498
+l192,"Monterey Bay, California",36.5808,-121.9948
+l193,"Pribilof canyon, Bering Sea",56.28,-169.43
+l194,"NW of Pribilof canyon, Bering Sea",60.01,-177.94
+l195," NW Atlantic, Trawl survey 1",56.4,-57.817
+l196," NW Atlantic, Trawl survey 2",42.95,-49.595
+l197," NW Atlantic, Trawl survey 3",43.98,-52.967
+l198," NW Atlantic, Trawl survey 4",44.22,-53
+l199," NW Atlantic, Trawl survey 5",44.07,-52.917
+l200," NW Atlantic, Trawl survey 6",42.97,-49.582
+l201," NW Atlantic, Trawl survey 7",43.92,-52.615
+l202," NW Atlantic, Trawl survey 8",44.1,-52.918
+l203," NW Atlantic, Trawl survey 9",43.7,-52.333
+l204," NW Atlantic, Trawl survey 10",43.09,-51.368
+l205," NW Atlantic, Trawl survey 11",45.53,-56.664
+l206," NW Atlantic, Trawl survey 12",43.43,-51.914
+l207," NW Atlantic, Trawl survey 13",43.6,-52.22
+l208," NW Atlantic, Trawl survey 14",43.33,-51.779
+l209," NW Atlantic, Trawl survey 15",43.31,-51.728
+l210," NW Atlantic, Trawl survey 16",47.39,-46.383
+l212,"Golden Garden, Washington",47.6902,-122.4087
+l213,"Alki South, Washington",47.5694,-122.4197
+l214,"Titanic wreck, SE Newfoundland",41.7333,-49.95
+l215,"Northern Gulf of Mexico, MC294",28.6722,-88.4765
+l216,"Northern Gulf of Mexico, MC297",28.6825,-88.345
+l217,"Northern Gulf of Mexico, MC344",28.6337,-88.1698
+l221,"Bremer Point, Magnetic island",-19.15,146.8667
+l222,Maryland,38.22,-74.93
+l224,"Gulf of Mexico, site A",30.0667,-88.2167
+l225,"Gulf of Mexico, site B",30,-87.95
+l226,"Ilha da Cotinga, Brazil",-25.5208,-48.4772
+l230,"Cross Harbour, Fished population, Little Bahama",25.95,-77.35
+l231,"Halibut Channel, Grand Banks south of Newfoundland",44.6373,-55.5643
+l232,"Haddock Channel, Grand Banks south of Newfoundland",44.6328,-54.4776
+l233,"Desbarres Canyon, Grand Banks south of Newfoundland",43.8958,-52.942
+l234,"Baja Casju, Scandola, Corsica",42.3496,8.5585
+l235,"Palazzu, Scandola, Corsica",42.3802,8.5495
+l236,Punta Muchilina,42.3322,8.5535
+l237,"Cave b, Scandola, Corsica",42.3597,8.5575
+l238,"Tres Fares, Cap de Creus, Spain",42.3393,3.3019
+l239,"Figuier Exterior, Marseille, France",43.2051,5.4469
+l240,"Pedres Barra Mesina, Cap de Creus, Spain",42.2937,3.3142
+l241,"Moyade exterior, Marseill, France",43.177,5.3721
+l242,"Moyade interior, Marseille, France",43.1772,5.3723
+l243,"Montgri, Catalonia, Spain",42.0989,3.2142
+l244,"Begur, Catalonia, Spain",41.9581,3.2346
+l245,"Ille Plane Exterior, Marseille, France",43.1865,5.3915
+l246,"Ille Plane Interior, Marseille, France",43.1866,5.3912
+l247,"Figuier interior, Marseille, France",43.2052,5.4469
+l248,Massa d'oros,42.3155,3.3337
+l249,"Isuela Sud, Portofino, Italy",44.3814,9.3194
+l250,"Cala Oro East, Portofino, Italy",44.4972,9.1806
+l251,"Torreta, Portofino, Italy",44.5094,9.1822
+l252,"Dragone, Portofino, Italy",44.4936,9.3181
+l253,"Targa Gonzatti, Portofino, Italy",44.44,9.3836
+l254,"Diamante, Portofino, Italy",44.4353,9.2144
+l255,"Altare, Portofino, Italy",44.3917,9.4067
+l256,"Punta Vessinaro, Portofino, Italy",44.3703,9.4336
+l257,"Casa del Sindaco, Portofino, Italy",44.3494,9.2497
+l258,"St. Giorgio, Portofino, Italy",44.3103,9.3853
+l259,"St. Giorgio East, Portofino, Italy",44.3972,9.2181
+l260,"Faro Cape, Portofino, Italy",44.5461,9.255
+l261,"Terumbu Pempang Tengah, Sigapore",1.2277,103.7315
+l262,"Villefranche sur-Mer, France",43.681,7.3381
+l263,"Ogasawara islands, Japan",27.0857,142.2129
+l264,"Double cone island, GBR",-20.1079,148.7092
+510,Central Great Barrier Reef,-18.9135,176.4448
+2,Great Barrier Reef,-17.8324,146.8213
+l265,"Dungenesse Reef, Australia",50.9151,0.966
+l266,Northern Great Barrier Reef,-14.7975,146.8213
+l267,"Long island, Central GBR",-20.3655,148.855
+l268,"Rattray island, Central GBR",-19.9948,148.5561
+245,Philippines,12.1474,122.9721
+l269,South Africa,-34.5145,19.7869
+l270,"Isla Danzante, Mexico",25.7846,-111.2534
+l271,"Cabo San Lucas, Mexico",22.8805,-109.966
+l272,"Acapulco, Mexico",16.7891,-99.8363
+l273,"Mexico, Eastern Pacific",16.78,-99.11
+l274,"Isla Tortuga, Mexico",27.4378,-111.8963
+l275,"Isla Coronado, Piedra blanca, Mexico",32.4169,-117.2603
+l276,"USA, Eastern Pacific",36.1444,-122.5021
+l277,"Isla Salispuedes, Mexico",28.7284,-112.9574
+l278,"Cancun, Mexico",21.1653,-86.8081
+l279,"Xcaret, Mexico",20.5789,-87.1181
+l280,"Manazuru Marine Biological laboratory, Japan",35.1493,139.148
+330,Puerto Rico,18.20848,-66.549683
+l281,"YO-257 artificial reef, Hawaii",21.2607,-157.8375
+l282,"Shark cove, Oahu, Hawaii",21.6519,-158.0629
+l283,"Kahe point, Oahu",21.353886,-158.1311
+l284,"Honolulu Harbor, Hawaii",21.2993,-157.8958
+l285,"Hawaii Kai, Oahu, Hawaii",21.2851,157.7187
+177,"Pioneer Bay, Orpheus Island ",-18.6108,146.4881
+414,Pandora Reef,-18.8133,146.4326
+3,"Geoffrey Bay, Magnetic Island",-19.156,146.865
+l286,"Cova de la Vaca, Medes Islands, Spain",42.05,3.25
+l287,"Isle of Man, Irish Sea",54.2174,-4.5513
+l288,"Adak island, Alaska",51.7542,-176.6787
+l289,"Botanical Beach, Washington",48.5166,-124.45
+l290,"Catalina island, California",33.36946,-118.42088
+l291,"Turn island, Washington",48.5333,-122.9667
+l292,"Aleutian Islands, Alaska",54.4275,-164.6557
+l293,"Tatoosh Island, Washington, USA",48.4,-124.7333
+l294,"Gulf of Naples, Italy",40.7798,14.3378
+l295,"East Point, Nahant, Massachusetts",42.4167,-70.9
+l296,Newfoundland and Labrador and the Arctic,59.5102,-53.9319
+l297,Labrador Sea and the Arctic,59.5103,-53.9318
+l298,"Newfoundland and Labrador, Canada",53.8633,-57.6666
+l299,"Station M, NE Atlantic Ocean",57.3,10.1833
+l300,"Gully MPA and Flemish Cap area, NW Atlantic",47.269,-43.5224
+43,"Eilat, Israel",29.5497,34.9562
+411,Gulf of Thailand,9.288,104.236
+201,"Okinawa, Japan",26.399403,127.832707
+l302,"Hurghada, Egypt, Red Sea",27.2869,33.6119
+l303,"Nanwan Bay, Taiwan",22.1806,120.9253
+l304,"St. Lucia Marine Reserve, KwaZuluNatal, South Africa",-27.415,32.7267
+114,Guam,13.50385,144.723552
+l305,"Sidney Harbor, Australia",-33.8333,151.25
+l306,"Munseom, Jeju island, Korea",33.3667,126.55
+l307,"Passamaquoddy, Bay of Fundy",45.0667,-66.9
+l308,"Toquilineq, Greenland",60.075,-43.045
+l309,"Sinai peninsula, Red Sea",27.9247,34.1373
+l310,"Garambi, Formosa, Taiwan",21.8994,120.8416
+l311,"Sibusi, Japan",31.4891,131.14
+l312,"Tomioka, Amakusa Island, Japan",32.5284,130.0268
+l313,"Korror Island, Palaos",7.3429,134.4979
+l314,"Sodwana Bay, KwaZulu-Natal, South Africa",-28.415,32.7267
+351,Caribbean,15.45368,-74.750977
+l315,"Banco del Medio, Argentina",-38.1667,-57.4667
+l316,"Costa Brava, Girona, Spain",41.8549,3.1778
+l317,"Tiboulen du Frioul, Marseille, France",43.2711,5.2842
+l318,"Oil jetties, Eilat, Israel",29.5313,34.942
+l319,"Harbour of Hadera, Israel",32.4704,34.8633
+l320,"Cayo Sombrero in Morrocoy, Venezuela",10.8667,-68.2687
+l321,"Biscayne National Park, Florida",25.35,-80.1667
+l322,"Gurnet rock, Bermuda, Caribbean",32.3386,-64.2628
+l323,"Tasco Gran, Medes islands, Spain",43.0417,3.225
+l324,"Carall Bernat, Medes islands, Spain",43.0417,3.2251
+l325,"Cabo de Palos, Spain",37.6336,0.6844
+l326,"Bache Shoal, Florida Keys",25.4849,-80.149
+l327,"korbiski reef, San Blas Islands, Panama",9.55,-78.8667
+l328,"Parque Municipal Marinho do Recife de Fora (PMMRF), Brazil ",-16.4028,-38.9811
+l329,"Southeast bank areas, Gulf of Mexico",30.0014,-87.9508
+222,Bahamas,25.533672,-77.384523
+l330,"Kapp Norvegia, Weddell Sea",-71.12,-11.473333
+l331,"Chitou Bay, Taiwan Strait",28.6333,119.5667
+l332,"Zuma beach, Santa Barbara, California",34.0211,-118.8344
+l333,Southern California coast,33.1702,-117.5565
+l334,"Beufort, North Caroline",34.7109,-76.659
+l335,"Porcupine Seabight, SW Ireland",49.923,-13.616
+l336,Brazil coast,-17.0069,-38.3136
+l337,"Lismore Island, Loch Linnhe, Scotland",56.5338,5.4543
+l338,"Gulf of Maine, Northeast Channel ",41.9763,-65.6389
+l339,"Shiraho Reef, Ishigaki Island, Japan",24.3542,124.2461
+l340,"Tracy Arm, Holkham Bay, Southeast Alaska",57.8102,-133.5999
+l341,"White thunder ridge, Glacier Bay National Park and Preserve (GBNPP), Alaska",59.0379,-136.1842
+l342,"Endicott Arm, Alaska",57.7265,-133.2318
+l343,"Fairweather ground, Alaska",57.2882,-138.3239
+l344,"Shutter ridge, Alaska",56.0848,-134.5605
+l345,"Dixon Entrance, Alaska",54.3918,-132.0226
+l346,"Chafarinas islands, Morocco",35.1786,-2.4317
+l347,"Porto de Galinhas beach, Pernambuco State, Brazil",-8.5056,-33.50094
+l348,"Potter Cove, King George island, Antarctic",-62.2333,-58.63333
+l349,"Caldeira de Troia, Portugal",38.4857,-8.8908
+l350,"Eastern Canada, NW Atlantic",62.3065,-60.87
+l351,"La Spezia, Ligurian Sea ",44.0491,9.8777
+61,Bermuda,32.3482,-64.6791
+l352,Northwest Persian Gulf ,29.9,49.2833
+178,Lizard Island,-14.6689,145.4594
+l353,"Azores archipielago, Atlantic",38.4853,-28.4015
+l354,"Comau and Reñihué fjords, Chilean Patagonia",-42.2558,-72.7051
+l355,"Menorca channel, Mediterranean Sea",39.9154,3.6874
+l356,Northern Marmara Sea,41.0097,28.1474
+l357,"Ryukyu Archipielago, Okinawa, Japan",28.2841,129.379
+115,"Amami, Japan",28.2349,129.5367
+600,"Kochi, Otsuki",32.766667,132.733333
+l358,"Tiantupo reef, San Blas islands, Panama",9.5507,-78.8824
+l359,"Bolinao-Anda Reef Complex (BARC), Philippines",16.378,119.9113
+l360,Southwest of the Grand Banks (Canada),43.8545,-57.394
+50,Florida keys,24.776438,-80.717769
+l361,South Pacific area,-27.6589,-126.1
+l362,"Washington coast, Eastern Pacific",47.2063,-124.4436
+l363,"Cape Ashizuri, Kochi, Japan",32.5,132.8333
+l364,"Kenting National Park, Nanwan, Taiwan",21.9477,120.7796
+l366,"Capo Mannu, Sardinia, Mediterranean Sea",40.0361,8.3809
+l367,"South Haulover Bay, St. John, US Virgin Islands",18.3485,-54.6755
+l368,"Elefante Island, Las Perlas Archipielago, Panama",8.4068,-78.8027
+l369,"Round bay, St. John, Virgin islands",18.345,64.681
+l370,"Kusu Island, Singapore",1.2247,103.8612
+l371,"Lazarus island, Singapore",1.2178,103.8587
+l372,"Punta s´Oliguera, Cap de Creus, Spain",42.2842,3.3097
+l373,"Interuniversity Institute for Marine Sciences in Eilat (IUI), Gulf of Aqaba",29.5,34.9167
+l374,"Conero Promontory, North Adriatic Sea",43.5811,13.5722
+l375,"Cap Couronne,  Côte Bleue, France",43.3251,5.0521
+l376,"Lavéra, Côte Bleue, France",43.381,4.9988
+l377,"La Bocana Chica, Quintana Roo, Mexico",20.8667,-86.8333
+l378,"Bay of Houwan, Taiwan",21.9333,120.9333
+l379,"Puerto Morelos, Mexico",20.8681,-86.8663
+l380,"Belize, Caribbean Sea",16.7753,-88.3291
+241,Panama,9.123115,-79.539569
+226,US Virgin islands,18.404696,-64.905616
+l381,"Menorca island, Spain, Mediterranean Sea",39.9497,4.1
+l382,"Giens, France, Mediterranean Sea",42.0324,6.1425
+l383,"Mejean, France, Mediterranean Sea",43.3315,5.2143
+l384,"Caponga beach, Fortaleza, Brazil",-4.0333,-38.1833
+l386,"Iriomote island, Japan",24.327,123.8373
+l387,"Hilo bay, Hawaii",19.7355,-155.076
+343,"Barren Island, Australia",-23.1581,151.0762
+l388,"Hin Wong Bay, Koh Tao, Gulf of Thailand",10.1017,99.8509
+l389,"Ama Beach, Zamami Island, Okinawa, Japan",26.2261,127.2925
+l390,"Boca del Drago, Panama",9.4226,-82.3266
+l391,"Crawl Cay Channel, Panama",9.2602,-82.1091
+l392,"South Carenaro Island, Panama",9.3434,-82.7097
+122,Fiji,-17.713371,178.065032
+56,Lee Stocking Island,23.76725556,-76.09464167
+l393,"Riding Rock, Bahamas",24.06667,-74.54167
+l394,"Pickles reef, Florida keys",24.984371,-80.413577
+l395,"Pillar reef, Bahamas",24.06668,-74.54168
+l396,"Hog Cay, Bahamas",23.61667,-75.35
+l397,"Cat island, Bahamas",24.15,-75.53333
+l398,"Sweetings Cay, Bahamas",26.56667,-77.8
+l399,"Rum Cay, Bahamas",23.61667,-74.86667
+l400,"Little San Salvador, Bahamas",24.58333,-75.96667
+l401,"Gorda rock, Bahamas",26.11667,-77.55
+l402,"Palomino, Colombia, Caribbean",11.256119,-73.559057
+l403,"Tayrona, Colombia, Caribbean",11.256203,-73.558799
+l404,"Coralline Archipelagos, Colombia, Caribbean",9.811255,-75.897934
+l405,"La Guajira, Colombia, Caribbean",12.479099,-71.620635
+l406,Southern Colombian Caribbean,3.247652,-77.629123
+l407,"Magdalena, Colombia, Caribbean",11.280852,-74.196131
+l408,"Saco dos Cardeiros, Arraial do Cabo, Rio de Janeiro coast, Brazil",-23.73333,-42.03
+l409,"Twin banks, Papahanaumokuakea 
+Marine National Monument, Hawaii",23.05008,163.1539
+l410,"Van Phong Bay, Den Island, Vietnam, South China Sea",12.6,109.3167
+l411,"Maxfield Bank, Vietnam, South China Sea",16.11667,114.7833
+l412,"Van Phong Bay, Cua Be Strait, Vietnam, South China Sea",12.56667,109.4167
+l413,"Van Phong Bay, Lon island, Vietnam, South China Sea",12.61667,109.3
+l414,"Van Phong Bay, Tai Island, Vietnam, South China Sea",12.55,109.4
+l415,"New South Wales Coast, Australia",-34.101502,151.078185
+l416,"Pongibalu, Andaman and Nicobar Archipielago, Indian Ocean",11.51717,92.65265
+l417,"South Button island, Andaman island, Indian Ocean",12.2233,92.02222
+l418,"Tosa Bay, Japan",33.30702,133.485074
+l419,"Siboga station, Kei islands, Japan",-5.803333,132.2167
+l420,"Goto islands, Japan",32.685974,128.74989
+l421,"Sagami bay, Japan",35.259323,139.315943
+l422,"Reykjanes Ridge, North Atlantic",62.55196672,-27.08789075
+l423,"RRS James Cook JC048/016, Mid-Atlantic ridge",53.99015136,-36.19998927
+l424,"RV Akademik Mstislav Keldysh 4th cruise, St. 316-5, Mid-Atlantic ridge",58.75011686,-27.21796977
+l425,"Kökö Guyot, Emperor Seamounts, North Pacific",35.6217,171.3167
+l426,"Conic island, Hong Kong",22.363645,114.391517
+l427,"Steep island cave, Hong Kong",22.275959,114.313674
+l428,"Lough Hyne Marine Reserve, South-West Ireland, Atlantic Ocean",51.498056,-9.29871
+l429,"Stalemate Bank, Aleutian Islands, Alaska",52.9369,-170.9834
+l430,"Oshima island, Japan",31.5225,131.4045
+l431,"Puerto Galera, Mindoro, Philippines",13.518273,120.978557
+105,Zanzibar,-6.09446701,39.07226501
+l432,"Ternate island, Indonesia",0.814256,127.34464
+l433,"Chagos Archipelago, Indian Ocean",-6.667754,71.429823
+l434,"Pointe Lokombe, Nosy Bé, Madagascar, Indian Ocean",13.42564,48.31328
+l435,"Laing Island, Bismarck Sea",-4.173135,144.873364
+l436,"Tonga island, Fiji",-16.58684037,179.0139374
+l437,"Lifu, Loyalty Islands, New Caledonia",-20.972409,167.220025
+l438,"Talili Bay, Papua New Guinea",-4.207003,152.119867
+l439,"Klein-kei Nuhu, Red Sea",-5.811155,132.732933
+l440,"East Arm, Darwin, North Australia",-12.49333,130.8942
+l441,North China Sea,38.541181,119.495896
+l442,"Tanguingui Light, North Cebu, Philippines",11.4125,124.1
+373,"Koror, Palau",7.3385,134.4659
+l443,"Port Essington, Orontes Reef, Australia",-11.06667,132.0917
+l444,"Arraial do Cabo, Saco dos Cordeiros, Rio de Janeiro, Brazil",-22.96667,-41.995
+l445,"Fish reef, Bynoe Harbour, Australia",-12.43333,130.45
+546,"Bundegi Reef, Australia",-21.8449,114.1737
+l446,"Honshu Island, Shizouka, Japan",34.66667,138.3333
+l447,"Shark Bay, Western Australia",-26.05,113.3833
+l448,"Shark Fin Bay, Wedge island, Australia",-35.16667,136.4833
+l449,"Thursday island, Torres Strait, Australia",-10.576665,142.222097
+l450,"Pulu Bambu, Sulawesi, Indonesia",-0.402365833,121.8432908
+l451,"Dampier Archipelago, Australia",-20.663,116.7086
+l452,"Larike, Ambon, Banda Sea",-3.75,127.9333
+l453,"Simpson island, Exmouth Gulf, Australia",-22.11917,114.4898
+511,Taiwan,23.973981,120.979818
+l454,"Pulau Lembeh, Sulawesi, Indonesia",1.466667,125.2333
+l455,"Sandy Island, Arafura Sea, Australia",-11.09333,132.3167
+l456,"Gladstone, Rat Island, Queensland, Australia",-23.76667,151.3167
+l457,"Aru islands, Arafura Sea, Indonesia",-6.031257,134.520865
+462,"Spermonde Archipelago, Sulawesi",-4.71,118.9806
+l458,"East Point, Darwin, North Australia",-12.41167,130.8067
+l459,"Okino island, Sea of Japan",34.30833,130.2417
+l460,"Hirudo Strait, Japan",35.08333,129.2667
+l461,"Coral Bay, Ningaloo, Western Australia",-23.140651,113.751493
+l462,"Rowley Shoals, North-Western Australia",-19.32833,119.1633
+l463,"Semporna, Sabah, Malaysia",4.381667,118.604
+l464,"Muiron Island, Exmouth Gulf, Australia",-21.63217,114.3932
+l465,"Arafura Sea, North Australia",-8.53556,136.267533
+l466,"New Year Island, Arafura Sea",-10.91328654,133.0334988
+l467,"Koror/Babeldaob channel, Palau",7.419167,134.5052
+l468,"Port Hedland, Western Australia",-19.515,118.8117
+l469,"Seto, Kii Coast, Japan",34.14863879,133.2405393
+l470,"Cootamundra Shoals, Australia",-10.85,129.21667
+l471,"Farmers Point, Facing island, Queensland, Australia",-23.75,151.3333
+l472,"Plater rock, Darwin Harbour, Australia",-12.47683,130.7873
+l473,"Gulf of Carpentaria, Australia",-11.25167,140.4233
+l474,"Oman, Arabian Sea",20.85,59.16667
+l475,"West of South Thailand, Andaman Sea",7.566667,98
+l476,"Kenia Coast, Indian Ocean",-2.7,40.88333
+l477,"Male Atoll, Maldives",4.55,73.56667
+l478,"Durban, Natal, South-Africa ",-29.53333,31.28333
+l479,"Imma Island, Maldives",4.316667,73.56667
+l480,"Pulau Gomunu, south of Obi, Moluccas, Indonesia",-1.833333,127.5125
+l481,"Somalia, Indian Ocean",9.633333,51.03333
+l482,"Mozambique coast, Indian Ocean",-24.81667,35.21667
+l483,"Gujarat, India",22.525,68.1
+n223,"Kavaratti, Lakshadweep, Indian Ocean",10.56277,72.641198
+l484,"Agatti island, Laccadives",10.85885,72.195004
+l485,"Tanzania, Indian Ocean",-7.087754,39.53506
+l486,"Pangavinne Island, Tanzania, Indian Ocean",-6.833333,39.28333
+l487,"Mkandya Reef, Tanzania",-6.833332,39.28332
+l488,"Heard island, Sub-antarctic",-53.072408,73.469317
+l489,"Nouakchott, Mauritania",18.075432,-16.011335
+l490,"Ghadior, Dakar, Senegal",14.730868,-17.461848
+l491,Patagpnian shelf ,-44.23333,-61.38333
+l492,"Cape Arago, Middle Cove, Oregon, USA ",43.30680909,-124.4022556
+l493,Senegal Coast,14.581175,-17.202642
+l494,"Strait of Magellan, Pacific Ocean",-53.341539,-70.709071
+l495,"Cape Flora, Northbrook island, Arctic Ocean",79.95948496,50.10649521
+l496,"Ambon Bay, Banda Sea, Indonesia",-3.638077,128.232332
+l497,"Cape Nusaniwe, Leitimur, Ambon",-3.786883818,128.0905484
+l498,"Mililat, Papua New Guinea",-5.111832838,145.7994788
+l500,"Shag Rocks, Scotia Sea, South Atlantic Ocean",-53.3875,-43.41667
+l501,"South Georgia, Scotia Sea, South Atlantic Ocean",-54.63011,-36.227412
+l502,"Aliwal Shoal, South-Africa ",-30.26,30.82667
+l503,"Tumbatu island, Zanzibar, Indian Ocean",-5.810914,39.226118
+l504,"Addu atoll, Maldives, Indian Ocean",-0.631273343,73.16735157
+l505,"Mayu Island, Moluccan Sea",1.328317,126.4188
+l506,Singapore,1.230931,103.8202
+l507,"Palau Subar Laut, Singapore",1.213992,103.834975
+l508,"Praslin Island, Seychelles",-4.3,55.68333
+l509,"Transkei, South Africa",-32.56167,28.82333
+l510,"Tanjung Jangka, Bali, Indonesia",-8.662778,115.4683
+l511,Cape Verde islands,16.58333,-24.6
+l512,"SW of Palma, Canary islands",28.63333,-17.98333
+l513,Mid Atlantic Ridge,36.53333,-33.4
+l514,"Phiphi Islands, Thailand",7.675,98.76167
+l515,"Haano Island, Tonga",-19.63583,-174.2989
+l516,"Akajima Island, Okinawa, Japan",26.1707,127.2305
+l517,"Alotau, Milne Bay, Papua New Guinea",-10.319204,150.456905
+l518,"Punta Llonco, Chile",-42.33157,-72.46102
+l519,"Siladen island, Bunaken, N Sulawesi, Indonesia",1.625,124.8
+l520,"Tempano Fjord, Chile",-48.71389,-74.18408
+l521,"Islas Diego Ramirez, Chile",-56.5,-68.75
+l522,"Isla Laitec, Chile",-43.18294,-73.64089
+l523,"Puyuhuapi, Chile",-44.39292,-72.58192
+l524,"Fjord Isla, Bernardo, Chile",-48.28694,-74.33611
+l525,"Canal Pitt Chico, Chile",-50.83531,-74.13914
+l526,"Bremer island, Gulf of Carpentaria, Australia",-12.09433,136.7959
+l527,"West Woody island, Gulf of Carpentaria, NT, Australia",-12.185,136.6715
+l528,"Toagel Mlungi Channel, Babeldaob, Koror, Palau",7.5425,134.4685
+l529,"Mercherchar Island, Koror, Palau",7.181472,134.3607
+l530,"Uchelbeluu Reef, Koror, Palau",7.273667,134.5242
+l531,"Ngaregabal Reef, Babeldaob, Koror, Palau",7.414,134.4439
+l532,"Ngemelis reef, Koror, Palau",7.113556,134.2601
+l533,"Toachel Mid Channel, Koror, Palau",7.339417,134.5177
+l534,"Siaes Reef, Koror, Palau",7.311611,134.2268
+l535,"Peleliu Island, Koror, Palau",6.976917,134.2222
+l536,"North Ninepin reef, Pak Kwo Chau, Hong Kong",22.273,114.348
+l537,"Shek Chau, Basalt island, Hong kong",22.305,114.363
+l538,"Larak Island, Persian Gulf",26.88761,56.39357
+l539,"Hengam Island, Persian Gulf",26.64305,55.878223
+l540,Kuwait coast,29.041462,48.142466
+l542,"Nha Trang Bay,  Cau Island, Vietnam, South China Sea",12.2775,109.3733
+l543,"Nha Trang Bay,  Mot Island, Vietnam, South China Sea",12.175,109.2842
+l544,"Nha Trang Bay,  Vung Island, Vietnam, South China Sea",12.265,109.3617
+l545,"Nha Trang Bay,  Tre Island, Vietnam, South China Sea",12.17817,109.2983
+l546,"Nha Trang Bay,  Mun Island, Vietnam, South China Sea",12.16167,109.3017
+l547,"Yenkit, Oman, Arabian Sea",23.52748,58.73981
+l548,"Îlot Canard, New Caledonia",-22.312653,166.435562
+l549,"Bota Island, Cameroon, Atlantic Ocean",3.997921314,9.194060288
+l550,"Ascension island, Atlantic Ocean",-8.05,-14.45
+l551,"Cape Arid, Western Australia",-34.05,125.5167
+l552,"Cay Sal Bank, Bahamas",23.865,-80.71167
+l553,"Terumbu Penpang Tengah reef,  Singapore",1.408811061,103.7389702
+l554,"Yupin, Penghu, Taiwan",23.2756,119.5026
+l555,"Sigee, Penghu, Taiwan",23.25372,119.6113
+l556,"Paranaguá, Paraná, Brazil",-25.51528,-48.49972
+189,La Reunion,-21.1259,55.5224
+l558,"Récif des Colimaçons, Saint-Leu, Reunion, Indian Ocean",-21.15601,55.28268
+l559,"Récif Pointe au Sel, Saint-Leu, Reunion, Indian Ocean",-21.19064,55.28313
+l560,"Saint-Paul, Reunion, Indian Ocean",-21.09961,55.23023
+l561,"Gu-Po Reef, Penghu, Taiwan",23.71432,119.5581
+l562,"Penghu Archipelago, Taiwan",23.599693,119.559622
+l563,"Houdaidzai, Penghu, Taiwan",23.36138,119.5394
+l564,"Wanann, Penghu, Taiwan",23.34855,119.5126
+l565,"Isla del Coco insular shelf, Pacific Ocean",5.578183,-87.05782
+l566,", Kwazulu-Natal, Park Rynie, South Africa",-30.28103,30.80925
+l567,"Cape Peninsula, South Africa",-33.98217,18.3594
+l568,"Port Elizabeth, Algoa Bay, South Africa",-33.98027,25.69295
+l569,"Islas Bridges, Beagle Channel, Tierra del Fuego",-54.86477,-68.24888
+l570,"Nok Island, Nha Trang Bay, South China Sea",12.1915,109.3427
+l571,"Con Dao Island, South China Sea, Vietnam",8.416667,106.3967
+l572,"Dung Island, Nha Trang Bay, South China Sea, Vietnam",12.26667,109.3633
+l573,"West of Bremer island, Gulf of Carpentaria, Australia",-12.09433,136.7959
+l574,"White Island, NW Australia",-14.9741,124.3974
+l575,"Long Reef, northern Kimberley, NW Australia",-13.88867,125.74942
+l576,"Dampier, Pluto Gas Field, NW Australia",-19.9352,115.3261
+l577,"North West Cape, Dampier, NW Australia",-21.2802,114.0606
+l578,NW Australia,-17.120065,122.465887
+l579,"Sungi Barkai, Aru Islands, Indonesia",-6.678126,134.699757
+l580,"Port Molle, Queensland, Australia",-20.33288994,148.8499999
+l581,"Pulau Jedan, Aru islands, Indonesia",-5.382692222,134.6832045
+l583,"Munday Island, Bathurst Channel, Port Davey, Tasmania, Australia",-43.32890019,146.0105826
+l584,"Siboga station 164, near New Guinea",-1.708333,130.7917
+l585,"Siboga station 310, Flores",-8.5,119.118056
+l586,"Siboga station 117, N Sulawesi",1.25,123.616667
+l587,"Samau Island, Timor",10.242545,123.36362
+l588,"Tual, Kei islands, Indonesia",-5.590794,132.802156
+l589,"Siboga station 166, New Guinea",-2.475,131.055
+l590,"Pointe Noire, Congo",-4.772741939,11.85437236
+l591,"Misaki, Japan",34.30374801,135.1523128
+l592,"Otsuki, Tosa, Kochi Prefecture, Japan",32.62767,132.8407
+l593,"Hirudo Strait, Nagasaki, Japan",33.16667,129.3
+l594," Cape Chinen, Okinawa islands",26.1689583,127.8303769
+l595,"Enoshima, Nagoya, Japan",35.30940212,139.4806099
+l596,"Kerama islands, Okinawa, Japan",26.15917,127.4475
+l597,"Mutsu Bay, Japan",41.091307,141.083993
+l598,"Watari-se bank, off Izu islands, Japan",34.0477,138.9135
+l599,"Nakagusuku Bay, Okinawa Prefecture, Japan",26.262418,127.856896
+l600,"East of Jogashima Spur, Japan",35.05867,139.6238
+l601,"Sata-misaki Cape, Kagoshima Prefecture, Japan",30.93583,130.73
+l602,"Nagasaki, Japan",32.36667,128.7
+l603,"Toshima islands, Izu islands, Japan",34.55184,139.2915
+l604,"Yokoate-jima, Tokara Islands, Japan",28.915,124.0682
+l605,"Northwest Providence Channel, south of Freeport, Grand Bahama",26.27,-78.4
+l607,"Bagabag Island, Papua New Guinea",-4.794816,146.221675
+l609,"Chesterfield Bank, New Caledonia",-19.4,158.4508
+l610,"Augulpelu Reef, Palau islands",7.273497492,134.5486951
+l611,"Europa island, Madagascar",-22.366928,40.353096
+l612,"Pulau Messah, Flores, Indonesia",-8.52725,119.74574
+l613,"Montserrat, Barbados",16.72929292,-62.17932752
+l614,"Solor Strait, Indonesia, Flores Sea",-8.428354,123.024648
+l615,"Barbados, Caribbean Sea",13.159375,-59.556559
+l616,"Kei islands, Flores, Indonesia",-5.608333,132.92
+l617,"Otsuchi Bay, Iwate Prefecture, Japan",39.36342,142.0012
+l618,"Anejima island, Ogasawara, Bonin Islands, Japan",26.555422,142.155713
+l619,"Hachijo island, Izu, Japan",33.34847,139.6864
+l620,"Sata-misaki Cape, Kagoshima Prefecture, Japan",30.93583,130.7333
+l621,"Challenger st. 188, South of Papua, Arafura Sea",-9.59,139.42
+l622,"Ohako-zaki cape, Otsuchi Bay, Iwate Prefecture, Japan",39.52333,142.0107
+l623,"Mabul Island, Malaysia",4.245246,118.63118
+l624,"Off Mozambique, East Africa",-18.252446,36.352665
+l625,"Kudingareng, Spermonde Archipelago, Sulawesi, Indonesia",-5.1,119.2833
+l626,"Chabahar, Gulf of Oman",25.27407,60.67748
+l627,"Rotti island, Cyrus bay, Indonesia",-10.87333,123.0183
+l628,"Moscos islands, Mergui Archipelago, Thailand",14.119221,97.80561
+l629,"Strait of Hormuz, Oman",26.37336,56.535694
+l630,"Farur Island, Persian Gulf, Iran",26.284482,54.507351
+l631,"Andaman islands, Indian Ocean",12.440298,92.83066
+l632,"Oman, Oman Sea",23.654267,58.629567
+l633,"South of Raso, Cape Verd islands",16.58333,-24.6
+l635,"Nosy Be, Madagascar, Indian Ocean",-13.324182,48.265618
+l636,"Wadi Magrash, Gulf of Aqaba, Red Sea",28.746001,34.748466
+l637,"Dur Ridgrig, Dahlak Archipelago, Eritrea",15.711309,40.106339
+l638,"Nosy Tanykely, Madagascar",-13.482931,48.236611
+l639,"Jeddah, Red Sea",21.49708361,39.16301765
+l640,"Nosy Komba, Madagascar",-13.46717,48.337063
+537,"Guld of Suez, Red Sea",28.7294,33.0003
+l642,Red Sea,21.18985003,37.98882233
+l643,"Eilate Nature Reserve, Red Sea",29.51,34.9225
+l644,"Dekel Beach, Eilat, Gulf of Aqaba, Israel, Red Sea",29.53403,34.96238
+l645,"Algoa Bay, White Sands, Eastern Cape, South Africa",-33.99833,25.7087
+l646,"Park Rynie, Lander’s Reef, KwaZulu-Natal, South Africa",-30.33288,30.79205
+l647,"Star Walls, Cape Peninsula, South Africa",-34.0412,18.30138
+l648,"Algoa Bay, Ry Banks, Eastern Cape, South Africa",-33.98495,25.8629
+l649,"Justin’s Caves, Oudekraal, South Africa",-33.98165,18.35983
+l652,"Cape Hedo, Okinawa, Japan",26.8721,128.2666
+l653,"Blue Corner, Ngemelis Island, Palau",7.14,134.22
+l654,"Agattu Island, Aleutian Islands, East Bering Sea",52.01667,174.65
+l655,"Tanaga Pass west of Tanaga Island, Andreanof Islands, Aleutian Islands, Bering Sea",53.294,-178.32
+l656,"Shio Misaki Light, Japan",33.38833,135.5667
+l657,"Skaly Lovushki I., Sea of Okhotsk",47.20222,152.635
+l658,"Matua island, Russia",48.08975387,153.2128687
+l659,"Shima Spur, Tenryu Sea, Japan",34.012,136.888
+l660,"NE of Islands of Four Mountains, Aleutian Islands, Bering Sea",53.1945,169.6845
+l661,"Cockburn reef, Great Barrier Reef",-11.81327131,143.3729595
+l662,"Burford Island, Northern Australia",-11.48006446,131.9572807
+368,Davies Reef,-18.830949,147.651977
+l663,"Elford Reef, Queensland, Great Barrier Reef",-16.9111196,146.2386747
+406,Myrmidon Reef,-18.266,147.389
+l665,"Darley Reef, Queensland, Great Barrier Reef",-19.19867537,148.1872148
+l666,"Flinders reef, Queensland, Great Barrier Reef",-26.98195073,153.4998267
+l667,"Clerke reef, Rowley Shoals, Western Australia",-17.36186024,119.333874
+l668,"Milln reef, Queensland, Great Barrier Reef",-16.76649541,146.2732385
+l669,"Trepang Bay, Northern Australia",-10.87161574,131.982959
+l670,"Palfrey Island, Great Barrier Reef",-14.692403,145.447614
+l671,"Oxley Island, Northern Australia, Arafura Sea",-31.90874972,152.5725308
+l672,"Snake reef, Queensland, Great Barrier Reef",-14.47347123,145.0263488
+l673,"Dip reef, Queensland, Great Barrier Reef",-18.41286399,147.4501274
+l674,"Cape Leveque, Western Australia",-16.385751,122.925435
+l675,"Port Denison, Western Australia",-29.27133717,114.9157737
+476,"Horseshoe, Lord Howe Island",-31.534854,159.061512
+l676,"Erskine island, Queensland, Great Barrier Reef",-23.09868103,151.7829895
+l677,"Swain Reefs, Queensland, Great Barrier Reef",-21.96712535,152.4716886
+l678,"Bahia Conoma, Valle Seco, Venezuela",10.244031,-64.535494
+l679,"Ushibuka, Kumamoto, Japan",32.1552,130.0444
+l680,"Catham Bay, Cocos island",5.555783,-87.03893
+l681,"off Jacksonville, Florida",30.27937,-81.355295
+l682,"off Charleston, South Carolina",32.724816,-79.851399
+l683,"Guadalupe island, Caribbean Sea",16.23246108,-61.54268761
+l684,off New England,44.244395,-61.172478
+l686,off South Carolina coast,32.741083,-79.819445
+526,"Dry Tortugas National Park, Florida",24.664207,-82.865174
+l688,"Granada, Caribbean Sea",12.122688,-61.682381
+l689,"North of Bahia, Brazil",-11.81667,-37.25
+l690,"Carriacou island, Granada, Caribbean Sea",12.47883303,-61.44783891
+l691,"Dominica island, Caribbean Sea",15.49513922,-61.3698816
+l687,"St. Vincent island, Caribbean Sea",13.22765193,-61.18361887
+l692,"Bahia Honda, Florida",24.66731568,-81.26096668
+l693,"St. Croix, Caribbean Sea",17.74133592,-64.83496105
+l694,Georges bank,40.819649,-68.562793
+l695,"Anguilla, Caribbean Sea",18.21965112,-63.04567155
+l696,Nova Scotia,45.15974338,-62.70328354
+l697,"Havana, Cuba, Caribbean Sea",23.11894866,-82.38837341
+l698,"Frederickstad, St. Croix, Caribbean Sea",17.71438006,-64.88793161
+l699,"Off Boston, USA",40.57167,-66
+l700,"Josephine Bank, Atlantic Ocean",37.8,-14.01667
+l701,"Off Georgia, USA, Atlantic Ocean",31.299082,-81.193678
+l702,"off Florida, Caribbean",27.80532174,-81.67001673
+l703,"Martinique, Caribbean Sea",14.65053392,-61.04307927
+l704,"Off North Rock, Bermuda, Caribbean Sea",32.330354,-64.832636
+l705,"Nantucket shoals, Atlantic Ocean",41.19226605,-70.79378761
+l706,"La Plata River, Puerto Rico",18.47687691,-66.25508223
+l707,Off south of Ireland,48.51667,-10.05
+l709,"Saint Lucia, Caribbean Sea",13.89413446,-60.99731258
+l710,"Coy inlet, Patagonia",-50.933,-69.233
+l711,"Halifax, Nova Scotia",44.64759191,-63.5691036
+l712,"French Reef, Florida keys",25.03888976,-80.35059462
+363,"Carysfort Reef, Florida Keys",25.2531,-80.2198
+l714,"Oaxaca, Mexico",15.71637,-96.867558
+l715,Manning Bight,38.2,-61.1
+l716,"Fly Point, Port Stephens, N.S.W., Australia ",-32.71325356,152.1511831
+l717,"Newcastle Bight, New South Wales, Australia ",-32.798159,151.99661
+l718,"Funafuti Atoll, Ellice Island",-8.523820842,179.1196865
+l719,"Great Exhibition Bay, New Zealand",-34.465,173.2115
+l720,"Firth of Thames, New Zealand",-37.03294284,175.4098969
+l721,"North Cape, New Zealand",-34.357,172.885
+l722,"Manawatāwhi, New Zealand",-34.1759,172.04949
+l723,"Houhora Harbour, New Zealand",-34.8216,173.1508
+l724,"Piwhane/Spirits Bay, New Zealand",-34.4167,172.7833
+l725,"Cape Brett, New Zealand",-35.216,174.4033
+l726,"Sunday Cove, Fiordland, New Zealand",-45.5952,166.7422
+l727,"Manukau Harbour, Auckland, New Zealand",-37.0319,174.6507
+l728,Off Guinea Bissau,-11.5,-17.33333
+l729,off Namibia coast,-26.75,13.89833
+l730,"Roca Catedral, Coiba National Park, Gulf of Chiriquí, Panama",7.24636,-81.808597
+l731,"Islas Ladrones, Coiba National Park, Gulf of Chiriquí, Panama",7.86410397,-82.44087025
+l732,"Islote Frijoles South, Coiba National Park, Gulf of Chiriquí, Panama",7.633562,-81.706027
+l733,"Gulf of Chiriquí, Panama",7.879034,-82.177804
+l734,"Frailes del Sur, Azuero, Panama",7.334524831,-80.13333337
+l735,"Panama coast, Tropical Eastern Pacific",8.801767,-78.795769
+l736,"South Georgia Islands, Argentina",-53.58333,-38.11667
+l737,"Buenos Aires, Bahía Blanca, Argentina",-40.05,-57
+l738,Argentinian continental slope,-50.53333,-63.05
+l739,"Mar de la Plata, Buenos Aires, Argentina",-39,-57.16667
+l740,"Chubut, San Matías Gulf, Argentina",-41.21667,-65.98333
+l741,"Tasman fracture Zone, SW Tasman Sea, Tasmania",-45.61667,145.0167
+l742,"Kelvin Seamount, New England",38.77942,-63.96242
+l743,off Auckland Islands,-50.01667,166
+l744,"Kermadec Ridge, Pacific Ocean",-30.05,179.0833
+l745,"Ross Sea, Antarctic Ocean",-68.64491017,-167.3988774
+l746,"Ripple Shoals, south of Barrow Island, Pilbara Shelf, NW Australia",-21.12796,115.35959
+l747,"Admiralty Gulf, Cape Voltaire, Kimberley, Western Australia",-14.26194,125.57389
+l748,"Point Loma, San Diego, California",32.7,-117.2556
+l749,"Langara Island, British Columbia, Canada",54.23449514,-133.0175202
+l750,"Northern California, Pacific Ocean",38.568177,-123.243559
+l751,"Cordell Bank, California",38.0543,-123.48
+l752,"Isla Cedros, Baja California",28.21667,-115.1667
+l753,Anacapa Island,34.01667,-119.3619
+l754,"Sands Beach, Santa Barbara, California",34.40729,-119.879564
+l755,"Sonora, Bahia de Choya, Chile",31.35528,-113.6239
+l756,"Boca Flor de Malva, SE of Punta Tosca, Baja California",24.18529,-111.3509
+551,"Pearl Islands, Panama",8.4354,-78.935
+l758,"San Pedro, Los Angeles, California",33.61778,-118.1972
+l759,Santa Catalina Island,33.3849442,-118.4216446
+l760,"Smugglers Cove, Santa Cruz island, Santa Barbara, California",34.02194,-119.5419
+l761,"Bahia de Caraquez, Ecuador",-0.616981245,-80.42314788
+l762,"Isla Flamenco, Golfo de Panama",8.909195644,-79.52022346
+l763,"Margarita Bay, Cape San Lucas",22.895486,-109.881255
+l764,"Islas Tortugas, Golfo de Nicoya, Costa Rica",9.782739811,-84.88989567
+l765,"Taboga island, Panama",8.789149107,-79.55424441
+l766,"Callao, Peru",-12.05158427,-77.13268179
+l767,"Isla San Jose, Archipielago Las Perlas, Panama",8.263113843,-79.11030012
+l768,"Point Piños light-house, Monterey Bay, California",36.63333,-121.9167
+l769,"Santa Cruz Island, California",34.0341,-119.5199
+l770,"Gold Beach, Oregon",42.45722,-124.84
+l771,"Cape Flattery, California",48.60833,-127.0133
+l772,"west of Cape Meares, Oregon, USA",45.42167,-125.1836
+l774,"SS Central America wreck, off Charleston, USA",31.58333,-77.16667
+l775,Great Bahama Bank,23.48333,-77.15
+l776,"Off St. Croix, Caribbean Sea",17.79167,-64.73194
+l777,"25 km NW of Bermuda, Caribbean Sea",32.58333,-64.91667
+l778,"Off Ireland, Atlantic Ocean",53.0976732,-8.043775328
+l779,"South of Georges Bank, Atlantic Ocean",40.57167,-66.15
+l780,"Off Southwest Point, Grand Bahama",26.45,-78.71667
+l781,North of Little Bahama Bank,27.49167,-78.625
+l782,"Station 36n, Josephine Bank, Atlantic Ocean",36.76667,-14.11667
+l783,"Southwest of St. Lucia, Lesser Antilles",13.56667,-61.06667
+l784,"Roti Strait, Indo-Pacific",-10.65,123
+l785,"Fort Lauderdale, Florida",26.26667,-79.71667
+l786,"Cape Hatteras, North Carolina",35.141667,-75.166667
+l787,"Northwest Providence Channel, Bahamas",26.45,-78.66667
+l788,"off Arrows mith bank, Yucatan",20.95,-86.56667
+l789,"Ilha de Maraca, Brazil",2.668056,-48.05
+l790,Falkland islands,-53,-60
+l791,"Prince Edward island, Canada",46.44507987,-63.42225787
+l792,Bouvet island,-54.43333,3.4
+l793,Tristan da Cunha island,-37.10714201,-12.2826064
+l794,"off Sao Sebastiao, Brazil",-24.92333,-44.43333
+l795,"USNM 1078188, Manning Seamount, North Atlantic Ocean ",38.14567,-61.09122
+l796,"Continental slope off Rio de la Plata, Argentina",-37.28333,-53.86667
+l797,"off eastern coast of Dominica, Lesser Antilles",15.41667,-61.23333
+l798,off southeastern coast of the Dominican Republic,18.35,-69.1
+l799,off Guyana,8.416667,-58.13333
+l800,"off George Town, Grand Cayman",19.28708676,-81.36934335
+l801,North of Trinidad island,11.36667,-61.44
+l802,"Cariaco Basin, west of Isla La Tortuga, Venezuela",10.95,-62.86667
+l803,"Rey- kjanes Ridge, Iceland",61.73333,-30.48333
+l804,Retriever Seamount,39.80909,-66.2498
+l805,Rockaway Seamount ,35.64667,-52.05333
+l806,Nashville Seamount ,34.57917,-56.84117
+l807,Windward passage between Cuba and Haiti,20.15,-73.48333
+l808,Peak of Caloosahatchee Seamount ,34.66367,-49.81683
+l809,"Abrolhos reef, Brazil",-17.9691745,-38.70172229
+l810,"Matua Island, Kurile Islands, Sea of Okhotsk",48.01667,153.3672
+l811,"Kurile islands, Sea of Okhotsk",46.77806,155.9231
+l812,Guinea Bissau,10.91667,-16.66667
+l813,"S.S Pieter Faure, head of Tugela river, Natal, South Africa",-29.25,31.5
+l814,"Mgazi River Mouth, Transkei, South Africa",-31.73167,29.53667
+l815,"Los Ahorcados, Manabi, Ecuador",1.678889,-80.83556
+l816,"Acajutla, El Salvador",13.57409349,-89.84191314
+l817,"""Seamount 2” cruise, stn. DW 258, Atlantis Bank",33.99717,-30.2025
+l818,"Onslow Bay, North Carolina",34.53568,-76.97455
+l819,"Kocebu Guyot, Magellan Seamount chain",17.4,153.3
+l820,"Seamount M8, Caroline ridge",10.63633,140.068
+l821,West Sumatra,-0.97,90.72
+l822,"Bellona Plateau, West of New Caledonia",-36.96,177.332
+l823,"Ganquan Plateau, South China Sea",16.879768,110.783939
+l824,Surinam,7.416667,-54.58333
+l825,"Potiguar Basin (Rio Grande do Norte State), Brazil",-4.616667,-36.76667
+l826,"Derickson Seamount, Gulf of Alaska ",53.03018,-161.2141
+l827,"Derickson Seamount II, Gulf of Alaska ",52.00977,-161.2401
+l828,"Derickson Seamount III, Gulf of Alaska ",53.04077,-161.1848
+l829,"Derickson Seamount IV, Gulf of Alaska ",52.98387,-161.249
+l830,"Derickson Seamount V, Gulf of Alaska ",54.98733,-140.3998
+l831,"Gonubie, Eastern Cape Province",-33.11333,28.08167
+l832,"Cumberland Bay, South Georgia",-54.28333,-36.46667
+l833,Continental Anctartica,-72.84833,-19.66667
+l834,Southeastern Pacific Basin ,-54.81667,-129.8
+l835,off South Georgia,-54.48333,-39.36667
+l836,"Dickins Seamount, Gulf of Alaska",54.51417,-136.9092
+l837,"station 1521 (USAP expedition), Scotia Sea, South Atlantic Ocean",-54.13306,-52.20806
+l838,"Iriomote, Indabishi, Japan",24.42,123.4967
+l839,"Gough Island, Saint Helena",-40.31749386,-9.936308501
+l840,"Elephant island, Antarctica",-60.6465,-53.957
+l841,"Taba, Gulf of Eilat, Red Sea",29.488266,34.89894
+l842,"Near Solar pond, Gulf of Eilat, Red Sea",29.42901,34.83064
+l843,"Marsa Murach, Gulf of Eilat, Red Sea",29.42623,34.83624
+l844,"Coral island, Gulf of Eilat, Red Sea",26.83398348,33.98311866
+l845,"Sation 41–4, Scotia Sea (Polarstern ANT XIX/3)",-59.39133,-60.059
+l846,"Kushimoto, Kii-oshima island, Japan",33.47417,135.8028
+l847,"Jogashima light, Kanagawa Pref. Japan",35.12333,139.56
+l848,"off northwest tip of Fernandina, Galápagos",0.2845333,-91.07013
+l849,"south of San Cristóbal, Galápagos",-1.05,-89.46667
+536,Galapagos Islands,-0.8004,-90.4971
+l850,"northeast coast of Santa Cruz, Galápagos",-0.4959167,-90.233
+l851,"northwest of Española, Galápagos",-1.286667,-89.81167
+l852,lower continental slope off northwestern Ecuador,1.116667,-81.06667
+l853,"off northeastern Marchena, Galápagos",0.3946667,-90.43902
+l855,"off Roca Redonda, Galápagos",0.2444444,-91.60889
+l856,off Cocos island,5.576667,-87.07083
+l857,"María Magdalena Island, Islas Marías, Mexico",21.42112,-106.415
+l858,"Cueva Refugio, San Pedro Mártir Island, Sonora, Mexico",28.37162,-112.3173
+l859,"San Esteban Island (northwest rocky point), Sonora, Mexico ",28.72607,-112.6133
+l860,"Mound 12, off Costa Rica",8.93075,-84.3128
+l861,"San Juan, west end of Salinas Island, Puerto Rico",18.21944,-66.23056
+l862,"Marguerite Bay, Antarctica",-68.4996218,-68.50025752
+l863,"Coronation Island, South Orkneys, Antarctica",-60.57216432,-45.57099487
+l864,"Praia da Marcela, São Luís, Maranhão",2.65,-44.25
+l865,South East New Caledonia,-22.81667,167.2
+l866,"Verde Island Passage, Philippine islands",13.57694,120.125
+l867,"off Kapoposang Light, Celebes",-4.722778,118.8883
+l868,"Gomomo island, Ceram Sea",-1.891667,127.65
+l869,"Hao Atoll, Paumotu islands",-18.0660499,-140.8920258
+l870,"South of Molokai, Hawaiian islands",21.104837,-157.087754
+l871,"Mangamaripeta, Visakhapatnam ",17.85093,83.41401
+l872,"Isla Chora, Bahia Samara, Costa Rica ",9.883333,-85.55
+l873,"East Pacific Rise, 500 km off Acapulco",12.72,-102.6
+l874,"Lenca, Chile",-41.6383,-72.6694
+l875,Hibernia Reef,-11.97404,123.3221
+l876,"Burdwood Bank, Argentina",-54.88361,-58.40444
+l877,"Hin Lom Fang, off Pattaya, Chonburi Province, Thailand",12.80617,100.7058
+l878,"Koh Rin, off Pattaya, Chonburi Province, Thailand",12.79067,100.703
+l879,"Hannibal Bank, Coiba Island, Gulf of Chiriquí, Panama ",7.436567,-82.07513
+l880,"Burdwood Bank stn PS61/150-01, Subantarctic",-54.50367,-56.13667
+l881,"Austasen, Eastern Weddell Sea, Antarctica",-72.85717,-19.64367
+l882,"Kapikan, Semporna Islands, Sabah, Malaysia",4.647383,118.8302
+l883,"Llandudno, Cape Peninsula, South Africa",-34.01667,18.33333
+l884,"off state of Para, Brazil",1.566667,-48.11667
+l885,"Rum Cay, Bahama Islands",23.63459,-74.95366
+l886,"Santa Maria di Leuca coral Porvince, Mediterranean",39.61667,18.36667
+l887,continental slope off Georgia,30.79167,-79.81667
+l888,"Eleuthera island, Bahamas",24.9089718,-76.18646663
+l889,"Papanui Canyon, off Otago peninsula, New Zealand",-45.85,171.0333
+l890,"Sri Lanka, Indian Ocean",6.443212,81.173311
+l891,California Northeast Bank,32.2716305,-119.6724745
+l892,Tasmanian Seamounts Marine Reserve Hill Z40,-44.63667,147.4383
+l893,"Thermaikos gulf, Greece",40.33611,22.89167
+l894,"McMurdo Sound, Antarctica",-77.56667,166.65
+l895,"Waglan, Hong Kong",22.18389,114.3053
+l896,"SE of Punta Tosca, Baja California, Mexico",24.43529,-111.3509
+l897,"Bay of Panama, Panama",8.832317925,-79.15509263
+l898,"Marble Rock, Mergui Archipelago, Myanmar, Andaman Sea",11.55092459,98.31696704
+l899,"Zorritos, Perú",-3.681788498,-80.67816527
+l900,"Elizabeth bay, Albemarle island, Galapagos",-0.597711854,-91.08432434
+l901," Mazatlán, Mexico",23.24829951,-106.4126682
+l902,"Bajo Lunes, Puntilla de Santa Elena, Salinas, Ecuador",-2.189133,-81.013005
+l903,"Isla del Rey, Pearl Islands, Panama",8.390496511,-78.89724292
+l905,"Pinder point, Grand Bahama",26.50618357,-78.76497477
+l906,Arrowsmith Bank,20.83333,-86.5
+l907,"Caja de Muertos, Puerto Rico, Caribbean Sea",17.825,-66.56639
+l908,"Seamount M5, Caroline ridge",10.07833,140.1547
+l909,"Seamount M8, Caroline ridge II",10.6125,140.0642
+l910,"Mar del Plata Submarine Canyon, “Talud Continental III”",-38.03188,-53.65447
+l911,Vecinity of South Georgia,-54.235,-37.90333
+l912,Campbell plateau South of N. Zealand,-49.85,178.5833
+l913,"South Atlantic Ocean, Falkland plateau",-54.73333,-55.65
+l1288,"Bali, Indonesia",-8.420374996,115.1402537
+l914,"Punta Hermosa, Coiba Island, Gulf of Chiriquı´, Panama",7.523083,-81.89192
+l915,"Sepangar, Sepangar Island, Kota Kinabalu, Sabah, Malaysia",6.060739,116.0668
+l916,"Udar, east of Udar Island, Kota Kinabalu, Sabah, Malaysia",6.080503,116.087
+l917,"Manukan, Manukan Island, Kota Kinabalu, Sabah, Malaysia",5.979472,116.0029
+l918,"Mid Reef, east of Manukan Island, Kota Kinabalu, Sabah, Malaysia",5.976611,116.0145
+l919,"Punta Islotes, Golfo Dulce, Costa Rica",11.73831811,-83.05491531
+l920,"Playa Botella, Isla Floreana, Gala¤pagos",-1.308735901,-90.43643357
+l921,"off Rio Grande do Sul, Brazil",-31.032303,-50.839542
+l922,"R/V Calypso, sta. 1776, 241 km SE of Sao Paulo, Brazil ",-24.90111,-44.43333
+l923,"Puerto Deseado, Argentina",-47.75776644,-65.89933467
+l924,"El Faro, Oxaca",15.793332,-96.04135
+l925,"off atka bay, antarctica",-70.4,-8.328667
+l926,"off Esterillos, Puntarenas, Central Pacific, Costa Rica",9.349,-84.504
+l927,"Koh Doc Mai, Thailand",7.796,98.53483
+l928,"Phuket Island, Thailand",7.93178952,98.34582721
+l929,"Havelock Island, Andaman",12.05928,92.96989
+l930,"Shark island, Andaman",13.20107,92.75425
+l931,Ecuador coast,-1.035959,-80.83949
+l932,"Manabí, Ecuador",-0.368349,-80.463759
+l933,"Cope, Manabí, Ecuador",-1.726111,-81.00694
+l934,stn. 338 Antarctic peninsula (cruise ANT XV/3),-61.565,-58.18333
+l935,"King George island, South Shetland islands, off Antarctic peninsula",-62.31217,-58.5595
+l936,"Menorca Channel, North Western Mediterranean",39.8,4.1488
+l937,West tip of South Georgia,-54.483,-39.367
+l938,"off Macquarie Island, SubAntarctic",-56.6,58.8
+l939,"Isla Grande, Tierra del Fuego",-53.8,-64.9
+l940,"Red Cliff, South Morewood cave, South Natal",-29.843398,31.05635
+l941,"Transkei coast, South Africa",-31.571535,29.598642
+l942,"Cape Morgan, Transkei coast, South Africa",-32.70725553,28.36480884
+l943,"Mbashe river mouth, Transkei coast, South Africa",-32.33333,29.15
+l944,"Dar es Salaam, Zanzibar",-6.75388,39.285859
+l945,"Los Frailes, Baja California sur, México",23.37337504,-109.431659
+l946,"Paita, Piura, Perú",-5.082853,-81.097405
+l947,"Burbujas, between Los Potreros and Playa Arenillas, Puerto Jiménez, Golfo Dulce, Costa Rica",10.537059,-85.743086
+l948,"Roca Hacha island, Gulf of Chiriquí, Panama",7.43194,-81.85806
+l949,"Station 301, in the Messier Channel, Patagonia, Chile",-47.81585908,-74.76655976
+l950,"250 km west of Clearwater, Florida, USA",27.7523,-85.3262
+l951,"Norfolk Canyon, Atlantic Ocean",36.8993,-74.4586
+l952,"off Ponta Grossa de Sitio Forte, Ilha Grande, Angra dos Reis ",-23.11333,-44.29333
+l953,"El Agudo, Spain, Bay of Biscay",43.99635,-5.579333
+l954,Galicia Bank (northwestern Spain),42.48953,-11.85485
+l955,"Madeira, Atlantic Ocean",32.75278119,-17.02220796
+l956,Mauritius,-20.35113461,57.50957538
+l957,"Ras Binnah, Somalia",11.4,51.58
+l958,"Maui island, Hawaii (RV Albatross, Hawaiian Explorations, St. 4100)",21.0917,-156.675
+l959,"Antigonia seamount, Norfolk Ridge, New Caledonia",-23.75,167.7002
+l960,"Pulau Gebe, Indonesia",0.1,129.4533
+l961,"Introuvable Bank, Norfolk Ridge, New Caledonia",-24.66896,168.662
+l962,"Seamount east of Laysan Island, the Hawaiian Islands",25.7019,171.445
+l963,"Mid-Pacific Seamounts, Pacific Ocean",13.45667,-173.4483
+l964,"Loyalty Ridge, New Caledonia",-22.28833,169.02
+l965,"Banc Stylaster, Norfolk Ridge, New Caledonia",-24.95,168.37
+525,Aruba,12.5282,-69.9815
+l967,"Siboga Expedition, stn 88, Strait of Makassar, Sulawesi, Indonesia",0.5766667,119.1417
+l968,"West of South Georgia, Antarctica",-53.39667,-42.7005
+l969,"stn PS65-166-01, Austasen, Antarctica",-70.94717,-10.5435
+l970,"El Cañon, San Benedicto, Revillagigedo Archipelago",19.29781,-110.8047
+l971,"Las Cuevas, San Benedicto, Revillagigedo Archipelago",19.29834,-110.8045
+l972,"off San Blas islands, Panama",9.616667,-78.85833
+l973,"Kicker rock, Galapagos islands, Ecuador",-0.777341971,-89.51922211
+l974,"Punta Mala, Punta Arenas, Costa Rica",9.369167,-84.535
+l976,"Hanamaulu warehouse, Kauai",21.99489,-159.340922
+l977,"Bransfield Strait and South Shetland Islands area, Antarctica",-62.539569,-58.554312
+l978,"Amlia Island, Andreanof Islands, Aleutians ",52.51583,-173.4931
+l979,Subantarctic seamount on the Heezen Frac- ture Zone of the Eltanin Fracture Zone System ,-54.81667,-129.8
+l980,"Antarctica, Eastern Weddell Sea (Polarstern cruise ANT
+XXIX/9, stn)",-76.32217,-29.14067
+l981,"Antarctica, Eastern Weddell Sea (Polarstern cruise ANT XVII/3, stn. 085-1)",-71.18833,-12.25667
+l982,"Antarctica, Eastern Weddell Sea (Polarstern cruise
+ANT-XXIX/9 (PS82), stn. 349-1)",-70.92617,-10.47033
+l983,"Datan Algal Reef, Taoyuan, Taiwan",25.03551,121.0489
+l984,"Nosy Ankazoberavina, Indian Ocean",-13.486406,47.975382
+l985,"Carbyns Cove, Andaman",11.64513,92.75859
+l986,off Mostardas ,-31.33333,-49.83333
+l988,"M6 seamount at the station FX-Dive 219, Caroline islands",10.113,140.2422
+l989,"Flinders Marine Park, Tasman Sea",-40.47,149.405
+l990,"Coquitos Point, Bajo del Diablo, Caño Island, Osa Peninsula, Costa Rica",8.716667,-85.86667
+l991,"Seragaki Tombs, Okinawa, Japan",26.50667,127.8767
+l992,"Bight of Bonny, Isaka, Nigeria",4.164323273,8.141005983
+l993,"Cape St. Francis, Cape Province, South Africa",-34.26667,24.83333
+l994,"Danger Point, Cape Province",-34.71667,19.33333
+l995,"off Hottentot's Huisie, Cape of Good Hope Periincula, South Africa",-33.98333,18.35
+l996,"Porcupine Bank, 12.09.2015, Stn. 23",52.869,-14.79
+l997,"Porcupine Bank, 14.09.2015, Stn. 32",53.841,-13.378
+l998,"Nine-mile Reef, Sodwana bay, South Africa",-27.42896,32.72904
+l999,"Gupo island, Penghu islabnd, Taiwan",23.93861,119.6856
+l1000,"Sanganeb Atoll, Sudán, Red Sea",19.35939,37.32713
+l1001,"Saudi Arabian border bay, Gulf of Aqaba, Red Sea",29.36036,34.96097
+l1002,"Gezirat Fara’un, Gulf of Aqaba, Red Sea",29.46304,34.85761
+l1003,"10 km south to Aqaba, Nature Reserve, Gulf of Aqaba, Red Sea",29.4414,34.96681
+l1004,"Shag Rock, Gulf of Suez, northern Red Sea",27.78374,33.98977
+l1005,"Dahab, Red Sea",28.5095,34.52174
+l1006,"Agattu, Aleutian islands",52.24167,174.225
+l1007,"Inaccessible Island, Tristan da Cunha, SubAntarc-tica",-37.2805,-12.75417
+l1008,Antarctica,-69.589331,51.91946
+l1009,"RV Vitjaz, cruise 48, stn 6275, North Pacific Ocean",12.2,179.8167
+l1010,"Albatross Expedition, stn Alb-3399, west coast of Central America",1.116667,-81.06667
+l1011,"Barrenjoey, Australia",-33.57598488,151.3299854
+l1012,"Isla Manuelita, Cocos island, Costa Rica",5.561200483,-87.04737074
+l1013,"Cocos island, Costa Rica",5.53329266,-87.06713357
+l1014,"off Hamamatsu, Japan",34.11667,138
+l1015,"Northwest of Tanaga Island, Aleutian Islands",5.886717,-178.3576
+l1016,"Molokai channel, Hawaiian islands",21.03889,-156.7722
+l1017,"off Cadiz, Spain, Atlantic Ocean",36.41667,-8.2
+l1018,"off Rio de Janeiro, Brazil, Atlantic Ocean",-21.81361,-40.03139
+l1019,"off Mogadishu, Somalia, Indian Ocean",1.8,45.70833
+l1020,"North-east approach to channel between Maui and Molokai, Hawaiian Islands",21.37917,-156.3611
+l1021,"Huon Marine Park, seamount Z9, south of Tasmania",-44.20167,147.3181
+l1022,"Soldier Key, Florida",25.5901,-80.161
+l1023,"Boca Chita Pass, Florida",25.5229,-80.1751
+l1024,"Red reef, Margot Fish Shoal, Florida",25.4389,-80.1713
+l1025,"La Parguera, Puerto Rico, Caribbean Sea",17.9734,-67.0455
+l1026,"Nanwan Bay,“Sea Mount”, southern Taiwan ",21.91667,120.75
+l1027,"La Botella, Floreana Island, Galápagos Islands",-1.2927,-90.4444
+l1028,"La Paz, Baja California Sur, Mexico",24.1414,-110.3021
+l1029,"Isla San Gallán, Parque Nacional de Paracas, Perú",-13.815,-76.45444
+l1030,"station FX-Dive 174, Kocebu Guyot, Pacific Ocean",17.49883,153.2448
+l1031,"station FX-Dive 173, Kocebu Guyot, Pacific Ocean",17.47817,153.1658
+l1032,"Great Bahaman Bank, between Andros and Great Exuma Islands, Bahamas",23.4,-76.55
+l1034,"Turtle Bay, Baja California",27.63333,-114.9
+l1035,"Bajo Diablo, Caño island, Costa Rica",8.687282,-83.912244
+l1036,"Tagus Cove, Albemarle, Galapagos",-0.261785425,-91.37113701
+l1037,"Onslow island, Galapagos",0.505253844,-90.18538095
+l1040,"Booby island, Man-O-war Bay, Charlotteville, Tobago",11.32242376,-60.5584192
+l1041,"Rockall Bank, NE Atlantic",56.54383,-14.51533
+l1042,"Passe de Mato, New Caledonia",-22.66667,166.6019
+l1043,"Simmonds point, Tasmania",-42.81667,147.6
+l1044,"Koumac reef, New Caledonia",-20.56667,164.0833
+l1045,"Mbere reef, New Caledonia",-28.30194,166.185
+l1046,"Chesterfield island, New Caledonia",-19.66667,158.4514
+l1047,Macquarie island,-56.35,158.4667
+l1048,"False Bay, Cape Province, South Africa",-34.25,18.5
+l1049,"Prince Edward Island, southern Indian Ocean, HMS Challenger, stn. 145A",-46.683,38.167
+l1050,"Gaußstation, Antarctica",-66.03,89.63
+l1051,"Chatham Rise, New Zealand, RV Tangaroa, stn. 153",-42.735,-179.899
+l1052,"Macquarie Ridge, south west of New Zealand, Southern Ocean, NIWA RV Tangaroa, stn. 38",-50.097,163.474
+l1053,"off the Rio de la Plata, Argentina, HMS Challenger, stn. 320",-37.283,-53.867
+l1054,"Winter Quarters (WQ). No. 12 hole, 100 yards south of Hut Point, McMurdo Sound, Antarctica",-77.9,166.68
+l1056,"Ross Sea, Antarctica, TRIP 2994, stn. 23",-72,-179
+l1057,"Macquarie Ridge, south of Macquarie Island, Southern Ocean, NIWA RV Tangaroa, stn. 103",-56.287,158.447
+l1058,"Kerguelen Island, Southern Ocean",-48.87,70.02
+l1059,"Islas Orcadas, cruise 575, stn. 101, South Georgia",-54.235,-37.903
+l1060,"Main Pedra seamount, west of Huon Commonwealth Marine Reserve (CMR), SW Tasman Sea, Australia, CSIRO RV Southern Surveyor, stn. 23",-44.263,147.095
+l1061,Y3 seamount at the station FX-Dive 16,8.863333,137.743
+l1062,"Saint Mary Islands, Karnataka, India, Arabian Sea",13.38019181,74.67354364
+l1063,"SE of India, Bay of Bengal, Indian Ocean",10.237249,79.258145
+l1064,"Bandar Al-Khiran, Oman Sea",23.501662,58.763671
+l1065,"Shelly Beach, Caloundra, Queensland, Australia",-26.79972,153.150278
+l1066,"Ningaloo Reef, Western Australia, Australia",-22.77661,113.696432
+l1067,"Ilha Grande Bay, Rio de Janeiro",-23.026,-44.501
+l1068,"4 Frére, Madagascar",-12.99425,48.487467
+l1069,"off Azores, North Sao Miguel",37.91667,-25.40417
+l1070,"Yap-3 seamount, Tropical Western Pacific",8.856,137.7793
+l1071,"Blake Station 190, off Dominica",15.303,-61.442
+l1072,"Kelvin Seamount, Station 403-2, Northwest Atlantic",38.7791,-63.96283
+l1073,"Rehoboth Seamount, Station REH 104-2, Northwest Atlantic",37.46067,-59.9515
+l1074,"Corner Rise Seamounts, Station MIL 111-1, Northwest Atlantic",34.81267,-50.50383
+l1075,"Nashville Seamount, Station NAS 208-1, Northwest Atlantic",34.476,-56.733
+l1076,"Elat, Kei
+Islands, Arafura Sea",-5.9,132.945
+l1077,"Challenger, sta. 135D, off Inaccessible Island, Tristan de Cunha ",-37.41667,-12.375
+l1078,"Challenger, sta. 308, Chile",-50.14167,-74.68333
+l1079,"SW of Port Elizabeth, South Africa ",-35.175,23.03333
+l1080,"Wandel island, Antarctic",-65.0795833,-64.00030034
+l1081,"Iquique, Chile",-20.2309475,-70.14091617
+l1082,"Straits of Florida, off northwest corner of Little Bahamas Bank ",27.28333,-79.56667
+l1083,"Antarktis XIX/5, R/V Polarstern, sta. PS61/167–01, west of South Georgia Island, sub-Antarctic ",-53.39467,-42.70383
+l1084,"Islas Orcadas, cruise 575, sta. 90, South Georgia Island, sub-Antarctic",-54.84333,-37.39667
+l1085,"Tokyo Bay, Japan ",35.37526723,139.7572261
+l1086,"Challenger, sta. 171, Kermadec Islands, NE of New Zealand ",-28.55,177.8333
+l1087,"Siboga expedition, sta. 88, Strait of Makassar, Sulawesi, Indonesia ",0.5683333,119.1347
+l1088,"Siboga expedition, sta. 297, Lesser Sunda Islands, Indonesia ",-10.65,123.6667
+l1089,"Uji Island, Japan",34.31463431,133.4648382
+l1091,"Mawiliwili, Kaua’i Island, Hawaii, North Pacific Ocean",21.94028,-159.3611
+l1092,"R/V Albatross, sta. 5079, south of Omae Zaki, Honshu Island, Japan ",34.25,138
+l1093,"R/V Albatross, Northwestern Pacific Expedition, sta. 5080, west of Izu Islands, Honshu Island, Japan ",34.175,138.6667
+l1094,"Semisopochini Island, western Aleutian Islands, North Pacific ",51.9569391,179.6391481
+l1095," station FX-Dive 69, Seamount M2, near Mariana Trench",11.28717,139.4027
+l1096,"station FX-Dive 225, Seamount M8, Caroline Ridge",10.61217,140.0645
+l1097,"station FX-Dive 211, Seamount M5, Caroline Ridge",10.0525,140.1762
+l1098,"station FX-Dive 218, Seamount M6, Caroline Ridge",10.1205,140.2403
+l1100,"station FX-Dive 178, Kocebu Guyot, Magellan Seamount, Pacific Ocea",17.33633,152.6975
+l1101,"station FX-Dive 172, Kocebu Guyot, Magellan Seamount, Pacific Ocea",17.394,153.1012
+l1102," station FX-Dive 57, Seamount M2, near Mariana Trench",11.30567,139.3572
+l1103,"El Kura, Gulf of Elat",29.441349,34.957566
+l1104,"Gulf of Mannar, Sri Lanka, Indian Ocean",8.830894,79.73421
+l1105,"Eilat Harbour, Red Sea",29.53200513,34.94214467
+l1106,Marsa Abu Zabab,25.33779985,34.73799699
+l1107,"Abu Zanima, Gulf of Suez",29.04673,33.091599
+l1108,"Bowling Green Bay, Queensland, Australia",-19.36037984,147.2531792
+l1109,"Halifax Bay, Australia",-18.81620145,146.3475919
+l1110,"RRS James Cook, sta. 8, ev. 5, Atlantis Bank",-32.71437,57.24443
+l1111,"RRS James Cook, sta. 7, ev. 10, Sapmer Bank",-36.80286,52.11547
+l1112," RRS James Cook, sta. 4, ev. 9, Coral seamount",-41.35558,42.91901
+l1113,"RRS James Cook, sta. 5, ev.24, Melville Bank",-38.49319,46.76001
+l1114,"Río Tambor, Fjord Comau, Chile",-42.40409,-72.42059
+l1115,"Pointe de la Croisette, Cannes, France",43.53663779,7.037115352
+l1116,"Grand Banks south of Newfoundland, NW Atlantic Ocean",45.0006059,-53.00021463
+l1117,"Titov Seamount, south of Baker Island, Phoenix Island Group",-0.39,176.2
+l1118,"Okeanos EX1606-10-02, Guyot 50 km south of Wake Island",18.4705,166.68
+l1119,"off Coromandel Peninsula, North Island, New Zealand",-36.5045,176.5075
+l1120,"Okeanos EX1606-9-01, off Wake island, Phoenix islands, Pacific Ocean",19.2543,166.635
+l1121,"Okeanos EX1708-15-5, Mozart Seamount, Musicians Seamounts",28.69,-161.67
+l1122,"south of Kauai, Hawaiian Islands",21.83889,-159.5278
+l1123,"Supply Reef, Northern Mariana Islands",20.15,145.11
+l1124,"Okeanos EX1703-8-01, off Baker Island, Phoenix Islands",0.21,-176.48
+l1125,"Okeanos EX1605-L1-4-03, Enigma Seamount, south of Guam",11.41,144.78
+l1126,"Fiji plateau, Pacific Ocean",-19.16667,178.1667
+l1127,"Okeanos EX1708-2-GEO2-A2, Beach Ridge, Musicians Seamounts",25.553,-158.215
+l1128,"Okeanos EX1606-13-03, Batfish Seamount, south of Wake Island",16.581,166.472
+l1129,"Okeanos EX1705-11-Geo 01, Kingman Cone, off Palmyra Atoll",6.37,-162.31
+l1130,"Bushnell Seamount, Hawaii",19.86601,-153.717208
+l1131,"Okeanos EX1504-9-2, South Karen Ridge, southeast of Johnston Atoll",16.14,-167.85
+l1132,"Okeanos EX1606-502, McDonald Guyot, Mid-Pacific Mountains Range west of Wake Island",19.15048,164.5587
+l1133,"Okeanos EX1703-18-02, Te Kaitira, seamount south of Phoenix Islands",-6.4916,-173.581
+l1134,"Okeanos EX1603-7-02, Castellano Seamount, approximately 370 km south of Midway Islands, Hawaiian Islands",26.43,-177.8
+l1135,"Okeanos EX1606-6-03, Unnamed Seamount, northwest of Wake
+Island",19.4447,165.79899
+l1136,"Okeanos EX1606-8-01, northwest of
+Wake Island",19.3304,166.6038
+l1137,"Cross Seamount, Hawaii",18.70972,-158.2553
+l1138,"Okeanos EX1703-2-1, Pao Pao, Tokelau Islands",-7.19,-173.64
+l1139,"Okeanos EX1702-13-01, off Tutuila, American Samoa",-14.32,-170.65
+l1140,"Okeanos EX1603-2-03, French Frigate Shoal, Northwest Hawaiian Islands",23.94583,-166.0333
+l1141,"Blank Bank, Northwest Hawaiian Islands",23.24,163.5225
+l1142,"SE Tasmania, Pacific Ocean",-43.194782,148.344075
+l1143,"Pelotas, La Parguera, SW Puerto Rico",17.95737,-67.0696
+l1144,"Conservas, La Parguera, SW Puerto Rico",17.9556,-67.04282
+l1145,"Romero, La Parguera, SW Puerto Rico",17.93748,-66.99072
+l1146,"Turrumote, La Parguera, SW Puerto Rico",17.93495,-67.01883
+l1148,"El Hoyo, La Parguera, SW Puerto Rico",17.87598,-67.04365
+l1149,"Weinberg, La Parguera, SW Puerto Rico",17.89048,-66.98867
+l1150,"Ile Grosse, Banyuls, Mediterranean",42.48195482,3.137007753
+l1151,"Grotte Bear, Banyuls, Mediterranean",42.515752,3.140926
+l1152,"Maltese islands, Mediterranean",35.90452618,14.42090792
+l1153,"Apulian ridge, off Santa Maria di Leuca, Mediterranean",39.61167,18.35
+l1154,"Gulf of St. Eufemia, Italy, Mediterranean Sea",38.78333,16.11667
+l1155,"Polarstern ANT XIX/3, stn. 94.1, off Elephant Island",-60.51183,-56.08717
+l1156,"Polarstern ANT XIX/5, stn. 194.1, South Sandwich Islands",-57.67583,-26.419
+l1157,"Mina, Colombian Pacific",6.68663,-77.54933
+l1158,"Amargal, Colombian Pacific",5.57982,-77.5141
+l1159,"station FX-Dive 217, M6 Seamount, Pacific Ocean",10.11361,140.25
+l1160,"Shirahama, Amami Oshima Island, Kagoshima, Japan",28.198412,129.269811
+l1161,"Pengjia Islet, northeastern Taiwan",25.69667,122.6655
+l1162,"Liouciou Islet, southwestern Taiwan",22.276,120.101
+l1163,"Dongsha Atoll, Taiwan",20.65553656,116.9015227
+l1164,"Tobago, Trinidad and Tobago",11.23604531,-60.69926376
+l1166,"Pedra Lixa reef, Abrolhos Archipelago, Brazil",-17.6833,-38.9833
+l1167,"Sao Vicente island, Cape Verde",16.83677622,-24.97013044
+l1168,"Al Idrisi, Marrocco",35.2375,-6.612
+l1169,"SokhoBio 2015, AGT St. 8–6, Bussol Strait, Sea of Okhotsk, NW Pacific Ocean",46.6,151.613333
+l1170,"off Pensacola, Florida",29.816667,-87.183333
+l1171,"Madagascar plateau, Indian Ocean",-33.2,43.97
+l1172,"Arrival Heights, McMurdo Sound, Antarctica",-77.85,166.65
+l1173,"Explorer's Cove, Antarctica",-77.566667,163.583333
+l1175,"Polarstern, stn. 303, off King George Island, South Shetland islands, Antarctica",-62.275,-58.718333
+l1176,"Namzu archipielago, Vietnam",10.261766,103.995816
+l1177,"Coetivy islands, Seychelles",-7.127194,56.282132
+l1178,"Socotra island, Yemen, Indian Ocean",12.485992,53.756296
+l1179,"Thu island, Vietnam",-23.44,151.91
+l1180,"Hon Gom Cape, Vietnam",12.657287,109.421286
+l1181,"Salt River Canyon, US Virgin Islands",17.77656351,-64.75932644
+l1182,"Scoglio dell’Astice shoal, Sanremo, Ligurian Sea",43.8,7.838
+l1183,"Prince islands, Marmara Sea",40.879431,29.062824
+l1184,"Tasman 
+Fracture Zone, Outer Wall, Tasmanian
+ Seamounts",-45.376,144.5754
+l1185,"Laurentian Channel and 
+southern Grand Banks, Eastern Canada, NW Atlantic Ocean",47.14216372,-59.97442371
+l1186,"Iwotorishima Island, Okinawa, Japan",27.869944,128.233833
+l1187,"Trampa de Torgugas, San Andrés island, Seaflower biosphere reserve, SW Caribbean",12.540075,-81.719535
+l1188,"Isabel II island, Chafarinas islands, Morocco",35.183714,-2.4274
+l1189,"32 km off Chañaral, Patagonia, Chile",-27.022222,-70.806667
+l1190,"Pedra da Greta, Algarve, Atlantic Ocean",36.983333,-7.983333
+l1191,"Filchner Ronne Ice Shelf, Weddell Sea, Antarctica",-74.416704,-23.963032
+l1192,"1.1 km off Stromboli village, Aeolian Islands, Italy, southern Tyrrhenian
+ Sea",38.806328,15.255427
+l1193,"Gigante Seamount Complex, Mid-Atlantic Ridge, Azores region",39,-30
+l1194,"Ridge 1 reef, Wakatobi Marine National Park, SE Sulawesi, Indonesia",-5.449167,123.760556
+l1195,"Samplea reef, Wakatobi Marine National Park, SE Sulawesi, Indonesia",-5.483611,123.752222
+l1196,"Pulu Jedan, Aru Islands, Maluku, Indonesia",-5.372784,134.58418
+l1197,"Puerto Pirámida, Chubut, Argentina",-42.583333,-64.283333
+l1198,"Porto de Galinhas, Pernambuco, Brazil",-8.505556,-35.009444
+l1200,"Haul 39, NW Punta Alice, Ionian Sea",39.583333,16.875
+l1201,"Gioia Canyon, Tyrrhenian Sea",38.5,15.766667
+l1202,"Dover strait, English Channel",51.01414077,1.496425549
+l1204,"Eastern Cap de Creus, Costa Brava, NW Mediterranean",42.268056,3.280556
+l1205,"Southern Cap de Creus, Costa Brava, NW Mediterranean",42.229167,3.216944
+l1206,"Northern Cap de Creus, Costa Brava, NW Mediterranean",42.333611,3.275
+l1207,"Coast of Montgri, Costa Brava, NW Mediterranean",42.098889,3.214167
+l1208,"Coast of Begur, Costa Brava, NW Mediterranean",42.016667,3.248611
+l1209,"NE of Sardinia, Mediterranean Sea",40.879472,9.588155
+l1210,"Central East of Sardinia, Mediterranean Sea",40.060424,9.68703
+l1211,"SW of Sardinia, Mediterranean Sea",39.129216,8.506002
+l1212,"Sardinia, Mediterranean Sea",40.009954,9.049825
+l1213,"Gabinière island, Port Cros, France, NW Mediterranean Sea",42.988301,6.395184
+l1214,"Montrémian, Port Cros, France, NW Mediterranean Sea",43.01597,6.362724
+l1215,"The Ridge reef, Wakatobi NP, Indonesia",-5.449167,123.760556
+l1216,"Sampela reef, Wakatobi NP, Indonesia",-5.49633,123.753003
+l1217,"El bau de fora, Cap de Creus, NW Mediterranean",42.342921,3.277931
+l1218,"El Gat, Cap de Creus, NW Mediterranean",42.233202,3.269691
+l1219,"Bau Cap Trencat, Cap de Creus, NW Mediterranean",42.234219,3.240165
+l1220,"Els Forcats, Cap de Creus, NW Mediterranean",42.302815,3.304023
+l1221,"Massa d´or, Cap de Creus, NW Mediterranean",42.32211,3.330802
+l1222,"Pta. Falconera, Cap de Creus, NW Mediterranean",42.229135,3.220939
+l1223,"Medallot, Medes islands, NW Mediterranean",42.051745,3.221909
+l1224,"Pedra de deu, Medes islands, NW Mediterranean",42.05075513,3.224752143
+l1225,"Pota del Llop, Medes islands, NW Mediterranean",42.04971122,3.226608856
+l1226,"Tamariu Canyons, Costa Brava, NW Mediterranean",41.895762,3.248128
+l1227,"Columbretes islands, NW Mediterranean",39.898372,0.685842
+l1228,"Hormigón, Cabo de Palos, Spain, W Mediterranean",37.652171,-0.653438
+l1229,"Mosquito, Cabo de Palos, Spain, W Mediterranean",37.63603,-0.689987
+l1230,"Cala Bona, Cap de Creus, NW Mediterranean",42.312849,3.306284
+l1231,"La Reparada, Cap de Creus, NW Mediterranean",42.278565,3.294911
+l1232,"Rossinyol, Montgri, NW Mediterranean",42.07343048,3.220567253
+l1233,"Punta Salines, Montgri, NW Mediterranean",42.0656303,3.216981183
+l1234,"Arquets, Montgri, NW Mediterranean",42.057317,3.211964
+l1235,"Reina, Medes islands, NW Mediterranean",42.047246,3.223654
+l1236,"Tarragona, NW Mediterranean Sea",41.112092,1.249226
+l1237,"Gandia, W Mediterranean Sea",38.992006,-0.151937
+l1238,"Valencia, W Mediterranean Sea",39.456493,-0.33474
+l1239,"Hormiga island, Cabo de Palos, W Mediterranean Sea",37.655703,-0.649061
+l1240,"Prvic, Croatia, Mediterranean Sea",44.886667,14.836944
+l1241,"Cutin Mali, Croatia, Mediterranean Sea",44.724722,14.493333
+l1242,"Lun, Croatia, Mediterranean Sea",44.704167,14.733889
+l1243,"Obrucan, Croatia, Mediterranean Sea",43.836389,15.22
+l1244,"Balun, Croatia, Mediterranean Sea",43.803889,15.255
+l1245,"Mana, Croatia, Mediterranean Sea",43.800278,15.266389
+l1246,"Mulo, Croatia, Mediterranean Sea",43.513333,15.918611
+l1247,"Smokvika, Croatia, Mediterranean Sea",43.510556,15.942222
+l1248,"Planka, Croatia, Mediterranean Sea",43.493333,15.969167
+l1250,"Genoa Harbor, Italy, Mediterranean Sea",44.409194,8.927417
+l1251,"Yawzi Point, Great Lameshur bay, USA Virgin islands",18.315695,-64.725642
+l1252,"Tektite, Great Lameshur bay, USA Virgin islands",18.308759,-64.719919
+l1253,"Port Stephens estuary, Australia",-32.696747,152.134737
+l1254,"Oudekraal, South Africa",-33.98563227,18.34891158
+l1255,"False bay, South Africa",-34.19552919,18.65115964
+l1256,"Bay of Calvi, Corsica, NW Mediterranean",42.583333,8.75
+l1257,"Europa Bay, US Virgin islands",18.316717,-64.729933
+l1258,"East Cabritte, US Virgin islands",18.309183,-64.718817
+l1261,"Gulf of Mexico, Caribbean Sea",25.33883058,-90.02124697
+l1262,"Cinque Terre, Italy, Mediterranean Sea",44.083333,8.75
+l1263,"Japan, Pacific Ocean",34.97698602,134.6804315
+339,"Maldives, Indian Ocean",2.4382,73.2129
+l1264,"Isla Alcatraz, Venezuela, Caribbean Sea",10.510556,-67.971667
+l1265,"Ceará, off Iguapé Point and Maceió Point, Brazil",-3.5,-37.941667
+l1266,"off north of São Tomé Cape, Rio de Janeiro, Brazil",-21.649167,-40.179722
+l1267,"Bahia, Pedra Grande, Parcel das Paredes, Brazil",-17.745583,-38.919083
+l1268,"Bahia, Lixa Reef, Parcel das Paredes, Brazil",-17.745582,-38.919083
+l1269,"Chub cay, Bahamas",25.41623336,-77.88764936
+l1270,Mediterranean Sea,,
+l1271," Malpelo, Colombia, Tropical Eastern Pacific",3.975,-81.58
+l1272,"Palm islands, Great Barrier Reef, Australia",3.975,-81.58
+l1273,"Cap Fonza, Elba island, Italy, Mediterranean Sea",42.733333,10.283333
+l1274,"Livorno, Calafuria, Italy, Mediterranean Sea",43.5,10.333333
+l1275,"Punta San Pancrazio, Ischia, Bay of Naples, Mediterranean Sea",40.7014931,13.95431576
+l1276,"off South Patong, Phuket, Thailand",7.882878141,98.2663808
+l1278,"Halfway rock, Northern Massachusetts",42.5,-70.766667
+l1279,"Uchiura coast, Suruga bay, Central Japan, Pacific Ocean",35.022082,138.890926
+l1280,"Mera coast, Suruga bay, Central Japan, Pacific Ocean",34.641815,138.776363
+l1281,"Siboga-297, South of Timor, Indonesia",-10.65,-123.666667
+l1282,"Midway, Pacific Ocean",24.059722,-166.615556
+l1283,"SW of Great Nicobar, Indian Ocean",6.819053,93.804557
+l1284,"Siboga- st 95, Sulu Sea, Indonesia",5.716667,119.666667
+l1285,"Necker island, British Virgin islands, Caribbean",18.52711653,-64.35820401
+l1286,"Gardner Pinnacles, Pacific Ocean",25.350556,-168.15
+l1287,"off Kea ̄hole Point, Ha- wai‘i ",19.803333,-156.133889
+l1289,"South Shetland Islands, Scotia Sea",-62.590899,-59.920178
+l1290,"Livingston Island, South Shetland islands, Scotia Sea",-62.589155,-60.295807
+l1291,"Occhio di Dio, Tavolara island",40.896267,9.707319
+l1292,"New Caledonia, Tropical Southwerstern Pacific",-21.154821,165.15958
+l1293,"Southeast of Galveston, Texas",27.533333,-93.026667
+l1294,"Chocolate hole, St John, Virgin islands",18.313613,-64.787743
+l1295,"Campeche bank, Mexico",21.583333,-90.75
+l1296,"Albatross sta. 2668, off Fernandina",30.966667,-80.066667
+l1297,Southeast of Jamaica,17.734722,-75.65
+l1298,"Needham point lighthouse, Barbados",13.076319,-59.618566
+l1299,"Cumaná, Venezuela",10.461217,-64.194112
+l1300,Upper Prickly Pear Island,18.505982,-64.367225
+l1301,North of Albatross Bank between Jamaica and Haiti,17.734722,-75.65
+l1302,North coast of Hispaniola,19.509722,-69.345833
+l1303,"Tongue of the Ocean, Great Bahama Bank",23.566667,-76.55
+l1304,"Parahyba do Norte, Brazil, Albatross sta. 2758",6.991667,-34.8
+l1305,"Gallows bay, St. Eustatius, Caribbean Sea",17.475034,-62.985873
+l1306,"Colon, Panama, Albatross sta. 2147",9.538889,-79.9125
+l1307,"North Tobago, Caribbean Sea",11.429191,-60.720353
+l301,"Gulf of Eliat, Red Sea",29.5623,34.9871

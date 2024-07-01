@@ -1,0 +1,9 @@
+﻿value_type_id,value_type_name
+1,expert_opinion
+2,maximum
+3,mean
+4,median
+5,minimum
+6,model_derived
+7,raw_value
+8,mid_range

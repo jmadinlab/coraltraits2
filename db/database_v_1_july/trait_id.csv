@@ -1,0 +1,129 @@
+﻿trait_name, standard_id, traitclass_id, trait_description, user_id, id,Editor,trait_editor_id
+Sexual system,10,Reproductive,Each polyp of the population having gametes of only one sex (either male or female) at maturity (gonochore),,8,N. Viladrich,4
+Mode of larval development,10,Reproductive,"The mode of larval development classified as either a brooder, where fertilization is internal and colonies release planulae larvae, or a broadcast spawner, where gametes are release for external fertilization and the planulae develops in the plankton.",,5,N. Viladrich,4
+Oocyte size at maturity,39,Reproductive,The diameter of mature oocytes in a population. Determined by histology or dissection or measuring the size of eggs once released from the colony in broadcast spawners.,,11,N. Viladrich,4
+Polyp fecundity,6,Reproductive,The number OR VOLUME of eggs (oocytes) OR LARVAE in a polyp.,,12,N. Viladrich,4
+Ocean basin,10,Geographical,"The ocean basin in which a species is found. Indian and Pacific Oceans are grouped as ""pacific.""",,40,C. Linares,2
+Zooxanthellate,10,Physiological,Is the species zooxanthellate?,,41,C. S. McFadden,6
+Size at maturity,29,Reproductive,"The colony size, typically diameter, at which a coral is observed to start producing gametes and reproducing.",,46,N. Viladrich,4
+Age at maturity,33,Reproductive,The age at which a coral is observed to start producing gametes and spawning.,,47,N. Viladrich,4
+Growth rate,38,Physiological,"Typically, the yearly extension for branching and massive corals, or simple linear extension. Growth rate is sometimes measured using different dimensions (e.g., diameter and radius) or over shorter periods of time (e.g., month), which are indicated by measurement standards and methodologies, and so values may need to be standardised before comparisons among measurements can be made.",,60,D. Gómez-Gras,1
+Skeletal density,34,Biomechanical,The material density of coral skeleton. Porosity measurements can be converted to density by multiplying the reciprocal of porosity by the maximum density of aragonite (2.94 g cm^-3).,,61,N. Viladrich,4
+Depth upper,9,Ecological,The minimum (shallowest) observed depth of a species. Data are a mix of individual-level local observations and species-level global estimates based on expert opinion.,,91,A. Gori,3
+Depth lower,9,Ecological,The maximum (deepest) observed depth of a species. Data are a mix of individual-level local observations and species-level global estimates based on expert opinion.,,92,A. Gori,3
+Coloniality,10,Morphological,"Whether mature individuals of a species are colonial, solitary or either colonial or solitary (both).",,104,Y. Zentner,5
+Wave exposure preference,10,Ecological,"Preferred hydrodynamic exposure environment. Derived from preferred habitat textual descriptions, mostly from Veron and Stafford-Smith (2002), and published in Diaz and Madin (2011).",,96,K. E. Fabricius,7
+Water clarity preference,10,Ecological,"Preferred water clarity environment. Derived from preferred habitat textual descriptions, mostly from Veron and Stafford-Smith (2002), and published in Diaz and Madin (2011).",,97,K. E. Fabricius,7
+Calcification rate,,Physiological,"The rate at which CaCO3 (i.e., aragonite or calcite) is laid down per unit of skeletal surface area. When using this data, be aware that this trait is measured in numerous ways.",,127,A. Gori,3
+Symbiodinium clade,10,Physiological,"The genetic identity of Symbiodinium found in coral tissue at the clade level (broad level of major symbiont taxa). This is typically identified using regions of the nuclear ribosomal DNA, but other regions are also used.",,128,D. Gómez-Gras,1
+Tissue thickness,28,Physiological,The distance from the external surface to the internal surface of the coral tissue.,,132,D. Gómez-Gras,1
+Water depth,9,Contextual,The water depth at which a coral trait was measured.,,143,D. Gómez-Gras,1
+Polyp density,st44,Morphological,The number of polyps per length or area units.,,t85,D. Gómez-Gras,1
+Total biomass,45,Stoichiometric,"The dry weight of holobiont tissue, typically reported as mass per unit of skeletal surface area of a colony.",,150,C. Linares,2
+Water temperature,52,Contextual,Water temperature is a contextual trait of the environment in which a coral trait is measured.,,152,D. Gómez-Gras,1
+Colony area,79,Morphological,The size of a colony. Typically associated with a trait that is expected to vary with colony size. The default is planar projected area.,,155,D. Gómez-Gras,1
+Larval swimming speed,58,Reproductive,"The swimming speed, typically the maximum, of coral larvae.",,169,N. Viladrich,4
+Year,61,Contextual,The year in which an observation took place. The month or season in which an observation took place should be added separately.,,174,D. Gómez-Gras,1
+Propagule size on release,39,Reproductive,The size of eggs or planula larvae on release.,,184,N. Viladrich,4
+Month,64,Contextual,The month of the year in which an observation took place. The year in which an observation took place should be added separately (Trait ID: 174).,,185,D. Gómez-Gras,1
+Dissolved oxygen concentration,st10,Contextual,,,192,D. Gómez-Gras,1
+Phosphate concentration,st10,Contextual,,,193,D. Gómez-Gras,1
+Salinity,70,Contextual,,,194,D. Gómez-Gras,1
+Colony bleached,2,Contextual,If measurements were taken of a bleached colony,,203,D. Gómez-Gras,1
+Growth form,,Morphological,"The growth form of a coral colony measured in the field or during an experiment. The range of growth form categories is not constrained (i.e., growth forms should be named as they were in the original resource or dataset), and therefore the number of categories will become large.",,206,D. Gómez-Gras,
+Colony fecundity,,Reproductive,Total colony fecundity was estimated as the sum of egg and testes volume per polyp multiplied by the total number of polyps,,216,N. Viladrich,4
+Spawning date,88,Reproductive,The date a coral colony was observed to spawn.,,237,N. Viladrich,4
+Type of branch,10,Contextual,The type of branch (new) or (old) can affect the growth rate,,t2,D. Gómez-Gras,1
+Number of clipped branches,6,Contextual,"The number of branches that have been clipped in a colony to simulate mortality, which potentially affects growth rates",,t3,D. Gómez-Gras,1
+Colony height,29,Morphological,The height of a coral colony (or individual) from the bottom to the top.,,t6,Y. Zentner,5
+Colony width,29,Morphological,The width of a coral colony (or individual).,,t131,Y. Zentner,5
+Colony age,33,Physiological,The age of the colony at the time of measurement and/or dead.,,t7,D. Gómez-Gras,1
+Branch order,10,Contextual,The order of the branch may affect growth rate,,t8,D. Gómez-Gras,1
+Pollution level,10,Contextual,Pollution may affect growth rates of species,,t9,D. Gómez-Gras,1
+MgCO3 concentration in sclerites,st2,Biomechanical,The concentration of MgCO3 in sclerites ,,t10,D. Gómez-Gras,1
+Calcareous sclerites presence,2,Biomechanical,Whether species have calcareous sclerites or not. The presence or absence of calcareous sclerites determines some of the most important features of octocorals skeletons,,t11,C. S. McFadden,6
+Trunk diameter,,Morphological,"Diameter of the basal trunk in octocorals, including both axis skeleton and tissue. For simplicity, we use the word trunk to refer also to stems, stalks and rods. ",,t13,Y. Zentner,5
+Larval length,39,Reproductive,The length of the larvae,,t15,N. Viladrich,4
+Larval width,39,Reproductive,The width of the larvae,,t16,N. Viladrich,4
+Flow rate,96,Contextual,Flow rate is a contextual trait of the environment in which a coral trait is measured.,,154,D. Gómez-Gras,1
+Branch age class,10,Contextual,"In organisms with determinate modular growth, the age of branches may influence their growth",,t19,D. Gómez-Gras,1
+Silicate concentration,st10,Contextual,,,t20,D. Gómez-Gras,1
+pH,6,Contextual,,,t21,D. Gómez-Gras,1
+Previously harvested,2,Contextual,Whether measurements were taken in a previously harvested site or colony,,t25,D. Gómez-Gras,1
+Habitat type,10,Contextual,The habitat type in which the measurements were taken,,t26,D. Gómez-Gras,1
+Colony gender,10,Contextual,"Whether measurements were taken in female, male or hermaphroditic colonies",,t27,D. Gómez-Gras,1
+Tentacle length,28,Morphological,The length of the polyp tentacles,,t29,J. Grinyo,8
+Number of pinnules per tentacle,6,Morphological,The number of pinnules in octocoral tentacles,,t30,D. Gómez-Gras,1
+Projected side area,79,Morphological,"The projected area when seen from the side, perpendicular to the main growth direction of the colony",,t32,D. Gómez-Gras,1
+Protection level,10,Contextual,"Whether a site in which trait measurements were taken was unprotected or protected (e.g., MPA).",,t34,D. Gómez-Gras,1
+Diameter of axis skeleton,28,Morphological,"For those species with axis, the diameter of the axis skeleton",,t35,D. Gómez-Gras,1
+Planktonic phase duration in larvae ,27,Reproductive,The duration of the planktonic phase in larvae,,t36,N. Viladrich,4
+Colony ID,41,Contextual,The ID given to a colony whose traits have been measured,,t37,D. Gómez-Gras,1
+Rachis length,28,Morphological,The length of the rachis in sea pens,,t38,J. Grinyo,8
+Peduncle length,28,Morphological,The length of the peduncle in sea pens,,t39,J. Grinyo,8
+Oil spill impact,2,Contextual,This contextual trait specify if the trait measurements were taken in an impacted or unimpacted location by oil spills.,,t40,D. Gómez-Gras,1
+Polyp height,28,Morphological,"The height of the polyp (sometimes referred as length). Different authors give different measurements and proxies for this trait (e.g., some report the size of the contracted polyps, whereas others report the size of the entire polyp, including tentacles). In some cases, this information is not given. Number of measured replicates is often lacking as well. Thus, observation notes in the database and original sources should be checked when using this trait for comparative analyses among species.",,t42,D. Gómez-Gras,1
+Years since harvest,6,Contextual,The years that have happened since harvest of the coral colonies,,t45,D. Gómez-Gras,1
+Reproductive period,64,Reproductive,The breeding and/or spawning period of a coral,,t51,N. Viladrich,4
+Frequency of reproduction,10,Reproductive,Whether species reproduce following annual cycles or in a continuous manner,,t52,N. Viladrich,4
+Longevity,33,Physiological,The life-expectancy of a given species,,t53,D. Gómez-Gras,1
+Asexual reproduction mode,10,Reproductive,"The mode of asexual reproduction observed in a species, if any",,t56,N. Viladrich,4
+Calyx height,28,Morphological,"In octocorals species with calyces, the height of the calyx that contains the polyp",,t58,J. Grinyo,8
+Calyx width,28,Morphological,"calyces, the diameter of the calyx that contains the polyp",,t65,J. Grinyo,8
+Photosynthesis/respiration ratio (P/R),66,Physiological,Defined as ratio of net oxygen produced: oxygen produced by photosynthesis (P) to oxygen released in total ecosystem respiration (R),,t59,A. Gori,3
+Branching architecture,10,Morphological,The branching pattern in branched colonies,,t60,J. Grinyo,8
+Type of skeleton,10,Biomechanical,The type of skeleton present in a given octocoral species. Categories were selected based on McFadden et al. 2022,,t61,C. S. McFadden,6
+Polyp dimorphism,2,Morphological,"If the colony has one type of polyp or more (e.g., autozooids and siphonozooids)",,t62,C. S. McFadden,6
+Climate zone,10,Geographical,The climatic zone where an octocoral species can be found. Species can have multiple climatic zones associated.,,t64,C. Linares,2
+Polyp type,10,Contextual,"In species with polyp dimorphism/trimorphism or axial/lateral colony configuration, the type of polyp that has been measured/examined.",,t66,D. Gómez-Gras,1
+Branch diameter,28,Morphological,"In a branched colony, the diameter of branches",,t67,J. Grinyo,8
+Type locality depth,9,Ecological,The depth at which a type specimen (typicaly the holotype) was collected.,,t68,C. Linares,2
+Number of tentacles per polyp,6,Morphological,The number of tentacles per polyp,,t71,C. Linares,2
+Polyp retractability,2,Morphological,Whether polyps can retract into the choenenchyme or not,,t72,C. S. McFadden,6
+Colony contractability,2,Ecological,Some soft octocoral species can contract at the colony level,,t74,K. E. Fabricius,7
+Growth form_ basic,10,Morphological,"Growth forms of octocorals coarsely categorized by Fabricius & Gómez-Gras. This trait is a sub-classification of the Type of growth trait into broad groups depending on basic morphological features such as the presence of stem/stalk, the presence of stolons, lobes…etc.",,t76,K. E. Fabricius,7
+Marine realm,10,Geographical,"The marine realm (as defined by Spalding et al. 2007) in which a species can be found. Caution should be taken when using these data, especially when derived from online platforms such as OBIS, where not all observations have been verified to match correct species.",,t77,D. Gómez-Gras,1
+Marine province,10,Geographical,"The marine province (as defined by Spalding et al. 2007) in which a species can be found. Caution should be taken when using these data, especially when derived from online platforms such as OBIS, where not all observations have been verified to match correct species. ",,t78,D. Gómez-Gras,1
+Depth zone,10,Ecological,"The depth zone in which a species is found. Accepted depth zones are: shallow (0 to 50 m), moderately deep (51 to 200 m) and deep (>200 m)",,t79,A. Gori,3
+Axis presence,2,Biomechanical,Whether a species has an axis or not. The presence or absence of an internal axis determines one of the most important features of octocorals skeletons,,t83,C. S. McFadden,6
+Feeding mechanism,10,Ecological,The mechanism used by each octocoral species to obtain food. ,,t84,C. Linares,2
+Polyps per whorl,6,Morphological,"In species with polyp whorls, the number of polyps found per whorl",,t87,D. Gómez-Gras,1
+Polyp whorl diameter,28,Morphological,"In species with polyp whorls, the diameter of the polyp whorl",,t88,D. Gómez-Gras,1
+Coordination of polyps,10,Morphological,How polyps are distributed within the colony,,t90,D. Gómez-Gras,1
+Polyps per polyp leaf,6,Morphological,"In sea pens with polyp leaves, the number of polyps in each polyp leave",,t91,D. Gómez-Gras,1
+Distance between polyps,28,Morphological,The distance between two polyps in a coral colony. Typically measured as the distance between the centers of the two polyps (or calyces),,t92,D. Gómez-Gras,1
+Polyp leaves presence,2,Morphological,For sea pens only. Whether a species has polyp leaves or not,,t93,J. Grinyo,8
+Symmetry of rachis,10,Morphological,For sea pens only. Whether a species has a symmetrical rachis or not.,,t94,J. Grinyo,8
+Polyp whorls/pairs per lenght unit,st44,Morphological,The number of polyp whorls or polyp pairs per length unit,,t95,D. Gómez-Gras,1
+Main skeletal component of sclerites,10,Biomechanical,The CaCO3 polymorph present in sclerites (mostly calcite but Aragonite and Vaterite in some species),,t98,D. Gómez-Gras,1
+Food sources,10,Ecological,Food sources of octocoral species,,t99,C. Linares,2
+Season,10,Contextual,The season of the year in which a trait was measured,,t100,D. Gómez-Gras,1
+Size of prey items,39,Ecological,The size of the preys of a coral,,t101,A. Gori,3
+Capture rate,st68,Physiological,The capture rate of coral colonies/individuals,,t102,A. Gori,3
+Total number of polyps,6,Contextual,The total number of polyps in a colony,,t103,D. Gómez-Gras,1
+Symbiont density,47,Physiological,The number of symbionts per polyp or unit surface,,t104,N. Viladrich,4
+Gross photosynthesis,st64,Physiological,The rate of oxygen production measured in the light per unit of skeletal surface area. This includes oxygen consumption due to light respiration.,,134,A. Gori,3
+Dark respiration,st64,Physiological,The rate of oxygen consumption measured in the darkness per unit of skeletal surface area. Values may include both light enhanced dark respiration and dark acclimated dark respiration.,,133,A. Gori,3
+Prey concentration,96,Contextual,The concentration of preys within the water,,t107,D. Gómez-Gras,1
+Date,88,Contextual,The date on which a trait was measured,,t108,D. Gómez-Gras,1
+Period of the day,10,Contextual,The period of the day in which a trait was measured,,t109,D. Gómez-Gras,1
+Health status of the reef,10,Contextual,Whether the reef in which a trait was quantified was in a healthy or disturbed condition,,t111,D. Gómez-Gras,1
+CaCO3 concentration in sclerites,30,Biomechanical,The concentration of CaCO3 in sclerites,,t114,D. Gómez-Gras,1
+Ca/Mg ratio in sclerites,st82,Biomechanical,The Ca/Mg ratio in sclerites,,t115,D. Gómez-Gras,1
+CaCO3 concentration in the axis,,Biomechanical,For species with axis only. The concentration of CaCO3 in the axis,,t116,D. Gómez-Gras,1
+Stiffness_Young's_modulus,st89,Biomechanical,A mechanical property of materials that measures the  stiffness when the force is applied lengthwise,,t117,D. Gómez-Gras,1
+Mg/Ca ratio in sclerites,st82,Biomechanical,The Mg/Ca ratio in sclerites,,t118,D. Gómez-Gras,1
+Main non-scleritic skeletal component,10,Biomechanical,"The CaCO3 polymorph found in the skeleton, without considering sclerites",,t119,D. Gómez-Gras,1
+Mg concentration in axis,,Biomechanical,For species with axis only. The concentration of Mg in axis,,t120,D. Gómez-Gras,1
+MgCO3 concentration in axis,st92,Biomechanical,For species with axis only. The concentration of MgCO3 in axis,,t122,D. Gómez-Gras,1
+Oogenic cycle duration,26,Reproductive,"The duration of the oogenic cycle. For stony corals, this trait appears as length oogenic cycle max.",,t123,N. Viladrich,4
+Spermatogenic cycle duration,26,Reproductive,The duration of the spermatogenic cycle,,t124,N. Viladrich,4
+Axis radial growth rate,,Physiological,For species with axis only. The radial growth rate of the axis.,,t125,A. Gori,3
+IUCN Red List category,10,Conservation,,,77,C. Linares,2
+Polyp diameter,28,Morphological,"The diameter of the polyp. Different authors give different measurements and proxies for this trait (e.g., some report the size of the contracted polyps, while others report the size of the entire polyp, including tentacles or do not specify it). Thus, observation notes in the database and original sources should be checked when using this trait for comparative analyses among species.",,t17,D. Gómez-Gras,1
+Eggs per area,6,Reproductive,The number of oocytes per surface unit,,211,N. Viladrich,4
+Fractal dimension,,Morphological,A geometrical index of colony complexity based measures of the change in rugosity with changing scale of measurement,,t110,D. Gómez-Gras,1
+Type of growth,10,Morphological,"The type of growth of coral species in terms of the main way of space occupation and branching (i.e., erect branched, erect unbranched, massive, horizontal unbranched, horizontal branched and/or solitary/pseudo-solitary). Categories were defined by K.E., Fabricius and D. Gómez-Gras",,t127,K. E. Fabricius,7
+Growth form_detailed,10,Morphological,"A sub-classification of the trait Growth form_basic, in which the coarsely classified growth forms of that trait are further subdivided into more detailed categories (K.E. Fabricius and D. Gómez-Gras)",,t128,K. E. Fabricius,7
+Light zone,10,Ecological,"The light zone where the species can be found, in relation to depth. Accepted light zones are photic (0-30 m depth), mesophotic (31 to 150 m depth) and aphotic (>150 m depth).",,t129,A. Gori,3
+Skeletal rigidity,10,Biomechanical,"The rigidity of a coral colony or individual, based on the type of skeleton. Allowed values are:  Soft (i.e., species with just a hydrostatic skeleton in which the whole colony is capable of retracting or deflating or greatly changing its volume), Semi-rigid (i.e., species with an axis in which the colony itself is not capable of retraction/deflation) and rigid (i.e., species with a totally hard skeleton that is heavily calcified). ",,t132,C. S. McFadden,6
